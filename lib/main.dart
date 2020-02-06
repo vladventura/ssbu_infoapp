@@ -58,19 +58,11 @@ Widget chooseDisplay(int index) {
 }
 
 ListView charactersDisplay() {
-  return ListView(
-    children: <Widget>[
-      new Text("Character 1"),
-      new Text("Character 2"),
-      new Text("Character 3"),
-      new Text("Character 4"),
-      new Text("Character 5"),
-      new Text("Character 6"),
-      new Text("Character 7"),
-      new Text("Character 8"),
-      new Text("Character 9"),
-      new Text("Character 10"),
-    ],
+  return ListView.builder(
+    itemBuilder: (context, index) {
+      return characterCard();
+    },
+    itemCount: 100,
   );
 }
 
@@ -105,5 +97,48 @@ ListView stagesDisplay() {
       new Text("Stage 9"),
       new Text("Stage 10"),
     ],
+  );
+}
+
+Widget characterCard() {
+  return Container(
+    decoration: BoxDecoration(
+        color: Colors.amber,
+        boxShadow: <BoxShadow>[
+          BoxShadow(
+              blurRadius: 10,
+              offset: Offset.zero,
+              color: Colors.grey.withOpacity(0.5))
+        ],
+        borderRadius: BorderRadius.circular(15)),
+    margin: EdgeInsets.all(10),
+    child: FlatButton(
+      onPressed: () {},
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+      padding: EdgeInsets.all(20),
+      child: Stack(
+        children: [
+          new Center(
+              child: new Text(
+            "Series here",
+            style: TextStyle(
+              color: Colors.red,
+            ),
+          )),
+          Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: <Widget>[
+                Column(
+                  children: <Widget>[
+                    Text('Name here'),
+                    Text('Difficulty here'),
+                  ],
+                ),
+                Text("Stock Icon here"),
+                Text("Custom color"),
+              ])
+        ],
+      ),
+    ),
   );
 }
