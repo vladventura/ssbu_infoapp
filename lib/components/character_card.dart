@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:ssbu_info/notifiers/characters_notifier.dart';
 import 'package:ssbu_info/screens/character_display.dart';
 
 Widget characterCard(dynamic data, BuildContext context) {
+  CharacterNotifier characterNotifier = Provider.of<CharacterNotifier>(context);
   return Container(
     decoration: BoxDecoration(
         color: Colors.amber,
@@ -15,6 +18,7 @@ Widget characterCard(dynamic data, BuildContext context) {
     margin: EdgeInsets.all(10),
     child: FlatButton(
       onPressed: () {
+        characterNotifier.selectedCharacter = data;
         Navigator.of(context)
             .push(MaterialPageRoute(builder: (context) => CharacterDisplay()));
       },
