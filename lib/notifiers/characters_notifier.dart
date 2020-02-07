@@ -6,9 +6,15 @@ import 'package:flutter/widgets.dart';
 class CharacterNotifier with ChangeNotifier {
   List _characters;
   List get characters => _characters;
-
   set characters(List data) {
     _characters = data;
+    notifyListeners();
+  }
+
+  Map _selectedCharacter;
+  Map get selectedCharacter => _selectedCharacter;
+  set selectedCharacters(Map data) {
+    _selectedCharacter = data;
     notifyListeners();
   }
 
