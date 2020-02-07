@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:ssbu_info/notifiers/characters_notifier.dart';
 
 void main() {
   // Over here we would wrap the Application with the
   // ChangeNotifierProvider widget, or a MultiProvider widget
-  runApp(App());
+  runApp(ChangeNotifierProvider(
+    create: (context) => CharacterNotifier(),
+    child: App(),
+  ));
 }
 
 class App extends StatefulWidget {
@@ -12,14 +17,23 @@ class App extends StatefulWidget {
 
 class AppState extends State<App> {
   int bottomNavBarIndex = 0;
+
+  @override
+  void initState() {
+    super.initState();
+    Provider.of<CharacterNotifier>(context, listen: false).initialize();
+  }
+
   @override
   Widget build(BuildContext context) {
+    CharacterNotifier characterNotifier =
+        Provider.of<CharacterNotifier>(context);
     return new MaterialApp(
       home: new Scaffold(
         appBar: new AppBar(
           title: new Text("SSBU Info App Main Screen Template"),
         ),
-        body: chooseDisplay(bottomNavBarIndex),
+        body: chooseDisplay(bottomNavBarIndex, characterNotifier),
         bottomNavigationBar: new BottomNavigationBar(
           items: [
             new BottomNavigationBarItem(
@@ -41,10 +55,10 @@ class AppState extends State<App> {
   }
 }
 
-Widget chooseDisplay(int index) {
+Widget chooseDisplay(int index, CharacterNotifier notifier) {
   switch (index) {
     case 0:
-      return charactersDisplay();
+      return CharactersDisplay();
       break;
     case 1:
       return musicDisplay();
@@ -57,13 +71,20 @@ Widget chooseDisplay(int index) {
   }
 }
 
-ListView charactersDisplay() {
-  return ListView.builder(
-    itemBuilder: (context, index) {
-      return characterCard();
-    },
-    itemCount: 100,
-  );
+class CharactersDisplay extends StatelessWidget {
+  Widget build(BuildContext context) {
+    CharacterNotifier characterNotifier =
+        Provider.of<CharacterNotifier>(context);
+
+    return characterNotifier.characters == null
+        ? new Container()
+        : new ListView.builder(
+            itemBuilder: (context, index) {
+              return characterCard(characterNotifier.characters[index]);
+            },
+            itemCount: characterNotifier.characters.length,
+          );
+  }
 }
 
 ListView musicDisplay() {
@@ -100,7 +121,7 @@ ListView stagesDisplay() {
   );
 }
 
-Widget characterCard() {
+Widget characterCard(dynamic data) {
   return Container(
     decoration: BoxDecoration(
         color: Colors.amber,
@@ -120,7 +141,7 @@ Widget characterCard() {
         children: [
           new Center(
               child: new Text(
-            "Series here",
+            data['series'],
             style: TextStyle(
               color: Colors.red,
             ),
@@ -130,8 +151,8 @@ Widget characterCard() {
               children: <Widget>[
                 Column(
                   children: <Widget>[
-                    Text('Name here'),
-                    Text('Difficulty here'),
+                    Text(data['info']['name']),
+                    Text(data['difficulty'].toString()),
                   ],
                 ),
                 Text("Stock Icon here"),
