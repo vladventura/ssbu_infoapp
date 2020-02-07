@@ -26,14 +26,12 @@ class AppState extends State<App> {
 
   @override
   Widget build(BuildContext context) {
-    CharacterNotifier characterNotifier =
-        Provider.of<CharacterNotifier>(context);
     return new MaterialApp(
       home: new Scaffold(
         appBar: new AppBar(
           title: new Text("SSBU Info App Main Screen Template"),
         ),
-        body: chooseDisplay(bottomNavBarIndex, characterNotifier),
+        body: chooseDisplay(bottomNavBarIndex),
         bottomNavigationBar: new BottomNavigationBar(
           items: [
             new BottomNavigationBarItem(
@@ -55,7 +53,7 @@ class AppState extends State<App> {
   }
 }
 
-Widget chooseDisplay(int index, CharacterNotifier notifier) {
+Widget chooseDisplay(int index) {
   switch (index) {
     case 0:
       return CharactersDisplay();
