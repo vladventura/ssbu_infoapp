@@ -63,9 +63,8 @@ Widget chooseDisplay(int index) {
       return musicDisplay();
       break;
     case 2:
-      return stagesDisplay();
-      break;
     default:
+      return stagesDisplay();
       break;
   }
 }
