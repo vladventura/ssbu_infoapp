@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:ssbu_info/screens/character_display.dart';
 
-Widget characterCard(dynamic data) {
+Widget characterCard(dynamic data, BuildContext context) {
   return Container(
     decoration: BoxDecoration(
         color: Colors.amber,
@@ -13,7 +14,10 @@ Widget characterCard(dynamic data) {
         borderRadius: BorderRadius.circular(15)),
     margin: EdgeInsets.all(10),
     child: FlatButton(
-      onPressed: () {},
+      onPressed: () {
+        Navigator.of(context)
+            .push(MaterialPageRoute(builder: (context) => CharacterDisplay()));
+      },
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
       padding: EdgeInsets.all(20),
       child: Stack(
