@@ -1,0 +1,31 @@
+{
+  "characters": [
+    {
+      "info": {
+        "name": "Marth",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Fire Emblem",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "Useful to kill"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Shieldbreaker",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "poke their butt"
+      },
+      "ultimateSmash": {
+        "name": "I really don't know this ult's name",
+        "description": "one more vanilla description"
+      }
+    }
+  ]
+}
