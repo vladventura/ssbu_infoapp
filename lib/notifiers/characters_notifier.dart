@@ -13,7 +13,7 @@ class CharacterNotifier with ChangeNotifier {
 
   Map _selectedCharacter;
   Map get selectedCharacter => _selectedCharacter;
-  set selectedCharacters(Map data) {
+  set selectedCharacter(Map data) {
     _selectedCharacter = data;
     notifyListeners();
   }
