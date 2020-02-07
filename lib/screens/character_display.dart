@@ -1,13 +1,25 @@
 import "package:flutter/material.dart";
 import 'package:provider/provider.dart';
+import 'package:ssbu_info/notifiers/characters_notifier.dart';
 
 class CharacterDisplay extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: new AppBar(
-        title: new Text("Hello there"),
+      body: new ListView(
+        children: <Widget>[topSection(context)],
       ),
     );
   }
+}
+
+Widget topSection(BuildContext context) {
+  CharacterNotifier characterNotifier = Provider.of<CharacterNotifier>(context);
+  return Container(
+      child: Column(children: <Widget>[
+    new Text(characterNotifier.selectedCharacter['info']['name']),
+    new Stack(
+      children: <Widget>[new Text("Ola")],
+    )
+  ]));
 }
