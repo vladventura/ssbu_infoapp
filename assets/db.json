@@ -1,0 +1,2164 @@
+{
+  "characters": [
+    {
+      "info": {
+        "name": "Banjo & Kazooie",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Banjo & Kazooie",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "I really don't use B&K"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Literally have no clue about its nb",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "IDK"
+      },
+      "ultimateSmash": {
+        "name": "Another clueless",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Bayonetta",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Bayonetta",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Bowser",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Super Mario",
+      "tilts": {
+        "uptilt": "No idea what this is honestly"
+      },
+      "aerials": {
+        "upair": "IDK"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Is it the fire breath?",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "Claws?"
+      },
+      "ultimateSmash": {
+        "name": "Giga Bowser",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Bowser Jr.",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Super Mario",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Byleth",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Fire Emblem",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Captain Falcon",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "F-Zero",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Charizard",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Pokémon",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Chrom",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Fire Emblem",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Cloud",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Final Fantasy",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Corrin",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Fire Emblem",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Daisy",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Super Mario",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Dark Pit",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Kid Icarus",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Dark Samus",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Metroid",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Diddy Kong",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Donkey Kong",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Dr. Mario",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Super Mario",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Duck Hunt",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Duck Hunt",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Falco",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "StarFox",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Fox",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "StarFox",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Ganondorf",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "The Legend Of Zelda",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Greninja",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Pokémon",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Hero",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Dragon Quest",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Ice Climbers",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Ice Climber",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Ike",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Fire Emblem",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Incineroar",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Pokémon",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Inkling",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Splatoon",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Isabelle",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Animal Crossing",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Ivysaur",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Pokémon",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Jigglypuff",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Pokémon",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Joker",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Persona 5",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Ken",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Street Fighter",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "King Dedede",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Kirby",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "King K. Rool",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Donkey Kong",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Link",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "The Legend Of Zelda",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Little Mac",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Punch Out!",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Lucario",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Pokémon",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Lucas",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Earthbound",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Lucina",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Fire Emblem",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Luigi",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Super Mario",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Mario",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Super Mario",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Marth",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Fire Emblem",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "Useful to kill"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Shieldbreaker",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "poke their butt"
+      },
+      "ultimateSmash": {
+        "name": "I really don't know this ult's name",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Mega Man",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Mega Man",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Meta Knight",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Kirby",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Mewtwo",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Pokémon",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Mii Brawler",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Mii",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Mii Swordfighter",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Pokémon",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Mii Gunner",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Pokémon",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Mr. Game & Watch",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Game & Watch",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Ness",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Earthbound",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Olimar",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Pikmin",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Pac-Man",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Pac-Man",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Palutena",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Kid Icarus",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Peach",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Super Mario",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Pichu",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Pokémon",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Pikachu",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Pokémon",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Piranha Plant",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Super Mario",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Pit",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Kid Icarus",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Richter",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Castlevania",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Ridley",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Metroid",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "R.O.B.",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "R.O.B.",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Robin",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Fire Emblem",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Rosalina & Luma",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Super Mario",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Roy",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Fire Emblem",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Ryu",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Street Fighter",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Samus",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Metroid",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Sheik",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "The Legend Of Zelda",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Shulk",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Xenoblade Chronicles",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Simon",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Castlevania",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Snake",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Metal Gear Solid",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Sonic",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Sonic",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Squirtle",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Pokémon",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Terry",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Fatal Fury",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Toon Link",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "The Legend Of Zelda",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Villager",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Animal Crossing",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Wario",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Wario Ware",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Wii Fit Trainer",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Wii Fit",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Wolf",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "StarFox",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Yoshi",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Pokémon",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Young Link",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "The Legend Of Zelda",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Zelda",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "The Legend Of Zelda",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
+        "name": "Zero Suit Samus",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Metroid",
+      "tilts": {
+        "uptilt": "Is an uptilt"
+      },
+      "aerials": {
+        "upair": "It's like a punch on ark"
+      },
+      "specials": {
+        "neutralb": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "upsmash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    }
+  ]
+}
