@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:ssbu_info/notifiers/characters_notifier.dart';
+import 'package:ssbu_info/screens/characters_display.dart';
 
 void main() {
   // Over here we would wrap the Application with the
   // ChangeNotifierProvider widget, or a MultiProvider widget
-  runApp(App());
+  runApp(ChangeNotifierProvider(
+    create: (context) => CharacterNotifier(),
+    child: App(),
+  ));
 }
 
 class App extends StatefulWidget {
@@ -12,6 +18,13 @@ class App extends StatefulWidget {
 
 class AppState extends State<App> {
   int bottomNavBarIndex = 0;
+
+  @override
+  void initState() {
+    super.initState();
+    Provider.of<CharacterNotifier>(context, listen: false).initialize();
+  }
+
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
@@ -44,26 +57,16 @@ class AppState extends State<App> {
 Widget chooseDisplay(int index) {
   switch (index) {
     case 0:
-      return charactersDisplay();
+      return CharactersDisplay();
       break;
     case 1:
       return musicDisplay();
       break;
     case 2:
+    default:
       return stagesDisplay();
       break;
-    default:
-      break;
   }
-}
-
-ListView charactersDisplay() {
-  return ListView.builder(
-    itemBuilder: (context, index) {
-      return characterCard();
-    },
-    itemCount: 100,
-  );
 }
 
 ListView musicDisplay() {
@@ -97,48 +100,5 @@ ListView stagesDisplay() {
       new Text("Stage 9"),
       new Text("Stage 10"),
     ],
-  );
-}
-
-Widget characterCard() {
-  return Container(
-    decoration: BoxDecoration(
-        color: Colors.amber,
-        boxShadow: <BoxShadow>[
-          BoxShadow(
-              blurRadius: 10,
-              offset: Offset.zero,
-              color: Colors.grey.withOpacity(0.5))
-        ],
-        borderRadius: BorderRadius.circular(15)),
-    margin: EdgeInsets.all(10),
-    child: FlatButton(
-      onPressed: () {},
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
-      padding: EdgeInsets.all(20),
-      child: Stack(
-        children: [
-          new Center(
-              child: new Text(
-            "Series here",
-            style: TextStyle(
-              color: Colors.red,
-            ),
-          )),
-          Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: <Widget>[
-                Column(
-                  children: <Widget>[
-                    Text('Name here'),
-                    Text('Difficulty here'),
-                  ],
-                ),
-                Text("Stock Icon here"),
-                Text("Custom color"),
-              ])
-        ],
-      ),
-    ),
   );
 }
