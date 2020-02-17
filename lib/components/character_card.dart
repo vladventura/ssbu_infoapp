@@ -10,7 +10,8 @@ Widget characterCard(dynamic data, BuildContext context) {
       color: Colors.black38,
       borderRadius: BorderRadius.circular(15),
       image: new DecorationImage(
-          image: new AssetImage("assets/Slivers/Byleth_sliver_1.png"),
+          image: new AssetImage(
+              "assets/Slivers/${data['info']['name']}_sliver_0.png"),
           fit: BoxFit.fitWidth),
     ),
     margin: EdgeInsets.all(10),
