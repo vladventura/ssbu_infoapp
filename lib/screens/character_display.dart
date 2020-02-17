@@ -19,7 +19,11 @@ Widget topSection(BuildContext context) {
       child: Column(children: <Widget>[
     new Text(characterNotifier.selectedCharacter['info']['name']),
     new Stack(
-      children: <Widget>[new Text("Ola")],
+      children: <Widget>[
+        new Image(
+            image: new AssetImage(
+                "assets/Slivers/${characterNotifier.selectedCharacter['info']['name']}_sliver_0.png")),
+      ],
     )
   ]));
 }
