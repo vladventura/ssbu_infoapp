@@ -762,7 +762,7 @@
         "description": "Vanilla description"
       },
       "difficulty": 3.5,
-      "series": "Persona 5",
+      "series": "Persona",
       "tilts": {
         "uptilt": "Is an uptilt"
       },
@@ -1194,7 +1194,7 @@
         "description": "Vanilla description"
       },
       "difficulty": 3.5,
-      "series": "Pokémon",
+      "series": "Mii",
       "tilts": {
         "uptilt": "Is an uptilt"
       },
@@ -1221,7 +1221,7 @@
         "description": "Vanilla description"
       },
       "difficulty": 3.5,
-      "series": "Pokémon",
+      "series": "Mii",
       "tilts": {
         "uptilt": "Is an uptilt"
       },
@@ -1815,7 +1815,7 @@
         "description": "Vanilla description"
       },
       "difficulty": 3.5,
-      "series": "Metal Gear Solid",
+      "series": "Metal Gear",
       "tilts": {
         "uptilt": "Is an uptilt"
       },
@@ -2058,7 +2058,7 @@
         "description": "Vanilla description"
       },
       "difficulty": 3.5,
-      "series": "Pokémon",
+      "series": "Yoshi",
       "tilts": {
         "uptilt": "Is an uptilt"
       },
