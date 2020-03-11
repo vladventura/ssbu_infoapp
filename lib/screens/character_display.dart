@@ -5,9 +5,11 @@ import 'package:ssbu_info/notifiers/characters_notifier.dart';
 class CharacterDisplay extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: new ListView(
-        children: <Widget>[topSection(context)],
+    return SafeArea(
+      child: Scaffold(
+        body: new ListView(
+          children: <Widget>[topSection(context)],
+        ),
       ),
     );
   }
