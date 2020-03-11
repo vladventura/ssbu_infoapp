@@ -28,26 +28,28 @@ class AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      home: new Scaffold(
-        appBar: new AppBar(
-          title: new Text("SSBU Info App Main Screen Template"),
-        ),
-        body: chooseDisplay(bottomNavBarIndex),
-        bottomNavigationBar: new BottomNavigationBar(
-          items: [
-            new BottomNavigationBarItem(
-                icon: Icon(Icons.ac_unit), title: new Text("Characters")),
-            new BottomNavigationBarItem(
-                icon: Icon(Icons.ac_unit), title: new Text("Stages")),
-            new BottomNavigationBarItem(
-                icon: Icon(Icons.ac_unit), title: new Text("Music")),
-          ],
-          currentIndex: bottomNavBarIndex,
-          onTap: (int tappedIndex) {
-            setState(() {
-              bottomNavBarIndex = tappedIndex;
-            });
-          },
+      home: SafeArea(
+        child: new Scaffold(
+          appBar: new AppBar(
+            title: new Text("SSBU Info App Main Screen Template"),
+          ),
+          body: chooseDisplay(bottomNavBarIndex),
+          bottomNavigationBar: new BottomNavigationBar(
+            items: [
+              new BottomNavigationBarItem(
+                  icon: Icon(Icons.ac_unit), title: new Text("Characters")),
+              new BottomNavigationBarItem(
+                  icon: Icon(Icons.ac_unit), title: new Text("Stages")),
+              new BottomNavigationBarItem(
+                  icon: Icon(Icons.ac_unit), title: new Text("Music")),
+            ],
+            currentIndex: bottomNavBarIndex,
+            onTap: (int tappedIndex) {
+              setState(() {
+                bottomNavBarIndex = tappedIndex;
+              });
+            },
+          ),
         ),
       ),
     );
