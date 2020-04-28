@@ -42,7 +42,7 @@ flutter:
     - assets/db.json
     - assets/Stock/
     - assets/Slivers/
-    - assets/InGamePictures/
+    - assets/Controls/
     - assets/Series/
   # To add assets to your application, add an assets section, like this:
   # assets:
