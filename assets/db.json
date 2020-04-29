@@ -8,7 +8,10 @@
       "difficulty": 3.5,
       "series": "Banjo & Kazooie",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "I really don't use B&K"
@@ -35,7 +38,10 @@
       "difficulty": 3.5,
       "series": "Bayonetta",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
