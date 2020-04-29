@@ -70,15 +70,11 @@ class CharacterDisplay extends StatelessWidget {
   /* NOTE: In the future, each item inside each attack type will be an object.
   This will be done to make each object hold a reference to the picture of the attack. **/
   Widget neutrals(BuildContext context) {
-    return new Column(
-      children: [
-        attackCard(
-            "UpTilt", characterNotifier.selectedCharacter['tilts']['uptilt']),
-        attackCard("DownTilt", "Down tilt"),
-        attackCard("RightTilt", "Side tilt"),
-        attackCard("LeftTilt", "Neutral"),
-      ],
-    );
+    List<Container> children = [];
+    Map<String, dynamic> tilts = characterNotifier.selectedCharacter['tilts'];
+    tilts.forEach((key, val) => children.add(attackCard(key, val)));
+
+    return new Column(children: children);
   }
 
   Container attackCard(String btnIcon, String text) {
