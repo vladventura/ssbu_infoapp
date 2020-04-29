@@ -68,7 +68,10 @@
       "difficulty": 3.5,
       "series": "Super Mario",
       "tilts": {
-        "uptilt": "No idea what this is honestly"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "IDK"
@@ -95,7 +98,10 @@
       "difficulty": 3.5,
       "series": "Super Mario",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -122,7 +128,10 @@
       "difficulty": 3.5,
       "series": "Fire Emblem",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -149,7 +158,10 @@
       "difficulty": 3.5,
       "series": "F-Zero",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -176,7 +188,10 @@
       "difficulty": 3.5,
       "series": "Pokémon",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -203,7 +218,10 @@
       "difficulty": 3.5,
       "series": "Fire Emblem",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -230,7 +248,10 @@
       "difficulty": 3.5,
       "series": "Final Fantasy",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -257,7 +278,10 @@
       "difficulty": 3.5,
       "series": "Fire Emblem",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -284,7 +308,10 @@
       "difficulty": 3.5,
       "series": "Super Mario",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -311,7 +338,10 @@
       "difficulty": 3.5,
       "series": "Kid Icarus",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -338,7 +368,10 @@
       "difficulty": 3.5,
       "series": "Metroid",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -365,7 +398,10 @@
       "difficulty": 3.5,
       "series": "Donkey Kong",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -392,7 +428,10 @@
       "difficulty": 3.5,
       "series": "Super Mario",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -419,7 +458,10 @@
       "difficulty": 3.5,
       "series": "Duck Hunt",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -446,7 +488,10 @@
       "difficulty": 3.5,
       "series": "StarFox",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -473,7 +518,10 @@
       "difficulty": 3.5,
       "series": "StarFox",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -500,7 +548,10 @@
       "difficulty": 3.5,
       "series": "The Legend Of Zelda",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -527,7 +578,10 @@
       "difficulty": 3.5,
       "series": "Pokémon",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -554,7 +608,10 @@
       "difficulty": 3.5,
       "series": "Dragon Quest",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -581,7 +638,10 @@
       "difficulty": 3.5,
       "series": "Ice Climber",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -608,7 +668,10 @@
       "difficulty": 3.5,
       "series": "Fire Emblem",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -635,7 +698,10 @@
       "difficulty": 3.5,
       "series": "Pokémon",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -662,7 +728,10 @@
       "difficulty": 3.5,
       "series": "Splatoon",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -689,7 +758,10 @@
       "difficulty": 3.5,
       "series": "Animal Crossing",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -716,7 +788,10 @@
       "difficulty": 3.5,
       "series": "Pokémon",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -743,7 +818,10 @@
       "difficulty": 3.5,
       "series": "Pokémon",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -770,7 +848,10 @@
       "difficulty": 3.5,
       "series": "Persona",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -797,7 +878,10 @@
       "difficulty": 3.5,
       "series": "Street Fighter",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -824,7 +908,10 @@
       "difficulty": 3.5,
       "series": "Kirby",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -851,7 +938,10 @@
       "difficulty": 3.5,
       "series": "Donkey Kong",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -878,7 +968,10 @@
       "difficulty": 3.5,
       "series": "The Legend Of Zelda",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -905,7 +998,10 @@
       "difficulty": 3.5,
       "series": "Punch Out!",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -932,7 +1028,10 @@
       "difficulty": 3.5,
       "series": "Pokémon",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -959,7 +1058,10 @@
       "difficulty": 3.5,
       "series": "Earthbound",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -986,7 +1088,10 @@
       "difficulty": 3.5,
       "series": "Fire Emblem",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1013,7 +1118,10 @@
       "difficulty": 3.5,
       "series": "Super Mario",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1040,7 +1148,10 @@
       "difficulty": 3.5,
       "series": "Super Mario",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1067,7 +1178,10 @@
       "difficulty": 3.5,
       "series": "Fire Emblem",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "Useful to kill"
@@ -1094,7 +1208,10 @@
       "difficulty": 3.5,
       "series": "Mega Man",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1121,7 +1238,10 @@
       "difficulty": 3.5,
       "series": "Kirby",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1148,7 +1268,10 @@
       "difficulty": 3.5,
       "series": "Pokémon",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1175,7 +1298,10 @@
       "difficulty": 3.5,
       "series": "Mii",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1202,7 +1328,10 @@
       "difficulty": 3.5,
       "series": "Mii",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1229,7 +1358,10 @@
       "difficulty": 3.5,
       "series": "Mii",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1256,7 +1388,10 @@
       "difficulty": 3.5,
       "series": "Game & Watch",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1283,7 +1418,10 @@
       "difficulty": 3.5,
       "series": "Earthbound",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1310,7 +1448,10 @@
       "difficulty": 3.5,
       "series": "Pikmin",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1337,7 +1478,10 @@
       "difficulty": 3.5,
       "series": "Pac-Man",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1364,7 +1508,10 @@
       "difficulty": 3.5,
       "series": "Kid Icarus",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1391,7 +1538,10 @@
       "difficulty": 3.5,
       "series": "Super Mario",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1418,7 +1568,10 @@
       "difficulty": 3.5,
       "series": "Pokémon",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1445,7 +1598,10 @@
       "difficulty": 3.5,
       "series": "Pokémon",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1472,7 +1628,10 @@
       "difficulty": 3.5,
       "series": "Super Mario",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1499,7 +1658,10 @@
       "difficulty": 3.5,
       "series": "Kid Icarus",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1526,7 +1688,10 @@
       "difficulty": 3.5,
       "series": "Castlevania",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1553,7 +1718,10 @@
       "difficulty": 3.5,
       "series": "Metroid",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1580,7 +1748,10 @@
       "difficulty": 3.5,
       "series": "R.O.B.",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1607,7 +1778,10 @@
       "difficulty": 3.5,
       "series": "Fire Emblem",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1634,7 +1808,10 @@
       "difficulty": 3.5,
       "series": "Super Mario",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1661,7 +1838,10 @@
       "difficulty": 3.5,
       "series": "Fire Emblem",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1688,7 +1868,10 @@
       "difficulty": 3.5,
       "series": "Street Fighter",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1715,7 +1898,10 @@
       "difficulty": 3.5,
       "series": "Metroid",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1742,7 +1928,10 @@
       "difficulty": 3.5,
       "series": "The Legend Of Zelda",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1769,7 +1958,10 @@
       "difficulty": 3.5,
       "series": "Xenoblade Chronicles",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1796,7 +1988,10 @@
       "difficulty": 3.5,
       "series": "Castlevania",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1823,7 +2018,10 @@
       "difficulty": 3.5,
       "series": "Metal Gear",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1850,7 +2048,10 @@
       "difficulty": 3.5,
       "series": "Sonic",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1877,7 +2078,10 @@
       "difficulty": 3.5,
       "series": "Pokémon",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1904,7 +2108,10 @@
       "difficulty": 3.5,
       "series": "Fatal Fury",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1931,7 +2138,10 @@
       "difficulty": 3.5,
       "series": "The Legend Of Zelda",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1958,7 +2168,10 @@
       "difficulty": 3.5,
       "series": "Animal Crossing",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -1985,7 +2198,10 @@
       "difficulty": 3.5,
       "series": "Wario Ware",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -2012,7 +2228,10 @@
       "difficulty": 3.5,
       "series": "Wii Fit",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -2039,7 +2258,10 @@
       "difficulty": 3.5,
       "series": "StarFox",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -2066,7 +2288,10 @@
       "difficulty": 3.5,
       "series": "Yoshi",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -2093,7 +2318,10 @@
       "difficulty": 3.5,
       "series": "The Legend Of Zelda",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -2120,7 +2348,10 @@
       "difficulty": 3.5,
       "series": "The Legend Of Zelda",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
@@ -2147,7 +2378,10 @@
       "difficulty": 3.5,
       "series": "Metroid",
       "tilts": {
-        "uptilt": "Is an uptilt"
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Neutral": "Is a neutral jab."
       },
       "aerials": {
         "upair": "It's like a punch on ark"
