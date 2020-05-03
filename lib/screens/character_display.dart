@@ -1,11 +1,10 @@
 import "package:flutter/material.dart";
 import 'package:provider/provider.dart';
 import 'package:ssbu_info/notifiers/characters_notifier.dart';
+import 'package:ssbu_info/components/move_card.dart';
 
 class CharacterDisplay extends StatelessWidget {
   static CharacterNotifier characterNotifier;
-
-  void initState() {}
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +12,7 @@ class CharacterDisplay extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         body: Container(
-          color: Colors.black,
+          decoration: BoxDecoration(color: Colors.black38),
           child: new ListView(
             physics: BouncingScrollPhysics(),
             children: <Widget>[
@@ -53,50 +52,29 @@ class CharacterDisplay extends StatelessWidget {
 
   Widget bottomSection(BuildContext context) {
     return Container(
-        decoration: BoxDecoration(color: Colors.black),
         child: new Column(
-          children: [
-            neutrals(context),
-            new Text("Hello", style: TextStyle(color: Colors.white)),
-            new Text("Hello", style: TextStyle(color: Colors.white)),
-            new Text("Hello", style: TextStyle(color: Colors.white)),
-            new Text("Hello", style: TextStyle(color: Colors.white)),
-            new Text("Hello", style: TextStyle(color: Colors.white)),
-            new Text("Hello", style: TextStyle(color: Colors.white)),
-          ],
-        ));
+      children: [
+        neutrals(context),
+        new Text("Hello", style: TextStyle(color: Colors.white)),
+        new Text("Hello", style: TextStyle(color: Colors.white)),
+        new Text("Hello", style: TextStyle(color: Colors.white)),
+        new Text("Hello", style: TextStyle(color: Colors.white)),
+        new Text("Hello", style: TextStyle(color: Colors.white)),
+        new Text("Hello", style: TextStyle(color: Colors.white)),
+      ],
+    ));
   }
 
   /* NOTE: In the future, each item inside each attack type will be an object.
   This will be done to make each object hold a reference to the picture of the attack. **/
   Widget neutrals(BuildContext context) {
-    List<Container> children = [];
+    List<Widget> children = [];
     Map<String, dynamic> tilts = characterNotifier.selectedCharacter['tilts'];
-    tilts.forEach((key, val) => children.add(attackCard(key, val)));
+    tilts.forEach((key, val) => children.add(MoveCard(
+          button: key,
+          text: val,
+        )));
 
     return new Column(children: children);
-  }
-
-  Container attackCard(String btnIcon, String text) {
-    return new Container(
-      child: new Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          // This will eventually be the move's image by the way
-          new Image(
-            image: new AssetImage(
-              "assets/Controls/" + btnIcon + ".png",
-            ),
-            height: 100,
-            width: 100,
-          ),
-          // This will also eventually be some controller input images as well
-          new Image(
-              image: new AssetImage(
-                  "assets/Stock/${characterNotifier.selectedCharacter['info']['name']}_stock_0.png")),
-          new Text(text, style: TextStyle(color: Colors.white))
-        ],
-      ),
-    );
   }
 }
