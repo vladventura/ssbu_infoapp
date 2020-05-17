@@ -264,10 +264,34 @@
       "difficulty": 3.5,
       "series": "Super Mario",
       "tilts": {
-        "Up Tilt": "Is a up tilt.",
-        "Down Tilt": "Is a down tilt.",
-        "Side Tilt": "Is a side tilt.",
-        "Jab": "Is a neutral jab."
+        "Up Tilt": [
+          {
+            "name": "Up Tilt",
+            "description": "Up Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1Ujog6du7MbLjeiHjlGW0Ry4jF-GGWqls"
+          }
+        ],
+        "Down Tilt": [
+          {
+            "name": "Down Tilt",
+            "description": "Down Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1tzbTrf9QM3scfp0YSrm4gL-620G8hnNK"
+          }
+        ],
+        "Side Tilt": [
+          {
+            "name": "Side Tilt",
+            "description": "Side Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1sF95YHBHmWYAA86IG6XZqA_tmW5T6svp"
+          }
+        ],
+        "Jab": [
+          {
+            "name": "Jab",
+            "description": "Jab description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1sF95YHBHmWYAA86IG6XZqA_tmW5T6svp"
+          }
+        ]
       },
       "aerials": {
         "upair": "IDK"
@@ -280,10 +304,6 @@
       },
       "smashes": {
         "upsmash": "Claws?"
-      },
-      "ultimateSmash": {
-        "name": "Giga Bowser",
-        "description": "one more vanilla description"
       }
     },
     {
