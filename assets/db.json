@@ -22,24 +22,110 @@
             "imageLink": "https://drive.google.com/uc?id=1Hm-IcRT_1pVLW3IuRkjho6Zxa2iETNaz"
           }
         ],
-        "Side Tilt": "Is a side tilt.",
-        "Jab": "Is a neutral jab."
+        "Side Tilt": [
+          {
+            "name": "Side Tilt",
+            "description": "Banjo & Kazooie's Side Tilt Description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1TghNn5iyIWzf0PM-hr66-8r-uDnsrB8D"
+          }
+        ],
+        "Jab": [
+          {
+            "name": "Jab",
+            "description": "Banjo & Kazooie's Jab Description goes here",
+            "imageLink": "https://drive.google.com/uc?id=10or5LkpaYpJ9qMNwpphGgxmBkqTpryP6"
+          }
+        ]
       },
       "aerials": {
-        "upair": "I really don't use B&K"
+        "Up Tilt": [
+          {
+            "name": "Up Air",
+            "description": "Banjo & Kazooie's Up Air Description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1mpYrhhBerubgQ7nN00MtyiRqH94VJwh-"
+          }
+        ],
+        "Down Tilt": [
+          {
+            "name": "Down Air",
+            "description": "Banjo & Kazooie's Down Air Description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1TKRBA75U6ZT79hun-dVX94DVmh1kIHmS"
+          }
+        ],
+        "Side Tilt": [
+          {
+            "name": "Forward Air",
+            "description": "Banjo & Kazooie's Forward Air Description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1c7qzmH7k7FI7TEO-_nh1FIm2lkvWXd1I"
+          }
+        ],
+        "Back Tilt": [
+          {
+            "name": "Back Air",
+            "description": "Banjo & Kazooie's Back Air Description goes here",
+            "imageLink": "https://drive.google.com/uc?id=17jdxy48YHuo1FMc3cwdRtcsOCR_QJuEU"
+          }
+        ],
+        "Jab": [
+          {
+            "name": "Neutral Air",
+            "description": "Banjo & Kazooie's Neutral Air Description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1TQwBLe0hb7pq6ew1hzq3Ei16Ako5Jl80"
+          }
+        ]
       },
       "specials": {
-        "neutralb": {
-          "name": "Literally have no clue about its nb",
-          "description": "Another vanilla description"
-        }
+        "Up B": [
+          {
+            "name": "Shock Spring Jump",
+            "description": "Shock Spring Jump (Up B) description for Banjo & Kazooie",
+            "imageLink": "https://drive.google.com/uc?id=12OPp_sFPYKd8j_iGW0MYr_JhWeetEcUz"
+          }
+        ],
+        "Down B": [
+          {
+            "name": "Rear Egg",
+            "description": "Rear Egg (Down B) description for Banjo & Kazooie",
+            "imageLink": "https://drive.google.com/uc?id=12h79AX6TycbXOEihJCA6u-dyCnuUvcO5"
+          }
+        ],
+        "Side B": [
+          {
+            "name": "Wonderwing",
+            "description": "Wonderwing (Side B) description for Banjo & Kazooie",
+            "imageLink": "https://drive.google.com/uc?id=1S76PPxZsRz82kmZvbkKDdc4IN7arLUil"
+          }
+        ],
+        "B": [
+          {
+            "name": "Egg Firing",
+            "description": "Egg Firing (Neutral B) description for Banjo & Kazooie",
+            "imageLink": "https://drive.google.com/uc?id=1zRdHAiW5iRw3Yo9SYvKVSQGFiyiNa2xs"
+          }
+        ]
       },
       "smashes": {
-        "upsmash": "IDK"
-      },
-      "ultimateSmash": {
-        "name": "Another clueless",
-        "description": "one more vanilla description"
+        "Up Smash": [
+          {
+            "name": "Up Smash",
+            "description": "Up Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1h9N_FZbuqwvuRJTn9mDI1PgA9QwIExt4"
+          }
+        ],
+        "Down Smash": [
+          {
+            "name": "Down Smash",
+            "description": "Down Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1zbRqLW3uKSLKePCy7mDWIByphr_i0GUl"
+          }
+        ],
+        "Side Smash": [
+          {
+            "name": "Side Smash",
+            "description": "Side Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1JqFO2lGuLF7b3RgKW1tWTQ7izae6JPYf"
+          }
+        ]
       }
     },
     {
