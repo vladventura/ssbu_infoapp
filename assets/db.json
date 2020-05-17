@@ -294,13 +294,71 @@
         ]
       },
       "aerials": {
-        "upair": "IDK"
+        "Up Tilt": [
+          {
+            "name": "Up Air",
+            "description": "Up Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=11sZxRsZLjCRWKDvslAf_UGvh4O7_IyLF"
+          }
+        ],
+        "Down Tilt": [
+          {
+            "name": "Down Air",
+            "description": "Down Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1ZSH7qskFB5Sfr_JxDYuWtQYYqZZngc6r"
+          }
+        ],
+        "Side Tilt": [
+          {
+            "name": "Forward Air",
+            "description": "Forward Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1rPG9Nk63pzm5EqSw2Qz9y4w5_cHiX5qw"
+          }
+        ],
+        "Back Tilt": [
+          {
+            "name": "Back Air",
+            "description": "Back Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=14z6P0JjHBHk5TsxtVPk1LIa8T5R8i_rg"
+          }
+        ],
+        "Jab": [
+          {
+            "name": "Neutral Air",
+            "description": "Neutral Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1geKFbmCNjaTCdc3qFMv1tWy0DoSaKJhm"
+          }
+        ]
       },
       "specials": {
-        "neutralb": {
-          "name": "Is it the fire breath?",
-          "description": "Another vanilla description"
-        }
+        "Up B": [
+          {
+            "name": "Whirling Fortress",
+            "description": "Whirling Fortress (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1lpxpepZwJfG7XJSiP5WOfEmT9ABZusMH"
+          }
+        ],
+        "Down B": [
+          {
+            "name": "Bowser Bomb",
+            "description": "Bowser Bomb (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1yuK_lnts978FHruKc_UG0c0AdxTVrwUC"
+          }
+        ],
+        "Side B": [
+          {
+            "name": "Flying Slam",
+            "description": "Flying Slam (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1jBsORuT99KrCrL6quFet2Z5Utw6iuLr2"
+          }
+        ],
+        "Neutral B": [
+          {
+            "name": "Fire Breath",
+            "description": "Fire Breath (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=113GBxrd1dYeL6J2Vtb9pgX9UPV-oX6ek"
+          }
+        ]
       },
       "smashes": {
         "upsmash": "Claws?"
