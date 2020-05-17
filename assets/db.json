@@ -289,7 +289,7 @@
           {
             "name": "Jab",
             "description": "Jab description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1sF95YHBHmWYAA86IG6XZqA_tmW5T6svp"
+            "imageLink": "https://drive.google.com/uc?id=1hcQKwamIluf5aFb0hBFxEEwMWkprlnMt"
           }
         ]
       },
@@ -361,7 +361,27 @@
         ]
       },
       "smashes": {
-        "upsmash": "Claws?"
+        "Up Smash": [
+          {
+            "name": "Up Smash",
+            "description": "Up Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1a3WPBJv5Gs9tqtGbpUXu-jEZP-JiLpHz"
+          }
+        ],
+        "Down Smash": [
+          {
+            "name": "Down Smash",
+            "description": "Down Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1LDA37myfLBoqvmLp_6RsW_LyJrB-gc13"
+          }
+        ],
+        "Side Smash": [
+          {
+            "name": "Side Smash",
+            "description": "Side Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=10i_h4jkFhpn2DNZowRvVWKM5M2vUVzhw"
+          }
+        ]
       }
     },
     {
