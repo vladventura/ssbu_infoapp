@@ -42,8 +42,9 @@ flutter:
     - assets/db.json
     - assets/Stock/
     - assets/Slivers/
-    - assets/InGamePictures/
+    - assets/Controls/
     - assets/Series/
+    - assets/General/
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

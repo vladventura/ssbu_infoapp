@@ -1,25 +1,80 @@
 import "package:flutter/material.dart";
 import 'package:provider/provider.dart';
 import 'package:ssbu_info/notifiers/characters_notifier.dart';
+import 'package:ssbu_info/components/move_card.dart';
 
 class CharacterDisplay extends StatelessWidget {
+  static CharacterNotifier characterNotifier;
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: new ListView(
-        children: <Widget>[topSection(context)],
+    characterNotifier = Provider.of<CharacterNotifier>(context);
+    return SafeArea(
+      child: Scaffold(
+        body: Container(
+          decoration: BoxDecoration(color: Colors.black38),
+          child: new ListView(
+            physics: BouncingScrollPhysics(),
+            children: <Widget>[
+              topBanner(context),
+              bottomSection(context),
+            ],
+          ),
+        ),
       ),
     );
   }
-}
 
-Widget topSection(BuildContext context) {
-  CharacterNotifier characterNotifier = Provider.of<CharacterNotifier>(context);
-  return Container(
-      child: Column(children: <Widget>[
-    new Text(characterNotifier.selectedCharacter['info']['name']),
-    new Stack(
-      children: <Widget>[new Text("Ola")],
-    )
-  ]));
+  Container topBanner(BuildContext context) {
+    return Container(
+      decoration: BoxDecoration(
+        color: Colors.white,
+        image: new DecorationImage(
+            image: new AssetImage(
+                "assets/Slivers/${characterNotifier.selectedCharacter['info']['name']}_sliver_0.png"),
+            fit: BoxFit.fill,
+            repeat: ImageRepeat.noRepeat),
+      ),
+      child: Container(
+          decoration: BoxDecoration(
+            color: Color.fromARGB(150, 0, 0, 0),
+          ),
+          width: double.infinity,
+          height: MediaQuery.of(context).size.height * 0.30,
+          child: Container(
+              alignment: Alignment.topCenter,
+              child: new Text(
+                characterNotifier.selectedCharacter["info"]["name"],
+                style: TextStyle(color: Colors.white),
+              ))),
+    );
+  }
+
+  Widget bottomSection(BuildContext context) {
+    return Container(
+        child: new Column(
+      children: [
+        neutrals(context),
+        new Text("Hello", style: TextStyle(color: Colors.white)),
+        new Text("Hello", style: TextStyle(color: Colors.white)),
+        new Text("Hello", style: TextStyle(color: Colors.white)),
+        new Text("Hello", style: TextStyle(color: Colors.white)),
+        new Text("Hello", style: TextStyle(color: Colors.white)),
+        new Text("Hello", style: TextStyle(color: Colors.white)),
+      ],
+    ));
+  }
+
+  /* NOTE: In the future, each item inside each attack type will be an object.
+  This will be done to make each object hold a reference to the picture of the attack. **/
+  Widget neutrals(BuildContext context) {
+    List<Widget> children = [];
+    Map<String, dynamic> tilts = characterNotifier.selectedCharacter['tilts'];
+    tilts.forEach((key, val) => children.add(MoveCard(
+          button: key,
+          text: val,
+        )));
+
+    return new Column(children: children);
+  }
 }
