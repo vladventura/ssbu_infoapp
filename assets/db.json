@@ -422,7 +422,41 @@
         ]
       },
       "aerials": {
-        "upair": "It's like a punch on ark"
+        "Up Tilt": [
+          {
+            "name": "Up Air",
+            "description": "Up Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1CNi1NvINRu96CT1eBq5YoOo9v4i0prRR"
+          }
+        ],
+        "Down Tilt": [
+          {
+            "name": "Down Air",
+            "description": "Down Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1mP_-oiLO_SxYNzkjit5f0eFOpIYGcq5y"
+          }
+        ],
+        "Side Tilt": [
+          {
+            "name": "Forward Air",
+            "description": "Forward Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1WC6AbpmuWmAcMsVd_gjwD1xk8br7Lh4L"
+          }
+        ],
+        "Back Tilt": [
+          {
+            "name": "Back Air",
+            "description": "Back Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1UDhOxcBcmGv6PYvKznRbFSuxev3fY_pD"
+          }
+        ],
+        "Jab": [
+          {
+            "name": "Neutral Air",
+            "description": "Neutral Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1yMxUtNxGEWTAq-Sz37X5PU1JVwfHobQF"
+          }
+        ]
       },
       "specials": {
         "neutralb": {
