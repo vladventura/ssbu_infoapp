@@ -520,10 +520,34 @@
       "difficulty": 3.5,
       "series": "Fire Emblem",
       "tilts": {
-        "Up Tilt": "Is a up tilt.",
-        "Down Tilt": "Is a down tilt.",
-        "Side Tilt": "Is a side tilt.",
-        "Jab": "Is a neutral jab."
+        "Up Tilt": [
+          {
+            "name": "Up Tilt",
+            "description": "Up Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1qIdpTK-tD2HxnnJTZGzdxPYL7soEZc_n"
+          }
+        ],
+        "Down Tilt": [
+          {
+            "name": "Down Tilt",
+            "description": "Down Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1yQNC-LsDJTIXbcydbGF43eo021RQrI0N"
+          }
+        ],
+        "Side Tilt": [
+          {
+            "name": "Side Tilt",
+            "description": "Side Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1xmjrE2D53mPbcwk9zrWu5tI-qGBKOi9p"
+          }
+        ],
+        "Jab": [
+          {
+            "name": "Jab",
+            "description": "Jab description goes here",
+            "imageLink": "https://drive.google.com/uc?id=18VC6j8ag_Vi4ZyAtGSSD3PWBGdccvGlJ"
+          }
+        ]
       },
       "aerials": {
         "upair": "It's like a punch on ark"
