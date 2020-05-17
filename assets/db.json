@@ -8,8 +8,20 @@
       "difficulty": 3.5,
       "series": "Banjo & Kazooie",
       "tilts": {
-        "Up Tilt": "Is a up tilt.",
-        "Down Tilt": "Is a down tilt.",
+        "Up Tilt": [
+          {
+            "name": "Up Tilt",
+            "description": "Banjo & Kazooie's Up Tilt Description goes here",
+            "imageLink": "https://drive.google.com/uc?id=11sJSPqK1Lgra0h-faZJ35jxuaJsbQvoe"
+          }
+        ],
+        "Down Tilt": [
+          {
+            "name": "Down Tilt",
+            "description": "Banjo & Kazooie's Down Tilt Description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1Hm-IcRT_1pVLW3IuRkjho6Zxa2iETNaz"
+          }
+        ],
         "Side Tilt": "Is a side tilt.",
         "Jab": "Is a neutral jab."
       },
