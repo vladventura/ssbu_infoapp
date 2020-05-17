@@ -587,10 +587,34 @@
         ]
       },
       "specials": {
-        "neutralb": {
-          "name": "Guns Blazing",
-          "description": "Another vanilla description"
-        }
+        "Up B": [
+          {
+            "name": "Sword of the Creator",
+            "description": "Sword of the Creator (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1EgwbHuDNU16s-fR6uuSPhYohMlji2XLc"
+          }
+        ],
+        "Down B": [
+          {
+            "name": "Aymr",
+            "description": "Aymr (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1McQ2aiDngGtXi6QSgWlJsZhrpmFp0nGl"
+          }
+        ],
+        "Side B": [
+          {
+            "name": "Areadbhar",
+            "description": "Areadbhar (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=11-wORp3peWITDR3mHfzMwDQn01WTbPqb"
+          }
+        ],
+        "Neutral B": [
+          {
+            "name": "Failnaught",
+            "description": "Failnaught (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1InfHKQQt2_e5JjUXTMy9BJSQAywDeoy4"
+          }
+        ]
       },
       "smashes": {
         "upsmash": "The Punch"
