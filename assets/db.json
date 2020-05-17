@@ -459,10 +459,34 @@
         ]
       },
       "specials": {
-        "neutralb": {
-          "name": "Guns Blazing",
-          "description": "Another vanilla description"
-        }
+        "Up B": [
+          {
+            "name": "Abandon Ship",
+            "description": "Abandon Ship (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1QeE45u56GAFmVxfnQca9YoZ0oI02Rs_t"
+          }
+        ],
+        "Down B": [
+          {
+            "name": "Mechakoopa",
+            "description": "Mechakoopa (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1Zww8clFnHsut9S3D9azkQ04Xk4YGm-LV"
+          }
+        ],
+        "Side B": [
+          {
+            "name": "Clown Kart Dash",
+            "description": "Clown Kart Dash (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1gFgjasgkFhFlOq8uz0lESZjfNfe-jhdL"
+          }
+        ],
+        "Neutral B": [
+          {
+            "name": "Clown Cannon",
+            "description": "Clown Cannon (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1xJaGZc1v1klvmNYqXsT5sGvCCMGvx6bp"
+          }
+        ]
       },
       "smashes": {
         "upsmash": "The Punch"
