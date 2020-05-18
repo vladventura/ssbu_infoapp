@@ -776,10 +776,34 @@
       "difficulty": 3.5,
       "series": "Pokémon",
       "tilts": {
-        "Up Tilt": "Is a up tilt.",
-        "Down Tilt": "Is a down tilt.",
-        "Side Tilt": "Is a side tilt.",
-        "Jab": "Is a neutral jab."
+        "Up Tilt": [
+          {
+            "name": "Up Tilt",
+            "description": "Up Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1L0hi8zNHgh4Cja-ttNMbHOnV7Aax00iL"
+          }
+        ],
+        "Down Tilt": [
+          {
+            "name": "Down Tilt",
+            "description": "Down Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1nrJKakPVL9BDohSv-SnmyK2KfHda8KlV"
+          }
+        ],
+        "Side Tilt": [
+          {
+            "name": "Side Tilt",
+            "description": "Side Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1P-UyhIMWh_KiGj2f4EmKkoEGB7AR1Siq"
+          }
+        ],
+        "Jab": [
+          {
+            "name": "Jab",
+            "description": "Jab description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1yQsKcHVrCmr3tAoa7X_ko2rm8XOc-lro"
+          }
+        ]
       },
       "aerials": {
         "upair": "It's like a punch on ark"
