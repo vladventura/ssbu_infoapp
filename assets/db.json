@@ -715,17 +715,57 @@
         ]
       },
       "specials": {
-        "neutralb": {
-          "name": "Guns Blazing",
-          "description": "Another vanilla description"
-        }
+        "Up B": [
+          {
+            "name": "Falcon Dive",
+            "description": "Falcon Dive (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1tX9z7OZooqOK7gtXVuar73Y__83U8sm9"
+          }
+        ],
+        "Down B": [
+          {
+            "name": "Falcon Kick",
+            "description": "Falcon Kick (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1aVvN-aTug5MDyr7Ctn5ilvh0KWaekkxl"
+          }
+        ],
+        "Side B": [
+          {
+            "name": "Raptor Boost",
+            "description": "Raptor Boost (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1WJXbz6RiF79JP9W7lh-ryO6G65cgXV19"
+          }
+        ],
+        "Neutral B": [
+          {
+            "name": "Falcon Punch",
+            "description": "Falcon Punch (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1HlpUIhw2JISFiSsJf3N51VYNOYa5HvwR"
+          }
+        ]
       },
       "smashes": {
-        "upsmash": "The Punch"
-      },
-      "ultimateSmash": {
-        "name": "Witch Time",
-        "description": "one more vanilla description"
+        "Up Smash": [
+          {
+            "name": "Up Smash",
+            "description": "Up Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1wQ714-v39DrTvfUZ44NsQF_MAu-W1Zhi"
+          }
+        ],
+        "Down Smash": [
+          {
+            "name": "Down Smash",
+            "description": "Down Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=11thhxkT8sbpC-mBX5k6LpdXspPdDtoqk"
+          }
+        ],
+        "Side Smash": [
+          {
+            "name": "Side Smash",
+            "description": "Side Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1xLTvoJ-86MlnrvZAE3BU0P8OOcg6qH6U"
+          }
+        ]
       }
     },
     {
