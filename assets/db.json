@@ -836,10 +836,34 @@
         ]
       },
       "specials": {
-        "neutralb": {
-          "name": "Guns Blazing",
-          "description": "Another vanilla description"
-        }
+        "Up B": [
+          {
+            "name": "Fly",
+            "description": "Fly (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1NA2QgnDFI2CHyeWFpOzowFnCC9Nc0KXM"
+          }
+        ],
+        "Down B": [
+          {
+            "name": "Pokémon Change",
+            "description": "Pokémon Change (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1PuFgHEYBgQkdjFDdBP2ZA3pIlEBC-kty"
+          }
+        ],
+        "Side B": [
+          {
+            "name": "Flare Blitz",
+            "description": "Flare Blitz (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=12SmabawoZlQXdTaCf_DhRY8cVtXd6HyU"
+          }
+        ],
+        "Neutral B": [
+          {
+            "name": "Flamethrower",
+            "description": "Flamethrower (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1DiXFbe5pdN-8HXjhqcHuSAzvkFoccHLC"
+          }
+        ]
       },
       "smashes": {
         "upsmash": "The Punch"
