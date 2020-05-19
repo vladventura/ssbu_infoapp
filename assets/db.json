@@ -3787,30 +3787,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Grappling Hook",
+            "description": "Grappling Hook (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1Us5zioatNVJQqmX7UG6Mh--KNdAoYqRP"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Rebel's Guard",
+            "description": "Rebel's Guard (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=18ej_bhRCEh1r_U1QHWKI6FtHZtMsi8-A"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Eiha/Eigaon",
+            "description": "Eiha/Eigaon (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1wOZaksa_08r4u630GRlZ2dtHoZ16EAjc"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Gun",
+            "description": "Gun (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=187cyhpR9gY7XXKtfGmgw18cox7fBfPgo"
           }
         ]
       },
@@ -3819,21 +3819,21 @@
           {
             "name": "Up Smash",
             "description": "Up Smash description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1ljDe5GvmDAquA5fTmm-oBYZKYYFjDC28"
           }
         ],
         "Down Smash": [
           {
             "name": "Down Smash",
             "description": "Down Smash description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1rR4GQ4zMy3K-8k2mTlGZT77YgkPSHZTi"
           }
         ],
         "Side Smash": [
           {
             "name": "Side Smash",
             "description": "Side Smash description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1b97VV5pAWuFCkkrv4bWKUdkAb4_NHXwP"
           }
         ]
       }
