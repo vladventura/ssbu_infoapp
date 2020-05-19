@@ -1995,30 +1995,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Super Punch Jump",
+            "description": "Super Punch Jump (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1qwknSd0d-aYxT7em39cZ6ksaT56j7eTp"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": "(Down B) description goes here",
-            "imageLink": ""
+            "name": "Dr. Tornado",
+            "description": "Dr. Tornado (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1bGeV6cssBa9YIV-7m2SjuvIPMJAcQJ4R"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": "(Side B) description goes here",
-            "imageLink": ""
+            "name": "Super Sheet",
+            "description": "Super Sheet (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1hLQFg5Vxzh29xRSfjPsTkOUFTg_u_3R6"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": "(Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Megavitamin Pill",
+            "description": "Megavitamin Pill (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1ZqeGckE-3AOsL0YkL7OFn7mlUfxVUSdR"
           }
         ]
       },
