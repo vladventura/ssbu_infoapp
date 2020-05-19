@@ -4063,30 +4063,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Super Dedede Jump",
+            "description": "Super Dedede Jump (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1ndwnA8h7p8hZ0CUVbV2rh_9EnCuPJfM4"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Jet Hammer",
+            "description": "Jet Hammer (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1UTQDJdfePn2pi1yeDCKyUNyIhANZeO-h"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Gordo Throw",
+            "description": "Gordo Throw (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1vzYfQLmEYR52q9PcfNpehoIPCKFQrlFz"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Inhale",
+            "description": "Inhale (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1neO0MNIxA59AItjfrO4FQm69f67Jx99m"
           }
         ]
       },
