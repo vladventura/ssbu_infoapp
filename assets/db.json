@@ -3019,30 +3019,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Aether",
+            "description": "Aether (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1oGAnv3mkZPN48ZZt6huSLa6cdGI7Ak2b"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Counter",
+            "description": "Counter (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1skUbvbxqq6pptrUStyft5ukVZN5DQDjO"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Quickdraw",
+            "description": "Quickdraw (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=11jz3uC5f2LKOaqEeqmkmFyjnuzCR4ZPq"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Eruption",
+            "description": "Eruption (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1cd8PMIu_AQZadq76O7HZzQyo6iHeX03U"
           }
         ]
       },
