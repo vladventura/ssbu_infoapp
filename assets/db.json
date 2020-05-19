@@ -2923,6 +2923,134 @@
           {
             "name": "Up Smash",
             "description": "Up Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1lXBR4PlWh4wAy6znAMsvDbZBJo0Q1a6J"
+          }
+        ],
+        "Down Smash": [
+          {
+            "name": "Down Smash",
+            "description": "Down Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1lay28zLHFTMQ_vyuKMNEvyGqpp49Vxak"
+          }
+        ],
+        "Side Smash": [
+          {
+            "name": "Side Smash",
+            "description": "Side Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1S5VWNdBGebYs1_c1N01uyZx2CfxvBKhY"
+          }
+        ]
+      }
+    },
+    {
+      "info": {
+        "name": "Ike",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Fire Emblem",
+      "tilts": {
+        "Up Tilt": [
+          {
+            "name": "Up Tilt",
+            "description": "Up Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1NHK7x03b5xSV2yAfikta6YTP9A8slNVj"
+          }
+        ],
+        "Down Tilt": [
+          {
+            "name": "Down Tilt",
+            "description": "Down Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1MwNdY3sgJ7K0HwI-U4MhsyOWlYrWXw_V"
+          }
+        ],
+        "Side Tilt": [
+          {
+            "name": "Side Tilt",
+            "description": "Side Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1MC0fOc4LWA57LoYivuGqa5Z-xhr-zjfJ"
+          }
+        ],
+        "Jab": [
+          {
+            "name": "Jab",
+            "description": "Jab description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1AKlC3S3w_jT2axq6M1YankzEvfPrk3qG"
+          }
+        ]
+      },
+      "aerials": {
+        "Up Tilt": [
+          {
+            "name": "Up Air",
+            "description": "Up Air description goes here",
+            "imageLink": ""
+          }
+        ],
+        "Down Tilt": [
+          {
+            "name": "Down Air",
+            "description": "Down Air description goes here",
+            "imageLink": ""
+          }
+        ],
+        "Side Tilt": [
+          {
+            "name": "Forward Air",
+            "description": "Forward Air description goes here",
+            "imageLink": ""
+          }
+        ],
+        "Back Tilt": [
+          {
+            "name": "Back Air",
+            "description": "Back Air description goes here",
+            "imageLink": ""
+          }
+        ],
+        "Jab": [
+          {
+            "name": "Neutral Air",
+            "description": "Neutral Air description goes here",
+            "imageLink": ""
+          }
+        ]
+      },
+      "specials": {
+        "Up B": [
+          {
+            "name": "",
+            "description": " (Up B) description goes here",
+            "imageLink": ""
+          }
+        ],
+        "Down B": [
+          {
+            "name": "",
+            "description": " (Down B) description goes here",
+            "imageLink": ""
+          }
+        ],
+        "Side B": [
+          {
+            "name": "",
+            "description": " (Side B) description goes here",
+            "imageLink": ""
+          }
+        ],
+        "Neutral B": [
+          {
+            "name": "",
+            "description": " (Neutral B) description goes here",
+            "imageLink": ""
+          }
+        ]
+      },
+      "smashes": {
+        "Up Smash": [
+          {
+            "name": "Up Smash",
+            "description": "Up Smash description goes here",
             "imageLink": ""
           }
         ],
@@ -2940,36 +3068,6 @@
             "imageLink": ""
           }
         ]
-      }
-    },
-    {
-      "info": {
-        "name": "Ike",
-        "description": "Vanilla description"
-      },
-      "difficulty": 3.5,
-      "series": "Fire Emblem",
-      "tilts": {
-        "Up Tilt": "Is a up tilt.",
-        "Down Tilt": "Is a down tilt.",
-        "Side Tilt": "Is a side tilt.",
-        "Jab": "Is a neutral jab."
-      },
-      "aerials": {
-        "Up Tilt": "It's like a punch on ark"
-      },
-      "specials": {
-        "Up B": {
-          "name": "Guns Blazing",
-          "description": "Another vanilla description"
-        }
-      },
-      "smashes": {
-        "Up Smash": "The Punch"
-      },
-      "ultimateSmash": {
-        "name": "Witch Time",
-        "description": "one more vanilla description"
       }
     },
     {
