@@ -1025,10 +1025,34 @@
       "difficulty": 3.5,
       "series": "Final Fantasy",
       "tilts": {
-        "Up Tilt": "Is a up tilt.",
-        "Down Tilt": "Is a down tilt.",
-        "Side Tilt": "Is a side tilt.",
-        "Jab": "Is a neutral jab."
+        "Up Tilt": [
+          {
+            "name": "Up Tilt",
+            "description": "Up Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=19fHT7pdFO8fCpx34AQYoj5rxreIVJ5Nx"
+          }
+        ],
+        "Down Tilt": [
+          {
+            "name": "Down Tilt",
+            "description": "Down Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1luWIDQA7cQdy8shdvSUYDgEIapPsDDmy"
+          }
+        ],
+        "Side Tilt": [
+          {
+            "name": "Side Tilt",
+            "description": "Side Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1sqEfj7o8L4PDX3bmDBWVVOar9DSQK8wN"
+          }
+        ],
+        "Jab": [
+          {
+            "name": "Jab",
+            "description": "Jab description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1kOZw5GrqiG2o3sy8j9F3-X-pQUqIIpcR"
+          }
+        ]
       },
       "aerials": {
         "upair": "It's like a punch on ark"
