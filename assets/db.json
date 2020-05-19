@@ -5599,30 +5599,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Shuttle Loop",
+            "description": "Shuttle Loop (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1et7OPO8xllhaNfxsBmFTldTEHwTNgOLF"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Dimensional Cape",
+            "description": "Dimensional Cape (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1FkKDh1BbZIkMIU5PIOI8F6FclRqIuE_7"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Drill Rush",
+            "description": "Drill Rush (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1zFjPhxpeTosbRM8ePPwGbLSuIpph5dS0"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Mach Tornado",
+            "description": "Mach Tornado (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1OfsTy0YNg4LfysbNunKOEx9fS2VhYSzf"
           }
         ]
       },
