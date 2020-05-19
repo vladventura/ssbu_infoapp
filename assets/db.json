@@ -964,10 +964,34 @@
         ]
       },
       "specials": {
-        "neutralb": {
-          "name": "Guns Blazing",
-          "description": "Another vanilla description"
-        }
+        "Up B": [
+          {
+            "name": "Soaring Slash",
+            "description": "Soaring Slash (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=13Cph6zImccutIBRzqu-YZmc-SWTonHi2"
+          }
+        ],
+        "Down B": [
+          {
+            "name": "Counter",
+            "description": "Counter (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1TZXYdXPMuKB40hd31kyA12515L2CuJSW"
+          }
+        ],
+        "Side B": [
+          {
+            "name": "Double Edged Dance",
+            "description": "Double Edged Dance (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1bwrYfPiONfpFOany4TOck5icbvunWD25"
+          }
+        ],
+        "Neutral B": [
+          {
+            "name": "Flare Blade",
+            "description": "Flare Blade (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1frkQWYIuroBMMe9uM0QAQaN0-d7-YJZO"
+          }
+        ]
       },
       "smashes": {
         "upsmash": "The Punch"
