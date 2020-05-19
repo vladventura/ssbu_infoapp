@@ -2635,30 +2635,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Hydro Pump",
+            "description": "Hydro Pump (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1gKUHG99Ktg0rx7C0Bixjc_TpqgDh0SHS"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Substitute",
+            "description": "Substitute (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1VNHB22QOaqq6aJLJKHKt9W0GWPPb2ff0"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Shadow Sneak",
+            "description": "Shadow Sneak (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1irVktrEuK2nqwfZDIvyYCpclCWsc9IYD"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Water Shuriken",
+            "description": "Water Shuriken (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1NleQ5w9IncVdlvh-m2V_ZbsearMZpRz_"
           }
         ]
       },
