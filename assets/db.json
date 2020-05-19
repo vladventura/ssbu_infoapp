@@ -1092,10 +1092,39 @@
         ]
       },
       "specials": {
-        "Up B": {
-          "name": "Guns Blazing",
-          "description": "Another vanilla description"
-        }
+        "Up B": [
+          {
+            "name": "Climhazzard",
+            "description": "Climhazzard (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1Fy2M47_PuxfJLTCRVSwj6bAuGbc1IWo6"
+          }
+        ],
+        "Down B": [
+          {
+            "name": "Limit Charge",
+            "description": "Limit Charge (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=12PEJOfy7UInc3dIo3CzTnclB-LFTCk_j"
+          },
+          {
+            "name": "Finishing Touch",
+            "description": "Finishing Touch (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=19Gk5nyyED4fdNmW_dXDuE4FTrwegS6_s"
+          }
+        ],
+        "Side B": [
+          {
+            "name": "Cross Slash",
+            "description": "Cross Slash (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1gWC4lWpIe_khL2synNmrG9s5J8ASYXYn"
+          }
+        ],
+        "Neutral B": [
+          {
+            "name": "Blade Beam",
+            "description": "Blade Beam (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1J_FhTlD_a6mf1YUfGF0r7-LPutyO9uww"
+          }
+        ]
       },
       "smashes": {
         "upsmash": "The Punch"
