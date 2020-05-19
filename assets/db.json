@@ -3531,30 +3531,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Vinewhip",
+            "description": "Vinewhip (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1TMYZ46CZ1oksnolqLRtdEe6NoWCNVpOP"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Pokémon Change",
+            "description": "Pokémon Change (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1qVP-fyQx0GmXI5lxB-cfztLxUrT4LLCa"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Razor Leaf",
+            "description": "Razor Leaf (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=157QWvgAK7zsMw5QivSTB97vG9vt6QdeH"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Bullet Seed",
+            "description": "Bullet Seed (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1yZtwafuyHjlaPpTBWDb8QQJ-Q8lgR4Uw"
           }
         ]
       },
