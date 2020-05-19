@@ -3147,30 +3147,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Cross Chop",
+            "description": "Cross Chop (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1JugBvf_7CctMbygbqbGQ-trKzwoMTBcD"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Revenge",
+            "description": "Revenge (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1JamWZ5i5B0iAPA5bNBmcCRTp4rKbg_8c"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Alolan Whip",
+            "description": "Alolan Whip (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1V3H7c2vhK4iHcLYbcyIG0xBYFAgpglK9"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Darkest Lariat",
+            "description": "Darkest Lariat (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1cr4zopB9WWVyDrhwE_Big5l1SRiFOH5l"
           }
         ]
       },
