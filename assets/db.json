@@ -4319,30 +4319,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Final Cutter",
+            "description": "Final Cutter (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1_MrhDl-22wZVIjCP3rur9gpDjBcOO2EA"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Stone",
+            "description": "Stone (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1mH62hQSD165PXuMnFKi3-TtcEPsJ7-ug"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Hammer",
+            "description": "Hammer (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1FW_sJfsW0RLyR1wTWxHTRBNi0OBlFlKn"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Inhale",
+            "description": "Inhale (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1Jav5PQdxJZB4rEAIoZf6sZf5TI-2yZnz"
           }
         ]
       },
