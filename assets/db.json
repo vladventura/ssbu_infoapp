@@ -3403,30 +3403,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Balloon Trip",
+            "description": "Balloon Trip (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1SAuCD4_3bQBW7qYiRtG3HpSQl00GeCfX"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Lloid Trap",
+            "description": "Lloid Trap (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1OiKxeZcmJ7VCyUbBcO4nNJyR-tIreR_4"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Fishing Rod",
+            "description": "Fishing Rod (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1I8Hvefrr3gCRbJm-qVEcTp87ODYRsi53"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Pocket",
+            "description": "Pocket (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1D0iRKxaaQ69osW8_UsTag_4dvv7DnhWy"
           }
         ]
       },
