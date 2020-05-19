@@ -1227,23 +1227,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": "",
-            "imageLink": ""
+            "name": "Dragon Ascent",
+            "description": "Dragon Ascent (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1QT6rBlGmnsI1zZRGDoz4aHUlG9Ty9yuH"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": "",
-            "imageLink": ""
+            "name": "Counter Surge",
+            "description": "Counter Surge (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1y3CPU8BC5VhEACcrCR-WtevA1cBSltVC"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": "",
-            "imageLink": ""
+            "name": "Dragon Lunge",
+            "description": "Dragon Lunge (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1oxYWeWWscSUmJQ62GZ_oPqxY6p604reJ"
+          }
+        ],
+        "Neutral B": [
+          {
+            "name": "Dragon Fang Shot",
+            "description": "Dragon Fang Shot (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1jT4qShUzLpkXHbWFt0FVsrkC8T9X8XLR"
           }
         ]
       },
