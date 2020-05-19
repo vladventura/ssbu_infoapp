@@ -5471,30 +5471,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Rush Coil",
+            "description": "Rush Coil (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1aF43sDbxBSFaDD2QjfwJiypD04y-JT1N"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Leaf Shield",
+            "description": "Leaf Shield (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1YQ0bDfanW7W6bc4pL646XdrN0ECaNSbF"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Crash Bomber",
+            "description": "Crash Bomber (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1lPi0V7YfTCI3_O2UUkvX6CtXFmKUi8Ua"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Metal Blade",
+            "description": "Metal Blade (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1CsOo6_sCFrt7hpcW7DFX7WaB5lL7CHVH"
           }
         ]
       },
