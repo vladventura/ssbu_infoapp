@@ -1867,30 +1867,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Spinning Kong",
+            "description": "Spinning Kong (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1oUX41X6WvXmnBMhJMsof7ukzQJ0L5A5N"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": "(Down B) description goes here",
-            "imageLink": ""
+            "name": "Hand Slap",
+            "description": "Hand Slap (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1jJL8q63D2MeIvZq0LOK70VyeEgp1iL1p"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": "(Side B) description goes here",
-            "imageLink": ""
+            "name": "Headbutt",
+            "description": "Headbutt (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1gtaPCm3RJUiggrGxkdMtjdUW0tk1BDJk"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": "(Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Giant Punch",
+            "description": "Giant Punch (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1NKFtje4YvTNmzBAshg3p7uVbdk_hG82D"
           }
         ]
       },
