@@ -5727,30 +5727,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Teleport",
+            "description": "Teleport (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1ecRT4RgkDnN1VrFrHDFLuxu_q1nx34z-"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Disable",
+            "description": "Disable (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1rd9DRkni4XXadWG7_hk-xMZE-Ngsitpc"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Confusion",
+            "description": "Confusion (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1i8hHSDpLTL3R546Cm1gFQOiMsPVwmiiH"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Shadow Ball",
+            "description": "Shadow Ball (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1rHzhbdcs4A2Of-kl5t4rQvEd-BT4vYoZ"
           }
         ]
       },
