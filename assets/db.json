@@ -3935,30 +3935,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Shoryuken",
+            "description": "Shoryuken (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1uEX9Z-38Iv3CcNgXwhIMVxzPp_j6MyBg"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Focus Attack",
+            "description": "Focus Attack (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1qnUYRHNGA1-7CV5kIwhvxka74XkYCFLp"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Tatsumaki Senpukyaku",
+            "description": "Tatsumaki Sempukyaku (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1tR4Ea9ScBdlkvFroVOPC8rjFJkkL9avQ"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Hadouken",
+            "description": "Hadouken (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1QOSltnPROnIrqliGlMmCehJexOiK3WcN"
           }
         ]
       },
