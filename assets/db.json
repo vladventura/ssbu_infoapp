@@ -1446,9 +1446,37 @@
       "aerials": {
         "Up Tilt": [
           {
-            "name": "",
-            "description": "",
-            "imageLink": ""
+            "name": "Up Air",
+            "description": "Up Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=102_nT-GgDy24pEZerxZtKzl7yjhbVHCJ"
+          }
+        ],
+        "Down Tilt": [
+          {
+            "name": "Down Air",
+            "description": "Down Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1cqU3JnNahtwA3eOuM2zD5hPce4WEEpN_"
+          }
+        ],
+        "Side Tilt": [
+          {
+            "name": "Forward Air",
+            "description": "Forward Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1RMsFp4FDLlnPjUZVkmC4SYzbfmoYS_K6"
+          }
+        ],
+        "Back Tilt": [
+          {
+            "name": "Back Air",
+            "description": "Back Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1TdFXCJLJbVQ_u1Ncw0TrKhnln2_6R7gW"
+          }
+        ],
+        "Jab": [
+          {
+            "name": "Neutral Air",
+            "description": "Neutral Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1cGjBhwyKMEtW0R2SJuEZo2Ov3LvW65Zr"
           }
         ]
       },
