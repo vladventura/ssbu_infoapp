@@ -1611,30 +1611,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": "",
-            "imageLink": ""
+            "name": "Screw Attack",
+            "description": "Screw Attack (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1g8fheCf2SJJpcJBjz3196lIsBlSROFEk"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": "",
-            "imageLink": ""
+            "name": "Bomb",
+            "description": "Bomb (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1Kr5se4Vh9M4VQgNpBv7YprJCSbFpHEx0"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": "",
-            "imageLink": ""
+            "name": "Homing Missile",
+            "description": "Homing Missile (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1aLz9QulNGeYOiFsiLVPEk0tUTRMrpDU8"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": "",
-            "imageLink": ""
+            "name": "Charge Shot",
+            "description": "Charge Shot (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1LhkZpTMTSESvIO_2321xHUlttx5JqCwt"
           }
         ]
       },
