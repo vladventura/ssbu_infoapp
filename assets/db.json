@@ -6023,70 +6023,70 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Lunar Launc",
+            "description": "Lunar Launc (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1qEHBIowBbBXNTXnxPg-CguBHHeFVFZ_V"
           },
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Cannon Jump Kick",
+            "description": "Cannon Jump Kick (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1u6GGBv1KivjE6ndixNVuK_WqW6XNNOVH"
           },
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Arm Rocket",
+            "description": "Arm Rocket (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1dr3YHtd8O3-9qXrJtQ_bWv0VCNIKYp_i"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Echo Reflector",
+            "description": "Echo Reflector (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1LttT8AxXMtLPNvfzrhYJjPhBA3ORVJzL"
           },
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Bomb Drop",
+            "description": "Bomb Drop (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1ffcuEaDXuB1NnUdrJngJFgB4DTHIiw64"
           },
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Absorbing Vortex",
+            "description": "Absorbing Vortex (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=17GbXf8vSc4_OT-yk6heAzwfvlhZrVB8p"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Flame Pillar",
+            "description": "Flame Pillar (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1iw_aHMHxT_-3vxvmtSwE8x_XXwwX8n7s"
           },
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Stealth Burst",
+            "description": "Stealth Burst (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=19i3RqizGW7HvEQO0HwrRek9gnlrwwQF0"
           },
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Gunner Missile",
+            "description": "Gunner Missile (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1jIIaVlLDkMhillu_MUOFf4tDQScUCWWG"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Charge Blast",
+            "description": "Charge Blast (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1U7Ju3DQk1s6ZPWKpIkOOBAAVs8LMxQ3R"
           },
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Lazer Blaze",
+            "description": "Lazer Blaze (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1NhBJibyV4C5o5JP2zBk9IAm5ljxU00EW"
           },
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Grenade Launch",
+            "description": "Grenade Launch (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=10BOqyrx4uWvgcBSgfODPQgoi1D8wVsAp"
           }
         ]
       },
