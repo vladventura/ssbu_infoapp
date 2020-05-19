@@ -6191,70 +6191,70 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Stone Scabbard",
+            "description": "Stone Scabbard (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1gNoEaf8pCaYjum654yVO6kplap2HwWe9"
           },
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Skyward Slash Dash",
+            "description": "Skyward Slash Dash (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1hxY-_-AHnGLeXqWgV9w4K4kgw4qP6cC-"
           },
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Hero's Spin",
+            "description": "Hero's Spin (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1f5fhqjHqacEzuGoLUxC2nrKFnlqZM3ji"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Blade Counter",
+            "description": "Blade Counter (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=11tVcfANS539OhArUxkuHLdp1yTH1CclP"
           },
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Reversal Slash",
+            "description": "Reversal Slash (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1kj4zjzfDhYQocRZMlJs6_UoOj1dMmZtw"
           },
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Power Thrust",
+            "description": "Power Thrust (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1UxlD6IEKjmiYpqn9GOpkjc-7N2e14mel"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Airborne Assault",
+            "description": "Airborne Assault (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=13ZVICMwSlqGLwccUGzubpQIuT7jzNGK-"
           },
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Gale Stab",
+            "description": "Gale Stab (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=14NsZhrOjUJYEeGNacFuffeC0EA-6bDQe"
           },
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Chakram",
+            "description": "Chakram (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1nVFcYWvszVBmdSvnmP6WVcCCdx4dBst6"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Gale Strike",
+            "description": "Gale Strike (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1y8ZBrw0IupbluHC50LoXsTPbu3k-L1Bu"
           },
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Shuriken of Light",
+            "description": "Shuriken of Light (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=14AJUvBdKb6wUp1qBjacdlRH1OR0yA5qR"
           },
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Blurring Blade",
+            "description": "Blurring Blade (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1GtedueLlwOvQW6so1xQhHXWlYfYwieT6"
           }
         ]
       },
