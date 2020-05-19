@@ -2763,30 +2763,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Woosh/Swoosh/Kaswoosh",
+            "description": "Woosh/Swoosh/Kaswoosh (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=14d5l1A9_l21VgaAjZLO2oyOFdwXvsXFG"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Menu/Select",
+            "description": "Menu/Select (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1zXaRw3bDH3ApxQHpEUANag6UQ2r8RdEY"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Zap/Zapple/Kazapp",
+            "description": "Zap/Zapple/Kazapp (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=15H5UpHgSgFIxjgIkWRnec95T62fhw83x"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Frizz/Frizzle/Kafrizz",
+            "description": "Frizz/Frizzle/Kafrizz (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1IkzyeM04eSvyv8oik8hlniIxoYbZKp7T"
           }
         ]
       },
