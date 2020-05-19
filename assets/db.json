@@ -2123,30 +2123,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Duck Jump",
+            "description": "Duck Jump (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1uKHYhZ5Qj_UzSglyGBb6L7EZhbhuh83F"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": "(Down B) description goes here",
-            "imageLink": ""
+            "name": "Wild Gunman",
+            "description": "Wild Gunman (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1H19F901aOF6Y6dVnJqEDP8fpxTlSjF1W"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": "(Side B) description goes here",
-            "imageLink": ""
+            "name": "Clay Shooting",
+            "description": "Clay Shooting (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1enNQMR0rL_xDTqLUjPp8G62guXNyc76U"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": "(Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Trick Shot",
+            "description": "Trick Shot (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1JJiJjijP6EA2HBrY6GGcsqlZ94dHMDJ0"
           }
         ]
       },
