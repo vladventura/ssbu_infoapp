@@ -5146,26 +5146,124 @@
       "difficulty": 3.5,
       "series": "Super Mario",
       "tilts": {
-        "Up Tilt": "Is a up tilt.",
-        "Down Tilt": "Is a down tilt.",
-        "Side Tilt": "Is a side tilt.",
-        "Jab": "Is a neutral jab."
+        "Up Tilt": [
+          {
+            "name": "Up Tilt",
+            "description": "Up Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1UIMCNjIaHNnDwa82XAic1U19ctFimcYR"
+          }
+        ],
+        "Down Tilt": [
+          {
+            "name": "Down Tilt",
+            "description": "Down Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1D-9UBEix9tP8Ixt9WIQFCMVCuo3LJwR1"
+          }
+        ],
+        "Side Tilt": [
+          {
+            "name": "Side Tilt",
+            "description": "Side Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1bGFJUerdHAN2YECulWiHnH9z88XGzf8J"
+          }
+        ],
+        "Jab": [
+          {
+            "name": "Jab",
+            "description": "Jab description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1yvvfEQTpDsUpFiL9P74iwoEGx7LZalgF"
+          }
+        ]
       },
       "aerials": {
-        "Up Tilt": "It's like a punch on ark"
+        "Up Tilt": [
+          {
+            "name": "Up Air",
+            "description": "Up Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1X_kqZkwp4C7-An-aoKGi7Tbs9fbT0BU9"
+          }
+        ],
+        "Down Tilt": [
+          {
+            "name": "Down Air",
+            "description": "Down Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1ZO0QxIqEEzaZKg6TNd_MRbWtfpJVLbLH"
+          }
+        ],
+        "Side Tilt": [
+          {
+            "name": "Forward Air",
+            "description": "Forward Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=12OVlQpCALFtgrKIGk-LEECXeIvreV4vb"
+          }
+        ],
+        "Back Tilt": [
+          {
+            "name": "Back Air",
+            "description": "Back Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1-AJKe1tt_B2ZD8jXde3zJbXxtrWv40QL"
+          }
+        ],
+        "Jab": [
+          {
+            "name": "Neutral Air",
+            "description": "Neutral Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1UiX2ZfZkH30-CX8A7wJIZXweLdhMAsjo"
+          }
+        ]
       },
       "specials": {
-        "Up B": {
-          "name": "Guns Blazing",
-          "description": "Another vanilla description"
-        }
+        "Up B": [
+          {
+            "name": "Super Jump Punch",
+            "description": "Super Jump Punch (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=18wjNfm0LyQW_VyNr1NXsEhT21SW8YdvJ"
+          }
+        ],
+        "Down B": [
+          {
+            "name": "F.L.U.D.D.",
+            "description": "F.L.U.D.D. (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1ltqtHv2xTIztC1trW3JkX6qpBSfa-dZc"
+          }
+        ],
+        "Side B": [
+          {
+            "name": "Cape",
+            "description": "Cape (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1p3GnCym644Wdr8dww3rInUFpRqrHu-o6"
+          }
+        ],
+        "Neutral B": [
+          {
+            "name": "Fireball",
+            "description": "Fireball (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1a_2XLP99cIO5ZS-AxKrOypR_wlKGKLBm"
+          }
+        ]
       },
       "smashes": {
-        "Up Smash": "The Punch"
-      },
-      "ultimateSmash": {
-        "name": "Witch Time",
-        "description": "one more vanilla description"
+        "Up Smash": [
+          {
+            "name": "Up Smash",
+            "description": "Up Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1z0lK5hk7q_NIhq0mKay39U5zD-B8yx9N"
+          }
+        ],
+        "Down Smash": [
+          {
+            "name": "Down Smash",
+            "description": "Down Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1qL6w1rGuYCmGj0z-6jR_BNlQ7Hke5yxK"
+          }
+        ],
+        "Side Smash": [
+          {
+            "name": "Side Smash",
+            "description": "Side Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=14XcaLL9aIMjLigYLjSTUVUBVkVm7qH9c"
+          }
+        ]
       }
     },
     {
