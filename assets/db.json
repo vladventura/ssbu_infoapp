@@ -2507,30 +2507,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Dark Dive",
+            "description": "Dark Dive (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1j9St6jy-kH1G4DKJepjnk4d6wQOyL_rc"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Wizard's Foot",
+            "description": "Wizard's Foot (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1kBmc78v9mqVo6N27Eq28qXRXvRFWnq8O"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Flame Choke",
+            "description": "Flame Choke (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1EaLfr9vk-8MtKMgAlejYPz1L-ih6tShg"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Warlock Punch",
+            "description": "Warlock Punch (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1uL5WJx1os-JbKgyHFv7iSulBhcQTFitL"
           }
         ]
       },
