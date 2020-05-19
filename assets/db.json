@@ -1158,26 +1158,117 @@
       "difficulty": 3.5,
       "series": "Fire Emblem",
       "tilts": {
-        "Up Tilt": "Is a up tilt.",
-        "Down Tilt": "Is a down tilt.",
-        "Side Tilt": "Is a side tilt.",
-        "Jab": "Is a neutral jab."
+        "Up Tilt": [
+          {
+            "name": "Up Tilt",
+            "description": "Up Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1udTiIDITKK9fIFksq5v7j-GF5-n8OFSF"
+          }
+        ],
+        "Down Tilt": [
+          {
+            "name": "Down Tilt",
+            "description": "Down Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1jrIyM1gL4xKyKfl4Js5S4B74Zc8PH1nj"
+          }
+        ],
+        "Side Tilt": [
+          {
+            "name": "Side Tilt",
+            "description": "Side Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1Cc6gZFRQIZ7ou6I2RhmF9Oe8n0BiID8I"
+          }
+        ],
+        "Jab": [
+          {
+            "name": "Jab",
+            "description": "Jab description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1mISu8mH6EsufC-K7kHbrQwT8Wp0-kdoG"
+          }
+        ]
       },
       "aerials": {
-        "Up Tilt": "It's like a punch on ark"
+        "Up Tilt": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ],
+        "Down Tilt": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ],
+        "Side Tilt": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ],
+        "Back Tilt": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ],
+        "Jab": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ]
       },
       "specials": {
-        "Up B": {
-          "name": "Guns Blazing",
-          "description": "Another vanilla description"
-        }
+        "Up B": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ],
+        "Down B": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ],
+        "Side B": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ]
       },
       "smashes": {
-        "Up Smash": "The Punch"
-      },
-      "ultimateSmash": {
-        "name": "Witch Time",
-        "description": "one more vanilla description"
+        "Up Smash": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ],
+        "Down Smash": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ],
+        "Side Smash": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ]
       }
     },
     {
