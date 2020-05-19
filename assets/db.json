@@ -1257,22 +1257,22 @@
       "smashes": {
         "Up Smash": [
           {
-            "name": "",
-            "description": "",
+            "name": "Up Smash",
+            "description": "Up Smash description goes here",
             "imageLink": "https://drive.google.com/uc?id=1066R0dn02BYf43vfJm4tITluoGaMTlTa"
           }
         ],
         "Down Smash": [
           {
-            "name": "",
-            "description": "",
+            "name": "Down Smash",
+            "description": "Down Smash description goes here",
             "imageLink": "https://drive.google.com/uc?id=1HuBqaPAkpDZIHcY0J44XVma8xAtoTgiy"
           }
         ],
         "Side Smash": [
           {
-            "name": "",
-            "description": "",
+            "name": "Side Smash",
+            "description": "Side Smash description goes here",
             "imageLink": "https://drive.google.com/uc?id=1IempNRZ8Gsgz8KRmCM9Ezapbcp0wsFUd"
           }
         ]
