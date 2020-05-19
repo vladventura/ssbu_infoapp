@@ -1355,30 +1355,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": "",
-            "imageLink": ""
+            "name": "Daisy Parasol",
+            "description": "Daisy Parasol (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1qpLxfTuRgRXmMsrqtOkiAD2-2x_88Mlk"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": "",
-            "imageLink": ""
+            "name": "Turnip Pull",
+            "description": "Turnip Pull (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1_WIYVBwE1tj82cYVs34nhhKOmECinFud"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": "",
-            "imageLink": ""
+            "name": "Daisy Bomber",
+            "description": "Daisy Bomber (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1iBdV9PS_fhh6SZAoPYhCFu-aJN6NZSMe"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": "",
-            "imageLink": ""
+            "name": "Toad",
+            "description": "Toad (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=12qe4gi8BuEITIYdUJTegj4z34NJque05"
           }
         ]
       },
