@@ -5855,70 +5855,70 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Soaring Axe Kick",
+            "description": "Soaring Axe Kick (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1OR7Vb1i-RFrSBGfjg72HWD4lRLCOT78T"
           },
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Helicopter Kick",
+            "description": "Helicopter Kick (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1stqdV5SRCkRJu3SlKBdxrz2pTiRqqyGB"
           },
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Thrust Uppercut",
+            "description": "Thrust Uppercut (Up B) description goes here",
+            "imageLink": "https://drive.google.com/UC?id=1Q1hYbK3ffSzsOi6rsycFVOk5QhMa7IRq"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Head-On Assault",
+            "description": "Head-On Assault (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1UPMDpchCSTIUnN2pE2-rhWOKrSCz80XW"
           },
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Feint Jump",
+            "description": "Feint Jump (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1MgLwvFpuHbYR9AFxcBVl-9gp50YSLtuA"
           },
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Counter Throw",
+            "description": "Counter Throw (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1GWDL9BHk4Gsz062gnkzBWmiDJ8bXD-Px"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Onslaught",
+            "description": "Onslaught (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1WfuEvIIu78xfaNMs97llIofwOr1IP8Fq"
           },
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Burning Dropkick",
+            "description": "Burning Dropkick (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=13j2PmLFXNvgIyYBdVjAaxy61y5ahRxHD"
           },
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Suplex",
+            "description": "Suplex (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1F-NH56561Vw31tIhht4Jma6-6n_KTi0i"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Shot Put",
+            "description": "Shot Put (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1xcTzo3IOd_wKudzXCc77TEa3rlu7NH_c"
           },
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Flashing Mach Punch",
+            "description": "Flashing Mach Punch (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1yraW_E8T2KNzhFDzRMlb0G4Tt8Tpw0eU"
           },
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Exploding Side Kick",
+            "description": "Exploding Side Kick (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=11Teh4YC7VbWvKphLtxP-R5ATsa1dgT1P"
           }
         ]
       },
