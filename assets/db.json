@@ -3659,30 +3659,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Sing",
+            "description": "Sing (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1TeQg41ziSgLQzI_b8LPHQ6WJ2_Ez0z5H"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Rest",
+            "description": "Rest (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1377BFNohVQBUPr4TZuPd3eyaUgaw8Sv3"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Pound",
+            "description": "Pound (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1zFm6349WbBEXZzwf0xFZMtBIAqbGJrD8"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Rollout",
+            "description": "Rollout (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1C6_8Sd3CmGB3yoBIhyKYkCo34XCmVh9q"
           }
         ]
       },
