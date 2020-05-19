@@ -994,11 +994,27 @@
         ]
       },
       "smashes": {
-        "upsmash": "The Punch"
-      },
-      "ultimateSmash": {
-        "name": "Witch Time",
-        "description": "one more vanilla description"
+        "Up Smash": [
+          {
+            "name": "Up Smash",
+            "description": "Up Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1ON3ul_FCkkNYkSnBtmKSl-mXVMlJbExy"
+          }
+        ],
+        "Down Smash": [
+          {
+            "name": "Down Smash",
+            "description": "Down Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1drxY8HjzJL2dVX4lnhHKAehu-BqwgaiJ"
+          }
+        ],
+        "Side Smash": [
+          {
+            "name": "Side Smash",
+            "description": "Side Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=11Gi84qU-Y6JJtZGdgRaxWBGjKqNQqNu7"
+          }
+        ]
       }
     },
     {
