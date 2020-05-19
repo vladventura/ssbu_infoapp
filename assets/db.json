@@ -2891,30 +2891,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Belay",
+            "description": "Belay (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1rJ9QAZe2nM9ZOXlL0H7e5oEhEkpaAbIi"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Blizzard",
+            "description": "Blizzard (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1DQ5N0VvhzvWS0K0H3-4j34ADBNy2zb1E"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Squal Hammer",
+            "description": "Squal Hammer (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1my109TgwTQHzxu-yruzYIahcDK8rkrO2"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Ice Shot",
+            "description": "Ice Shot (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1HUBDWKIN0turZDWUbbE1_GE1h3d6nu53"
           }
         ]
       },
