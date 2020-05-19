@@ -6359,30 +6359,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Fire",
+            "description": "Fire (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1MQSPSBB9MbuD5W_N-5mDQWZlmv0d77h8"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Oil Panic",
+            "description": "Oil Panic (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1X8I94evNn1PGDba5f6u5cVQO8MT0xTB3"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Judge",
+            "description": "Judge (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1gl3V1sXlqdzUpzoogmaYbprCdFARtOf9"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Chef",
+            "description": "Chef (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=14zR7Bpmr1r6W3UmKbGlelDv__XhXoG1t"
           }
         ]
       },
