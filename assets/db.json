@@ -1286,26 +1286,124 @@
       "difficulty": 3.5,
       "series": "Super Mario",
       "tilts": {
-        "Up Tilt": "Is a up tilt.",
-        "Down Tilt": "Is a down tilt.",
-        "Side Tilt": "Is a side tilt.",
-        "Jab": "Is a neutral jab."
+        "Up Tilt": [
+          {
+            "name": "Up Tilt",
+            "description": "Up Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1Hqv8ODNqy3NA7c9YtX1z5iNzZ0trOp2G"
+          }
+        ],
+        "Down Tilt": [
+          {
+            "name": "Down Tilt",
+            "description": "Down Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1mzIV_TNFdqOAvq3pA9oZx753Ln8R4I5W"
+          }
+        ],
+        "Side Tilt": [
+          {
+            "name": "Side Tilt",
+            "description": "Side Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1AqlkgjIZ4oUY1SKXctDmkzDvsZSKue-J"
+          }
+        ],
+        "Jab": [
+          {
+            "name": "Jab",
+            "description": "Jab description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1C422CJ7HkbNWG8364WuqokFX6yKFv_v5"
+          }
+        ]
       },
       "aerials": {
-        "Up Tilt": "It's like a punch on ark"
+        "Up Tilt": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ],
+        "Down Tilt": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ],
+        "Side Tilt": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ],
+        "Back Tilt": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ],
+        "Jab": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ]
       },
       "specials": {
-        "Up B": {
-          "name": "Guns Blazing",
-          "description": "Another vanilla description"
-        }
+        "Up B": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ],
+        "Down B": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ],
+        "Side B": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ],
+        "Neutral B": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ]
       },
       "smashes": {
-        "Up Smash": "The Punch"
-      },
-      "ultimateSmash": {
-        "name": "Witch Time",
-        "description": "one more vanilla description"
+        "Up Smash": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ],
+        "Down Smash": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ],
+        "Side Smash": [
+          {
+            "name": "",
+            "description": "",
+            "imageLink": ""
+          }
+        ]
       }
     },
     {
