@@ -1739,30 +1739,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": "",
-            "imageLink": ""
+            "name": "Rocketbarrel Boost",
+            "description": "Rocketbarrel Boost (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1Tj5f9qiKMY-1khJvvp7nIqFUS3duEax6"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": "",
-            "imageLink": ""
+            "name": "Banana Peel",
+            "description": "Banana Peel (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1OOwzyEIf9kat80bfsIpFJ6d5H43SgV3e"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": "",
-            "imageLink": ""
+            "name": "Monkey Flip",
+            "description": "Monkey Flip (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1iNC1DHKpK-99B7Fxn1JyFoI_xoiG_Dr7"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": "",
-            "imageLink": ""
+            "name": "Peanut Popgun",
+            "description": "Peanut Popgun (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=14fjNQJndrOpn1HLhLzF7bJSLxoPh0JtV"
           }
         ]
       },
