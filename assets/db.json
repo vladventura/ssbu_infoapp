@@ -4638,28 +4638,28 @@
           {
             "name": "Up Tilt",
             "description": "Up Tilt description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1xukSR-2_nxug3PmXqDEL-SLcsk4Ahwcm"
           }
         ],
         "Down Tilt": [
           {
             "name": "Down Tilt",
             "description": "Down Tilt description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1OjIuyoCRL5KcZsOCXBbqsbQ7I6yEir9p"
           }
         ],
         "Side Tilt": [
           {
             "name": "Side Tilt",
             "description": "Side Tilt description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1uYlxD6Wtt6GOx37zXujXzwL2RgoMrwX1"
           }
         ],
         "Jab": [
           {
             "name": "Jab",
             "description": "Jab description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1wQx6CUk2D5aFAGY0lmBnSQBKUPv5e5SF"
           }
         ]
       },
@@ -4668,65 +4668,65 @@
           {
             "name": "Up Air",
             "description": "Up Air description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1-dR13oae1d2PFmBkLeTPKYu0_yHL6V15"
           }
         ],
         "Down Tilt": [
           {
             "name": "Down Air",
             "description": "Down Air description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1Ys54YF6aSb0lU6iNhpo9H0MCj55gcMBd"
           }
         ],
         "Side Tilt": [
           {
             "name": "Forward Air",
             "description": "Forward Air description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1iHSSKCSS2A6UXE3cbWpCN69WfzsihFGs"
           }
         ],
         "Back Tilt": [
           {
             "name": "Back Air",
             "description": "Back Air description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=14vj6sAoE-2S52K9cWkAhQiDknB6nMCj9"
           }
         ],
         "Jab": [
           {
             "name": "Neutral Air",
             "description": "Neutral Air description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1IeJ-Bo31q6DuG4jhmnZZv4t-h9cRzkEy"
           }
         ]
       },
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Extreme Speed",
+            "description": "Extreme Speed (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1SU2ajKNS4kVj7DlCWX3R5OaAR2PfP-Uy"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Double Team",
+            "description": "Double Team (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1rvO1-KSJ-XrcR27AhW--RFDyKr46qLbw"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Force Palm",
+            "description": "Force Palm (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=16_gmcpvDdDClziKPoHOQZHu4SDe2VDHg"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Aura Sphere",
+            "description": "Aura Sphere (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=10yA5tYVyZBcX5FoIjLiwlMfif7fm3Cnp"
           }
         ]
       },
@@ -4735,21 +4735,21 @@
           {
             "name": "Up Smash",
             "description": "Up Smash description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1wZ6h5SgwrgX676y8yrgYRwtpCypT8VMB"
           }
         ],
         "Down Smash": [
           {
             "name": "Down Smash",
             "description": "Down Smash description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1HlGgaMFW8R9h2YTF7NfO7gcMp2YeyKys"
           }
         ],
         "Side Smash": [
           {
             "name": "Side Smash",
             "description": "Side Smash description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=19TLk4ZX2_LvDMM5qj2lnaQqrBJh8kAVf"
           }
         ]
       }
