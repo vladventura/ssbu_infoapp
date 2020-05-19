@@ -4191,30 +4191,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Propellerpack",
+            "description": "Propellerpack (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1DrUMPr2DAxv7gr5_BDx1Ks57i9CPHWB6"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Gut Check",
+            "description": "Gut Check (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1_lYFd0-5nQtu7UWaIpXiXQjMhUHLxXvF"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Crownerang",
+            "description": "Crownerang (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1aPx-YIr8tYETjVXj5MLa3DEe2vDuJZn3"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Blunderbuss Kannonball",
+            "description": "Blunderbuss Kannonball (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1xA0iF9UgYv3t9SrVPP_or9qb64euVFzq"
           }
         ]
       },
