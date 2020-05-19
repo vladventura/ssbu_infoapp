@@ -2251,30 +2251,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Fire Bird",
+            "description": "Fire Bird (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1-27aSamjagVzb0YSrTKK8wxNc2y-WB6O"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Reflector",
+            "description": "Reflector (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1jpikWXR6aWHhr_q_T6NjNBYb2myGBSO_"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Falco Phantasm",
+            "description": "Falco Phantasm (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1TYKyNhOxi-BNKYE-RVxlW3bdRBYgWe0b"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Blaster",
+            "description": "Blaster (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1cyUptH_CR9Zh4ftkNV2HGQSsY4IerhVa"
           }
         ]
       },
