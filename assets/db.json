@@ -96,7 +96,7 @@
             "imageLink": "https://drive.google.com/uc?id=1S76PPxZsRz82kmZvbkKDdc4IN7arLUil"
           }
         ],
-        "B": [
+        "Neutral B": [
           {
             "name": "Egg Firing",
             "description": "Egg Firing (Neutral B) description for Banjo & Kazooie",
@@ -1483,9 +1483,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": "",
-            "imageLink": ""
+            "name": "Power of Flight",
+            "description": "Power of Flight (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1R7ZehQm98IBE6pkwOZIQDgX6-ZopBH75"
+          }
+        ],
+        "Down B": [
+          {
+            "name": "Guardian Orbitars",
+            "description": "Guardian Orbitars (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1bsLeZ1ShbhtSDOd4t4ByppfaC14rzkqD"
+          }
+        ],
+        "Side B": [
+          {
+            "name": "Electroshock Arm",
+            "description": "Electroshock Arm (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1whv0leFfemKT4VtpNhtdl84kU9VqKoxT"
+          }
+        ],
+        "Neutral B": [
+          {
+            "name": "Silver Bow",
+            "description": "Silver Bow (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=15p4g8owP8NI4hAPjNz3M09HXl2jcMjk2"
           }
         ]
       },
