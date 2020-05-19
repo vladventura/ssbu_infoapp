@@ -1513,9 +1513,23 @@
       "smashes": {
         "Up Smash": [
           {
-            "name": "",
-            "description": "",
-            "imageLink": ""
+            "name": "Up Smash",
+            "description": "Up Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1fZDF_rYtPmJ7A6sX6BnAJLkzZIXybfMc"
+          }
+        ],
+        "Down Smash": [
+          {
+            "name": "Down Smash",
+            "description": "Down Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1ZkoSuiyMgM_c4fhi4eq0r-5UVZz3WS34"
+          }
+        ],
+        "Side Smash": [
+          {
+            "name": "Side Smash",
+            "description": "Side Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1Cby1iOFCxPtuPnfGtGYz58VzLjchyzfU"
           }
         ]
       }
