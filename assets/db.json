@@ -5631,21 +5631,21 @@
           {
             "name": "Up Smash",
             "description": "Up Smash description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=15t5HRhyJkMtMBIHcqt_9zP_qL5eYOlHk"
           }
         ],
         "Down Smash": [
           {
             "name": "Down Smash",
             "description": "Down Smash description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1giiGBIW3IpbsHtclFU9SbDh2dRU4og2P"
           }
         ],
         "Side Smash": [
           {
             "name": "Side Smash",
             "description": "Side Smash description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1BunJsJ60GPM6Mryr02EeDpQ_7EhsybBm"
           }
         ]
       }
