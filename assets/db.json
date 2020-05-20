@@ -9790,6 +9790,36 @@
     },
     {
       "info": {
+        "name": "Wario",
+        "description": "Vanilla description"
+      },
+      "difficulty": 3.5,
+      "series": "Wario Ware",
+      "tilts": {
+        "Up Tilt": "Is a up tilt.",
+        "Down Tilt": "Is a down tilt.",
+        "Side Tilt": "Is a side tilt.",
+        "Jab": "Is a neutral jab."
+      },
+      "aerials": {
+        "Up Tilt": "It's like a punch on ark"
+      },
+      "specials": {
+        "Up B": {
+          "name": "Guns Blazing",
+          "description": "Another vanilla description"
+        }
+      },
+      "smashes": {
+        "Up Smash": "The Punch"
+      },
+      "ultimateSmash": {
+        "name": "Witch Time",
+        "description": "one more vanilla description"
+      }
+    },
+    {
+      "info": {
         "name": "Wii Fit Trainer",
         "description": "Vanilla description"
       },
