@@ -8392,65 +8392,65 @@
           {
             "name": "Up Air",
             "description": "Up Air description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1EIO2MizGIMzrlaPLFl2-1RnQWIf3m23O"
           }
         ],
         "Down Tilt": [
           {
             "name": "Down Air",
             "description": "Down Air description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1gNCMpxQZVi-DIedg_zJKf8pscGAy8VLC"
           }
         ],
         "Side Tilt": [
           {
             "name": "Forward Air",
             "description": "Forward Air description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1Tcx8tmImIWhxwK9k3eZfzuKT9LWlC85g"
           }
         ],
         "Back Tilt": [
           {
             "name": "Back Air",
             "description": "Back Air description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=16l4MmmMXcvst8mD6CGnu6rrGva0kHjQt"
           }
         ],
         "Jab": [
           {
             "name": "Neutral Air",
             "description": "Neutral Air description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1pf3PRLZNpJFrHmsXuGkXbFJYFnz4jG5U"
           }
         ]
       },
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Shoryuken",
+            "description": "Shoryuken (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1wlVGgJERlqX-dWca2kgj2A1Do2_huib3"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Focus Attack",
+            "description": "Focus Attack (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1LcGk90-8eD9mIUyczh3GwScGYST8sG8_"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Tatsumaki Senpukyaku",
+            "description": "Tatsumaki Senpukyaku (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1_imIwdKs1YJt2kl0ivztXT8OooGWIt-A"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Hadouken",
+            "description": "Hadouken (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1TOAFBDtcrN8Q7B3cKqmAHAKeT5u70O1K"
           }
         ]
       },
