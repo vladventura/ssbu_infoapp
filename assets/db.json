@@ -7511,30 +7511,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Power of Flight",
+            "description": "Power of Flight (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1hMqUinjagG5aBIhK7qGujOAXn5L-V7nK"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Guardian Orbitars",
+            "description": "Guardian Orbitars (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=16OgRFh4TNhYsh5Ehj8rjxe-zRG5kWR70"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Upperdash Arm",
+            "description": "Upperdash Arm (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=19Eaw7FWoC_AItiCEybzNt187ETruRxWQ"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Palutena's Bow",
+            "description": "Palutena's Bow (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=12A30qYRit-i8xN0gqOaCpCt_A2uBfrge"
           }
         ]
       },
