@@ -9195,30 +9195,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Spring Jump",
+            "description": "Spring Jump (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1iXGljxZnENxTd9QNBCe4Rp-hPlLjpp86"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Spin Charge",
+            "description": "Spin Charge (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1JwyXyRDCO7eTwgFrhAlHCFjm4vIV5ao4"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Spin Dash",
+            "description": "Spin Dash (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=18u0FP1hjEJ_Pb4irignKvBVwYPk2DNzD"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Homing Attack",
+            "description": "Homing Attack (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1VkLZQGH7FhM1l54Azd8PSyUaIDegZAk-"
           }
         ]
       },
