@@ -6836,35 +6836,35 @@
           {
             "name": "Up Air",
             "description": "Up Air description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1pTTgYXG1_iyneNZFHcA0YOo0aWtZM76b"
           }
         ],
         "Down Tilt": [
           {
             "name": "Down Air",
             "description": "Down Air description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1scUW0LDOwr2ZJeUnTMUCl-J4EVpAaTd6"
           }
         ],
         "Side Tilt": [
           {
             "name": "Forward Air",
             "description": "Forward Air description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1TaXDrH-3mT5byWAGVPfyCPVSqzstE2AO"
           }
         ],
         "Back Tilt": [
           {
             "name": "Back Air",
             "description": "Back Air description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1137leECHlBZwzmFkCjUKlA4WzfjUUarw"
           }
         ],
         "Jab": [
           {
             "name": "Neutral Air",
             "description": "Neutral Air description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1_kFK0fWdKsclnsemYubKIBt2LdmR9-YS"
           }
         ]
       },
