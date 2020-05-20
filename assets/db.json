@@ -9865,30 +9865,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Corkscrew",
+            "description": "Corkscrew (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1-YVA4iFDMyl5lt8ryBwTRlX5gR3yLumX"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Wario Waft",
+            "description": "Wario Waft (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=18AggdyWZLNaz4lzjvnY7UM6I6u0icwLQ"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Wario Bike",
+            "description": "Wario Bike (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1b0KRqJjUbQ-4gfMgTrXtAZsFo9Oc8bxy"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Chomp",
+            "description": "Chomp (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1MP37F3jf-twLvT2JQOel0O7zy2_dA1sd"
           }
         ]
       },
