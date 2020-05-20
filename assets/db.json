@@ -9067,30 +9067,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Cypher",
+            "description": "Cypher (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1MiVUjnmq1TqETgsw6q6X0taaMCs9J4_9"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "C4",
+            "description": "C4 (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1vVw1Gg21tDBIWlT6YpLLKq5wVODQU7Yy"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Nikita",
+            "description": "Nikita (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1ABSsp9FzVIUCVZyCJJ9Ke-tuu5M44WlP"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Grenade",
+            "description": "Grenade (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1QwGC3dW_84BTTos-kp99FR2HR5Xr-KLH"
           }
         ]
       },
