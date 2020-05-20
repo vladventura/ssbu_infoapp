@@ -7127,30 +7127,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Agility",
+            "description": "Agility (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1_47cjycoSFJPZi2tBqNJ_kAcnPhEdiVp"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Thunder",
+            "description": "Thunder (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1BKcUVhx9hmmi9rt31VtaTG-JoVOpw7S6"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Skull Bash",
+            "description": "Skull Bash (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1fQL5WHx7HT6YgiHGt3m0RcTxegKoPQOm"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Thunderjolt",
+            "description": "Thunderjolt (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1I_3myuqMxuDUaYKeglRZtH_LmvzOLwrq"
           }
         ]
       },
