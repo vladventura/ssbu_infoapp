@@ -8811,30 +8811,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Air Slash",
+            "description": "Air Slash (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1n5npk_mBdQr5tzYccNWuoskF-9VJvNyu"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Vision",
+            "description": "Vision (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1ZwZDAfPjNTGKfdN22uUXnzvsjTTnAzfr"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Back Slash",
+            "description": "Back Slash (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1e6g6HgcZZdtepVismeSSb8hOHDoev01K"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Monado Arts",
+            "description": "Monado Arts (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1Ww1IhsVej8aovXv3QMZo7mVXGMndCHV0"
           }
         ]
       },
