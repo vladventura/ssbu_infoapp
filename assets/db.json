@@ -9227,21 +9227,21 @@
           {
             "name": "Up Smash",
             "description": "Up Smash description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1L0rR9qV6m1OMsq5DPpqRguEJn6xQLJAW"
           }
         ],
         "Down Smash": [
           {
             "name": "Down Smash",
             "description": "Down Smash description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1cK3Y5LKy47GVPdAUxO_FBV0DfqC8kaky"
           }
         ],
         "Side Smash": [
           {
             "name": "Side Smash",
             "description": "Side Smash description goes here",
-            "imageLink": ""
+            "imageLink": "https://drive.google.com/uc?id=1eWoCyhw99BvhkC7ok4xwXCNhAPMg0zRI"
           }
         ]
       }
@@ -9254,26 +9254,124 @@
       "difficulty": 3.5,
       "series": "Pokémon",
       "tilts": {
-        "Up Tilt": "Is a up tilt.",
-        "Down Tilt": "Is a down tilt.",
-        "Side Tilt": "Is a side tilt.",
-        "Jab": "Is a neutral jab."
+        "Up Tilt": [
+          {
+            "name": "Up Tilt",
+            "description": "Up Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1Gk1LY4A_nhPORCstzjcIwM9kS1d9JsUa"
+          }
+        ],
+        "Down Tilt": [
+          {
+            "name": "Down Tilt",
+            "description": "Down Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1994ZMDKYrPs06mR1LkMoj3-GirYfPDSf"
+          }
+        ],
+        "Side Tilt": [
+          {
+            "name": "Side Tilt",
+            "description": "Side Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1CLYHGn2V-uzzSVk3olJxZQoKD_xnXz1q"
+          }
+        ],
+        "Jab": [
+          {
+            "name": "Jab",
+            "description": "Jab description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1ORplUttjrm_PPhkfMUgZqYrzbexEfbIE"
+          }
+        ]
       },
       "aerials": {
-        "Up Tilt": "It's like a punch on ark"
+        "Up Tilt": [
+          {
+            "name": "Up Air",
+            "description": "Up Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1S0N8OIC_FjfSWIFenXV5e1uqlXjFvck8"
+          }
+        ],
+        "Down Tilt": [
+          {
+            "name": "Down Air",
+            "description": "Down Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1z2Kh5Y-Z0dlITM-3rrDmEinTlFVKcHyq"
+          }
+        ],
+        "Side Tilt": [
+          {
+            "name": "Forward Air",
+            "description": "Forward Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1BHXfTS7iBWPw-B-7EgBYx8JVgvQ2Y4Qa"
+          }
+        ],
+        "Back Tilt": [
+          {
+            "name": "Back Air",
+            "description": "Back Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1ezGBwkLfJNR_40nvYNm6F6G90Qwtg4LK"
+          }
+        ],
+        "Jab": [
+          {
+            "name": "Neutral Air",
+            "description": "Neutral Air description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1yP18bMviRj6EhCYSmz21jIUimq2l6Dfe"
+          }
+        ]
       },
       "specials": {
-        "Up B": {
-          "name": "Guns Blazing",
-          "description": "Another vanilla description"
-        }
+        "Up B": [
+          {
+            "name": "Waterfall",
+            "description": "Waterfall (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=16yt1D_CstlqyIZ71cWEcoYlD_sKQU-1n"
+          }
+        ],
+        "Down B": [
+          {
+            "name": "Pokémon Change",
+            "description": "Pokémon Change (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1FBs-LC2ujTUD06g9nPWaE7ky3NQ-JB0C"
+          }
+        ],
+        "Side B": [
+          {
+            "name": "Withdraw",
+            "description": "Withdraw (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1BKGyA4JljspwNACKhqbWF_lsUjYSZhDz"
+          }
+        ],
+        "Neutral B": [
+          {
+            "name": "Water Gun",
+            "description": "Water Gun (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1wY7IWqCG-vC2y9UQWT0s2P8QwotmgmRT"
+          }
+        ]
       },
       "smashes": {
-        "Up Smash": "The Punch"
-      },
-      "ultimateSmash": {
-        "name": "Witch Time",
-        "description": "one more vanilla description"
+        "Up Smash": [
+          {
+            "name": "Up Smash",
+            "description": "Up Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1kbwpASbhHoObf1tRAJEhr6dNrjntlgZ2"
+          }
+        ],
+        "Down Smash": [
+          {
+            "name": "Down Smash",
+            "description": "Down Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1DqRWgOGYffxgGt-LLDoERDpJ4jPoa92W"
+          }
+        ],
+        "Side Smash": [
+          {
+            "name": "Side Smash",
+            "description": "Side Smash description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1bAIFrTpGqI8qTcF4erwZtBLb-iQgKM_5"
+          }
+        ]
       }
     },
     {
