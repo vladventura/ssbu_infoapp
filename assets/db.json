@@ -7255,30 +7255,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Quick Attack",
+            "description": "Quick Attack (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1mnULnk8smmuE4nvOlYe8CNPp9tBodsSs"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Thunder",
+            "description": "Thunder (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1M1VKx4bS3bFarEGScOBWcQfJaF6ckyp6"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Skull Bash",
+            "description": "Skull Bash (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1XbrWUaWNE7ldyQQ0BGoQDsmk42tu7mB8"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Thunderjolt",
+            "description": "Thunderjolt (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=10JeANZOyBoIllLp7Lfz8fauJJt_Z9ZTG"
           }
         ]
       },
