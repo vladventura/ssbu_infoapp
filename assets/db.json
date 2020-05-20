@@ -6871,30 +6871,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Warp",
+            "description": "Warp (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=11cumgEoDXcCaVVFOZBnX7E7EnbVz7pMD"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Counter",
+            "description": "Counter (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1gDEdN81RXi8bxBsxuE-nJWdsM6D61Sq_"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Explosive Flame",
+            "description": "Explosive Flame (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1XV3SBTufWEpB0c-Cm4zjbz3BZPDtXd6G"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Autoreticle",
+            "description": "Autoreticle (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1KNSn-7cEbmjG9jMk-N7OuMZ_dK2kLS5p"
           }
         ]
       },
