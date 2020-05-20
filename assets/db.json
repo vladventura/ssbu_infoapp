@@ -6743,30 +6743,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Pac-Jump",
+            "description": "Pac-Jump (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1mD77_8KiDkSaPUNc1b0xjiacorTFSv8u"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Fire Hydrant",
+            "description": "Fire Hydrant (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1HciDIeBM-SADSc3IYwpFg627uEIdAXXz"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Power Pellet",
+            "description": "Power Pellet (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1GrolBO8JO4h-nHbrVYLUgfkJ0czE8YfT"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Bonus Fruit",
+            "description": "Bonus Fruit (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1DgdCg03LLtILr1n-DEK0JVRgjUEbf6Ay"
           }
         ]
       },
