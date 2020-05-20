@@ -10249,29 +10249,29 @@
       "specials": {
         "Up B": [
           {
-            "name": "Spin Attack",
-            "description": "Spin Attack (Up B) description goes here",
+            "name": "Egg Throw",
+            "description": "Egg Throw (Up B) description goes here",
             "imageLink": "https://drive.google.com/uc?id=1zxYQJQD_2-bhnFjVL-TwMwB9TZn_7AOb"
           }
         ],
         "Down B": [
           {
-            "name": "Bomb Pull",
-            "description": "Bomb Pull (Down B) description goes here",
+            "name": "Yoshi Bomb",
+            "description": "Yoshi Bomb (Down B) description goes here",
             "imageLink": "https://drive.google.com/uc?id=1oyOEYLEULiPfb0NG7-MW1_ru8hI5sG8O"
           }
         ],
         "Side B": [
           {
-            "name": "Boomerang",
-            "description": "Boomerang (Side B) description goes here",
+            "name": "Egg Roll",
+            "description": "Egg Roll (Side B) description goes here",
             "imageLink": "https://drive.google.com/uc?id=1JTurzG3jFUuZd-Xm1SEjIx9xKpMe7YkN"
           }
         ],
         "Neutral B": [
           {
-            "name": "Fire Arrow",
-            "description": "Fire Arrow (Neutral B) description goes here",
+            "name": "Egg Lay",
+            "description": "Egg Lay (Neutral B) description goes here",
             "imageLink": "https://drive.google.com/uc?id=16gTGY4dBIj_GPRNka0_V2GS_DsZzR45D"
           }
         ]
