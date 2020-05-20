@@ -6615,30 +6615,30 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
-            "imageLink": ""
+            "name": "Winged Pikmin",
+            "description": "Winged Pikmin (Up B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=18AjYo9e2LOpFwCaH8TiSyh-UeOYxjpHR"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
-            "imageLink": ""
+            "name": "Pikmin Order/Whistle",
+            "description": "Pikmin Order/Whistle (Down B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1tlWaoWX4d0-BrgFvK3jQAwFIW6lrWA-I"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
-            "imageLink": ""
+            "name": "Pikmin Throw",
+            "description": "Pikmin Throw (Side B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1FduaM8mcs6-MZQIQ5fQMQTawwATtx-bK"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
-            "imageLink": ""
+            "name": "Pikmin Pluck",
+            "description": "Pikmin Pluck (Neutral B) description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1vpKNfruCFFCJ9ItGGGGHUJtW77G3xkYB"
           }
         ]
       },
