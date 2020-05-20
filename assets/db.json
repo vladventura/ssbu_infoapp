@@ -8338,26 +8338,144 @@
       "difficulty": 3.5,
       "series": "Street Fighter",
       "tilts": {
-        "Up Tilt": "Is a up tilt.",
-        "Down Tilt": "Is a down tilt.",
-        "Side Tilt": "Is a side tilt.",
-        "Jab": "Is a neutral jab."
+        "Up Tilt": [
+          {
+            "name": "Up Tilt",
+            "description": "Up Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1esykF79wrUC0bd-AahXZAzdT1ckWcZAT"
+          },
+          {
+            "name": "Up Tilt 2",
+            "description": "Up Tilt 2 description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1i7g9qQDzJpBrbExHNOk0CPz389gYBWmc"
+          }
+        ],
+        "Down Tilt": [
+          {
+            "name": "Down Tilt",
+            "description": "Down Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1zJgfHJHxWJcn1kX293zwrWGlAZ5IQDXG"
+          },
+          {
+            "name": "Down Tilt 2",
+            "description": "Down Tilt 2 description goes here",
+            "imageLink": "https://drive.google.com/uc?id=107TK82Svj5BepIktGbPDoqPX3k8n7RqX"
+          }
+        ],
+        "Side Tilt": [
+          {
+            "name": "Side Tilt",
+            "description": "Side Tilt description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1sQwEUu-aBNXZyRjH4dDxuyLDCtw1gvRg"
+          },
+          {
+            "name": "Side Tilt 2",
+            "description": "Side Tilt 2 description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1LV_1yDSpmD7oqiUKqA2gjIbnJYU4-CaG"
+          }
+        ],
+        "Jab": [
+          {
+            "name": "Jab",
+            "description": "Jab description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1GnTBJ5M8zxI3yop71cHadpLmbcMcU_Nd"
+          },
+          {
+            "name": "Jab 2",
+            "description": "Jab 2 description goes here",
+            "imageLink": "https://drive.google.com/uc?id=1ugvVyOHHv5qY_BdCA7PKhsfFAJRjXyrX"
+          }
+        ]
       },
       "aerials": {
-        "Up Tilt": "It's like a punch on ark"
+        "Up Tilt": [
+          {
+            "name": "Up Air",
+            "description": "Up Air description goes here",
+            "imageLink": ""
+          }
+        ],
+        "Down Tilt": [
+          {
+            "name": "Down Air",
+            "description": "Down Air description goes here",
+            "imageLink": ""
+          }
+        ],
+        "Side Tilt": [
+          {
+            "name": "Forward Air",
+            "description": "Forward Air description goes here",
+            "imageLink": ""
+          }
+        ],
+        "Back Tilt": [
+          {
+            "name": "Back Air",
+            "description": "Back Air description goes here",
+            "imageLink": ""
+          }
+        ],
+        "Jab": [
+          {
+            "name": "Neutral Air",
+            "description": "Neutral Air description goes here",
+            "imageLink": ""
+          }
+        ]
       },
       "specials": {
-        "Up B": {
-          "name": "Guns Blazing",
-          "description": "Another vanilla description"
-        }
+        "Up B": [
+          {
+            "name": "",
+            "description": " (Up B) description goes here",
+            "imageLink": ""
+          }
+        ],
+        "Down B": [
+          {
+            "name": "",
+            "description": " (Down B) description goes here",
+            "imageLink": ""
+          }
+        ],
+        "Side B": [
+          {
+            "name": "",
+            "description": " (Side B) description goes here",
+            "imageLink": ""
+          }
+        ],
+        "Neutral B": [
+          {
+            "name": "",
+            "description": " (Neutral B) description goes here",
+            "imageLink": ""
+          }
+        ]
       },
       "smashes": {
-        "Up Smash": "The Punch"
-      },
-      "ultimateSmash": {
-        "name": "Witch Time",
-        "description": "one more vanilla description"
+        "Up Smash": [
+          {
+            "name": "Up Smash",
+            "description": "Up Smash description goes here",
+            "imageLink": ""
+          }
+        ],
+        "Down Smash": [
+          {
+            "name": "Down Smash",
+            "description": "Down Smash description goes here",
+            "imageLink": ""
+          }
+        ],
+        "Side Smash": [
+          {
+            "name": "Side Smash",
+            "description": "Side Smash description goes here",
+            "imageLink": ""
+          }
+        ]
       }
     },
     {
