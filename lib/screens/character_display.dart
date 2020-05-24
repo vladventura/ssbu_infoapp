@@ -72,7 +72,7 @@ class CharacterDisplay extends StatelessWidget {
     Map<String, dynamic> tilts = characterNotifier.selectedCharacter['tilts'];
     tilts.forEach((key, val) => children.add(MoveCard(
           button: key,
-          text: val,
+          move: val,
         )));
 
     return new Column(children: children);
