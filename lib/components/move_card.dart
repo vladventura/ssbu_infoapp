@@ -20,12 +20,6 @@ class _MoveCardState extends State<MoveCard> {
   String _currentName = "";
   CarouselController _carouselController = CarouselController();
 
-  /// Initial State of the Move Card
-  ///
-  /// We first get the move array from the DB (specifically sent by the character display).
-  /// Then, we send this array of moves and build either a single [Image] for the [Row] inside
-  /// the build method, or we return a [GestureDetector] with the
-
   @override
   void initState() {
     super.initState();
@@ -52,40 +46,37 @@ class _MoveCardState extends State<MoveCard> {
   @override
   Widget build(BuildContext context) {
     return Card(
-      child: SwipeDetector(
-        onSwipeLeft: () => _carouselController.nextPage(),
-        onSwipeRight: () => _carouselController.previousPage(),
-        onSwipeDown: null,
-        onSwipeUp: null,
-        child: GestureDetector(
-          onTap: () {
-            setState(() {
-              _visibility = !_visibility;
-            });
-          },
-          child: new Stack(
-            children: [
-              new Container(
-                child: new CarouselSlider(
-                  options: CarouselOptions(
-                      onPageChanged: (page, c) {
-                        this.setState(() {
-                          _imageIndex = page;
-                          _currentMove =
-                              widget.move[_imageIndex]['description'];
-                          _currentName = widget.move[_imageIndex]['name'];
-                        });
-                      },
-                      autoPlay: false,
-                      enableInfiniteScroll: false,
-                      viewportFraction: 1.0),
-                  items: _images,
-                  carouselController: _carouselController,
-                ),
+      child: GestureDetector(
+        onTap: () {
+          setState(() {
+            _visibility = !_visibility;
+          });
+        },
+        child: new Stack(
+          children: [
+            new Container(
+              child: new CarouselSlider(
+                options: CarouselOptions(
+                    onPageChanged: (page, c) {
+                      this.setState(() {
+                        _imageIndex = page;
+                        _currentMove = widget.move[_imageIndex]['description'];
+                        _currentName = widget.move[_imageIndex]['name'];
+                      });
+                    },
+                    autoPlay: false,
+                    enableInfiniteScroll: false,
+                    viewportFraction: 1.0),
+                items: _images,
+                carouselController: _carouselController,
               ),
-              new Positioned(
-                bottom: 0,
-                width: MediaQuery.of(context).size.width,
+            ),
+            new Positioned(
+              bottom: 0,
+              width: MediaQuery.of(context).size.width,
+              child: SwipeDetector(
+                onSwipeLeft: () => _carouselController.nextPage(),
+                onSwipeRight: () => _carouselController.previousPage(),
                 child: Container(
                   decoration: new BoxDecoration(color: Colors.black87),
                   height: MediaQuery.of(context).size.height * 0.07,
@@ -104,22 +95,22 @@ class _MoveCardState extends State<MoveCard> {
                   ),
                 ),
               ),
-              new Positioned(
-                  child: new AnimatedOpacity(
-                opacity: _visibility ? 1.0 : 0.0,
-                duration: new Duration(milliseconds: 100),
-                child: new Container(
-                  child: Center(
-                    child: new Text(
-                      _currentMove,
-                      style: TextStyle(color: Colors.white),
-                    ),
+            ),
+            new Positioned(
+                child: new AnimatedOpacity(
+              opacity: _visibility ? 1.0 : 0.0,
+              duration: new Duration(milliseconds: 100),
+              child: new Container(
+                child: Center(
+                  child: new Text(
+                    _currentMove,
+                    style: TextStyle(color: Colors.white),
                   ),
-                  decoration: BoxDecoration(color: Colors.black87),
                 ),
-              ))
-            ],
-          ),
+                decoration: BoxDecoration(color: Colors.black87),
+              ),
+            ))
+          ],
         ),
       ),
     );
