@@ -54,22 +54,51 @@ class CharacterDisplay extends StatelessWidget {
     return Container(
         child: new Column(
       children: [
-        neutrals(context),
-        new Text("Hello", style: TextStyle(color: Colors.white)),
-        new Text("Hello", style: TextStyle(color: Colors.white)),
-        new Text("Hello", style: TextStyle(color: Colors.white)),
-        new Text("Hello", style: TextStyle(color: Colors.white)),
-        new Text("Hello", style: TextStyle(color: Colors.white)),
-        new Text("Hello", style: TextStyle(color: Colors.white)),
+        neutrals(),
+        aerials(),
+        specials(),
+        smashes(),
       ],
     ));
   }
 
-  /* NOTE: In the future, each item inside each attack type will be an object.
-  This will be done to make each object hold a reference to the picture of the attack. **/
-  Widget neutrals(BuildContext context) {
+  Widget neutrals() {
     List<Widget> children = [];
     Map<String, dynamic> tilts = characterNotifier.selectedCharacter['tilts'];
+    tilts.forEach((key, val) => children.add(MoveCard(
+          button: key,
+          move: val,
+        )));
+
+    return new Column(children: children);
+  }
+
+  Widget aerials() {
+    List<Widget> children = [];
+    Map<String, dynamic> tilts = characterNotifier.selectedCharacter['aerials'];
+    tilts.forEach((key, val) => children.add(MoveCard(
+          button: key,
+          move: val,
+        )));
+
+    return new Column(children: children);
+  }
+
+  Widget specials() {
+    List<Widget> children = [];
+    Map<String, dynamic> tilts =
+        characterNotifier.selectedCharacter['specials'];
+    tilts.forEach((key, val) => children.add(MoveCard(
+          button: key,
+          move: val,
+        )));
+
+    return new Column(children: children);
+  }
+
+  Widget smashes() {
+    List<Widget> children = [];
+    Map<String, dynamic> tilts = characterNotifier.selectedCharacter['smashes'];
     tilts.forEach((key, val) => children.add(MoveCard(
           button: key,
           move: val,
