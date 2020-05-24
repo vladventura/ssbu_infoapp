@@ -13,12 +13,17 @@ class CharacterDisplay extends StatelessWidget {
       child: Scaffold(
         body: Container(
           decoration: BoxDecoration(color: Colors.black38),
-          child: new ListView(
-            physics: BouncingScrollPhysics(),
-            children: <Widget>[
-              topBanner(context),
-              bottomSection(context),
-            ],
+          child: NotificationListener<OverscrollIndicatorNotification>(
+            onNotification: (overscroll) {
+              overscroll.disallowGlow();
+              return true;
+            },
+            child: new ListView(
+              children: <Widget>[
+                topBanner(context),
+                bottomSection(),
+              ],
+            ),
           ),
         ),
       ),
@@ -50,7 +55,7 @@ class CharacterDisplay extends StatelessWidget {
     );
   }
 
-  Widget bottomSection(BuildContext context) {
+  Widget bottomSection() {
     return Container(
         child: new Column(
       children: [
