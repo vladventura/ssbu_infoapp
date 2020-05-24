@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:carousel_slider/carousel_options.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:swipedetector/swipedetector.dart';
 
 class MoveCard extends StatefulWidget {
   MoveCard({this.button = "", this.move = const []});
@@ -74,25 +73,31 @@ class _MoveCardState extends State<MoveCard> {
             new Positioned(
               bottom: 0,
               width: MediaQuery.of(context).size.width,
-              child: SwipeDetector(
-                onSwipeLeft: () => _carouselController.nextPage(),
-                onSwipeRight: () => _carouselController.previousPage(),
-                child: Container(
-                  decoration: new BoxDecoration(color: Colors.black87),
-                  height: MediaQuery.of(context).size.height * 0.07,
-                  child: new Row(
-                    children: [
-                      new Image(
-                        image: new AssetImage(
-                          "assets/Controls/" + widget.button + ".png",
-                        ),
-                        height: MediaQuery.of(context).size.height * 0.3,
-                        width: MediaQuery.of(context).size.width * 0.3,
+              height: MediaQuery.of(context).size.height * 0.07,
+              child: Container(
+                decoration: new BoxDecoration(color: Colors.black87),
+                height: MediaQuery.of(context).size.height * 0.07,
+                child: new Row(
+                  children: [
+                    new Image(
+                      image: new AssetImage(
+                        "assets/Controls/" + widget.button + ".png",
                       ),
-                      new Text(_currentName,
-                          style: TextStyle(color: Colors.white))
-                    ],
-                  ),
+                      height: MediaQuery.of(context).size.height * 0.3,
+                      width: MediaQuery.of(context).size.width * 0.3,
+                    ),
+                    new Text(_currentName,
+                        style: TextStyle(color: Colors.white)),
+                    (_imageIndex < widget.move.length - 1
+                        ? new Icon(
+                            Icons.arrow_left,
+                            color: Colors.white,
+                          )
+                        : new Icon(
+                            Icons.arrow_right,
+                            color: Colors.white,
+                          ))
+                  ],
                 ),
               ),
             ),
