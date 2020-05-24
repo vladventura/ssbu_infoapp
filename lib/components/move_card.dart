@@ -86,17 +86,21 @@ class _MoveCardState extends State<MoveCard> {
                       height: MediaQuery.of(context).size.height * 0.3,
                       width: MediaQuery.of(context).size.width * 0.3,
                     ),
+                    Spacer(flex: 5),
                     new Text(_currentName,
                         style: TextStyle(color: Colors.white)),
-                    (_imageIndex < widget.move.length - 1
-                        ? new Icon(
-                            Icons.arrow_left,
-                            color: Colors.white,
-                          )
-                        : new Icon(
-                            Icons.arrow_right,
-                            color: Colors.white,
-                          ))
+                    Spacer(flex: 1),
+                    (widget.move.length == 1
+                        ? new Container()
+                        : (_imageIndex < widget.move.length - 1
+                            ? new Icon(
+                                Icons.arrow_right,
+                                color: Colors.white,
+                              )
+                            : new Icon(Icons.arrow_left, color: Colors.white))),
+                    Spacer(
+                      flex: 1,
+                    )
                   ],
                 ),
               ),
