@@ -13,12 +13,17 @@ class CharacterDisplay extends StatelessWidget {
       child: Scaffold(
         body: Container(
           decoration: BoxDecoration(color: Colors.black38),
-          child: new ListView(
-            physics: BouncingScrollPhysics(),
-            children: <Widget>[
-              topBanner(context),
-              bottomSection(context),
-            ],
+          child: NotificationListener<OverscrollIndicatorNotification>(
+            onNotification: (overscroll) {
+              overscroll.disallowGlow();
+              return true;
+            },
+            child: new ListView(
+              children: <Widget>[
+                topBanner(context),
+                bottomSection(),
+              ],
+            ),
           ),
         ),
       ),
@@ -46,33 +51,91 @@ class CharacterDisplay extends StatelessWidget {
               child: new Text(
                 characterNotifier.selectedCharacter["info"]["name"],
                 style: TextStyle(color: Colors.white),
+                textScaleFactor: 3,
               ))),
     );
   }
 
-  Widget bottomSection(BuildContext context) {
+  Widget bottomSection() {
     return Container(
         child: new Column(
       children: [
-        neutrals(context),
-        new Text("Hello", style: TextStyle(color: Colors.white)),
-        new Text("Hello", style: TextStyle(color: Colors.white)),
-        new Text("Hello", style: TextStyle(color: Colors.white)),
-        new Text("Hello", style: TextStyle(color: Colors.white)),
-        new Text("Hello", style: TextStyle(color: Colors.white)),
-        new Text("Hello", style: TextStyle(color: Colors.white)),
+        new Text(
+          "Neutrals",
+          style: TextStyle(color: Colors.white),
+          textScaleFactor: 2.5,
+        ),
+        neutrals(),
+        new Text(
+          "Aerials",
+          style: TextStyle(color: Colors.white),
+          textScaleFactor: 2.5,
+        ),
+        aerials(),
+        new Text(
+          "Specials",
+          style: TextStyle(color: Colors.white),
+          textScaleFactor: 2.5,
+        ),
+        specials(),
+        new Text(
+          "Smashes",
+          style: TextStyle(color: Colors.white),
+          textScaleFactor: 2.5,
+        ),
+        smashes(),
       ],
     ));
   }
 
-  /* NOTE: In the future, each item inside each attack type will be an object.
-  This will be done to make each object hold a reference to the picture of the attack. **/
-  Widget neutrals(BuildContext context) {
+  Widget neutrals() {
     List<Widget> children = [];
     Map<String, dynamic> tilts = characterNotifier.selectedCharacter['tilts'];
     tilts.forEach((key, val) => children.add(MoveCard(
           button: key,
-          text: val,
+          move: val,
+          characterName: characterNotifier.selectedCharacter['info']['name'],
+          moveType: "Tilts",
+        )));
+
+    return new Column(children: children);
+  }
+
+  Widget aerials() {
+    List<Widget> children = [];
+    Map<String, dynamic> tilts = characterNotifier.selectedCharacter['aerials'];
+    tilts.forEach((key, val) => children.add(MoveCard(
+          button: key,
+          move: val,
+          characterName: characterNotifier.selectedCharacter['info']['name'],
+          moveType: "Airs",
+        )));
+
+    return new Column(children: children);
+  }
+
+  Widget specials() {
+    List<Widget> children = [];
+    Map<String, dynamic> tilts =
+        characterNotifier.selectedCharacter['specials'];
+    tilts.forEach((key, val) => children.add(MoveCard(
+          button: key,
+          move: val,
+          characterName: characterNotifier.selectedCharacter['info']['name'],
+          moveType: "Bs",
+        )));
+
+    return new Column(children: children);
+  }
+
+  Widget smashes() {
+    List<Widget> children = [];
+    Map<String, dynamic> tilts = characterNotifier.selectedCharacter['smashes'];
+    tilts.forEach((key, val) => children.add(MoveCard(
+          button: key,
+          move: val,
+          characterName: characterNotifier.selectedCharacter['info']['name'],
+          moveType: "Smashes",
         )));
 
     return new Column(children: children);

@@ -18,6 +18,8 @@ environment:
 
 dependencies:
   provider: 4.0.3
+  carousel_slider:
+  cached_network_image: ^2.2.0+1
   flutter:
     sdk: flutter
 

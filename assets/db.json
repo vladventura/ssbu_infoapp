@@ -403,7 +403,7 @@
           {
             "name": "Down Tilt",
             "description": "Down Tilt description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1ff0pRvCWU5nz26ixum1LktdHGSil3lh4F"
+            "imageLink": "https://drive.google.com/uc?id=1ff0pRvCWU5nz26ixum1LktdHGSil3lh4"
           }
         ],
         "Side Tilt": [
@@ -1597,7 +1597,7 @@
           {
             "name": "Back Air",
             "description": "Back Air description goes here",
-            "imageLink": "https://drive.google.com/open?id=1nsU7e8r4sLu0x8WS7Hwrkt0XsXxy5hZ7"
+            "imageLink": "https://drive.google.com/uc?id=1nsU7e8r4sLu0x8WS7Hwrkt0XsXxy5hZ7"
           }
         ],
         "Jab": [
@@ -2763,28 +2763,28 @@
       "specials": {
         "Up B": [
           {
-            "name": "Woosh/Swoosh/Kaswoosh",
+            "name": "Woosh-Swoosh-Kaswoosh",
             "description": "Woosh/Swoosh/Kaswoosh (Up B) description goes here",
             "imageLink": "https://drive.google.com/uc?id=14d5l1A9_l21VgaAjZLO2oyOFdwXvsXFG"
           }
         ],
         "Down B": [
           {
-            "name": "Menu/Select",
+            "name": "Menu-Select",
             "description": "Menu/Select (Down B) description goes here",
             "imageLink": "https://drive.google.com/uc?id=1zXaRw3bDH3ApxQHpEUANag6UQ2r8RdEY"
           }
         ],
         "Side B": [
           {
-            "name": "Zap/Zapple/Kazapp",
+            "name": "Zap-Zapple-Kazapp",
             "description": "Zap/Zapple/Kazapp (Side B) description goes here",
             "imageLink": "https://drive.google.com/uc?id=15H5UpHgSgFIxjgIkWRnec95T62fhw83x"
           }
         ],
         "Neutral B": [
           {
-            "name": "Frizz/Frizzle/Kafrizz",
+            "name": "Frizz-Frizzle-Kafrizz",
             "description": "Frizz/Frizzle/Kafrizz (Neutral B) description goes here",
             "imageLink": "https://drive.google.com/uc?id=1IkzyeM04eSvyv8oik8hlniIxoYbZKp7T"
           }
@@ -3801,7 +3801,7 @@
         ],
         "Side B": [
           {
-            "name": "Eiha/Eigaon",
+            "name": "Eiha-Eigaon",
             "description": "Eiha/Eigaon (Side B) description goes here",
             "imageLink": "https://drive.google.com/uc?id=1wOZaksa_08r4u630GRlZ2dtHoZ16EAjc"
           }
@@ -5222,8 +5222,8 @@
         ],
         "Down B": [
           {
-            "name": "F.L.U.D.D.",
-            "description": "F.L.U.D.D. (Down B) description goes here",
+            "name": "F.L.U.D.D",
+            "description": "F.L.U.D.D (Down B) description goes here",
             "imageLink": "https://drive.google.com/uc?id=1ltqtHv2xTIztC1trW3JkX6qpBSfa-dZc"
           }
         ],
@@ -6622,7 +6622,7 @@
         ],
         "Down B": [
           {
-            "name": "Pikmin Order/Whistle",
+            "name": "Pikmin Order-Whistle",
             "description": "Pikmin Order/Whistle (Down B) description goes here",
             "imageLink": "https://drive.google.com/uc?id=1tlWaoWX4d0-BrgFvK3jQAwFIW6lrWA-I"
           }
@@ -7820,7 +7820,7 @@
     },
     {
       "info": {
-        "name": "R.O.B.",
+        "name": "R.O.B",
         "description": "Vanilla description"
       },
       "difficulty": 3.5,
@@ -8044,7 +8044,7 @@
         ],
         "Neutral B": [
           {
-            "name": "Thunder/Elthunder/Arcthunder",
+            "name": "Thunder-Elthunder-Arcthunder",
             "description": "Thunder/Elthunder/Arcthunder (Neutral B) description goes here",
             "imageLink": "https://drive.google.com/uc?id=1EM3leyazcUb9mTQoaoU7ONeqffyqMrwB"
           }
@@ -9638,36 +9638,6 @@
       "difficulty": 3.5,
       "series": "Animal Crossing",
       "tilts": {
-        "Up Tilt": "Is a up tilt.",
-        "Down Tilt": "Is a down tilt.",
-        "Side Tilt": "Is a side tilt.",
-        "Jab": "Is a neutral jab."
-      },
-      "aerials": {
-        "Up Tilt": "It's like a punch on ark"
-      },
-      "specials": {
-        "Up B": {
-          "name": "Guns Blazing",
-          "description": "Another vanilla description"
-        }
-      },
-      "smashes": {
-        "Up Smash": "The Punch"
-      },
-      "ultimateSmash": {
-        "name": "Witch Time",
-        "description": "one more vanilla description"
-      }
-    },
-    {
-      "info": {
-        "name": "Wario",
-        "description": "Vanilla description"
-      },
-      "difficulty": 3.5,
-      "series": "Wario Ware",
-      "tilts": {
         "Up Tilt": [
           {
             "name": "Up Tilt",
@@ -10377,29 +10347,29 @@
       "specials": {
         "Up B": [
           {
-            "name": "",
-            "description": " (Up B) description goes here",
+            "name": "Spin Attack",
+            "description": "Spin Attack (Up B) description goes here",
             "imageLink": "https://drive.google.com/uc?id=1husSx9UUKEtHzEfM2-asrD6hw9nhPABI"
           }
         ],
         "Down B": [
           {
-            "name": "",
-            "description": " (Down B) description goes here",
+            "name": "Bomb Pull",
+            "description": "Bomb Pull (Down B) description goes here",
             "imageLink": "https://drive.google.com/uc?id=1WEWetFruVXiXmImf6cDKqJrWIW1BXmoR"
           }
         ],
         "Side B": [
           {
-            "name": "",
-            "description": " (Side B) description goes here",
+            "name": "Boomerang",
+            "description": "Boomerang (Side B) description goes here",
             "imageLink": "https://drive.google.com/uc?id=1ekgMtaVMmAy9dohcqR9nd9NqFd9VeNK2"
           }
         ],
         "Neutral B": [
           {
-            "name": "",
-            "description": " (Neutral B) description goes here",
+            "name": "Fire Arrow",
+            "description": "Fire Arrow (Neutral B) description goes here",
             "imageLink": "https://drive.google.com/uc?id=1MbE6q0zzg_4-OaHIio9X_RruUH_O-AJd"
           }
         ]
