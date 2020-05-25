@@ -45,4 +45,4 @@ assets/Controls
 assets/General
 
 # Secrets file
-./lib/secrets.dart
+lib/secrets.dart

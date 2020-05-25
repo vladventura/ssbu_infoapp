@@ -94,6 +94,8 @@ class CharacterDisplay extends StatelessWidget {
     tilts.forEach((key, val) => children.add(MoveCard(
           button: key,
           move: val,
+          characterName: characterNotifier.selectedCharacter['info']['name'],
+          moveType: "Tilts",
         )));
 
     return new Column(children: children);
@@ -105,6 +107,8 @@ class CharacterDisplay extends StatelessWidget {
     tilts.forEach((key, val) => children.add(MoveCard(
           button: key,
           move: val,
+          characterName: characterNotifier.selectedCharacter['info']['name'],
+          moveType: "Airs",
         )));
 
     return new Column(children: children);
@@ -117,6 +121,8 @@ class CharacterDisplay extends StatelessWidget {
     tilts.forEach((key, val) => children.add(MoveCard(
           button: key,
           move: val,
+          characterName: characterNotifier.selectedCharacter['info']['name'],
+          moveType: "Bs",
         )));
 
     return new Column(children: children);
@@ -128,6 +134,8 @@ class CharacterDisplay extends StatelessWidget {
     tilts.forEach((key, val) => children.add(MoveCard(
           button: key,
           move: val,
+          characterName: characterNotifier.selectedCharacter['info']['name'],
+          moveType: "Smashes",
         )));
 
     return new Column(children: children);

@@ -2,11 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:carousel_slider/carousel_options.dart';
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:ssbu_info/secrets.dart';
 
 class MoveCard extends StatefulWidget {
-  MoveCard({this.button = "", this.move = const []});
+  MoveCard(
+      {this.button = "",
+      this.move = const [],
+      this.characterName,
+      this.moveType});
   final String button;
   final List<dynamic> move;
+  final String characterName;
+  final String moveType;
   @override
   _MoveCardState createState() => _MoveCardState();
 }
@@ -29,8 +36,10 @@ class _MoveCardState extends State<MoveCard> {
   void didChangeDependencies() {
     super.didChangeDependencies();
     widget.move.forEach((element) {
+      String url =
+          "https://$id.$domain/${widget.characterName}/${widget.moveType}/${element['name']}.jpg";
       CachedNetworkImage img = new CachedNetworkImage(
-        imageUrl: element['imageLink'],
+        imageUrl: url,
         placeholder: (context, url) => CircularProgressIndicator(),
         errorWidget: (context, url, error) => Image(
           image: new AssetImage("assets/General/nonet.jpg"),
