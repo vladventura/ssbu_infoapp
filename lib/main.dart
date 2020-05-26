@@ -3,6 +3,8 @@ import 'package:provider/provider.dart';
 import 'package:ssbu_info/notifiers/characters_notifier.dart';
 import 'package:ssbu_info/screens/characters_display.dart';
 
+import 'package:google_fonts/google_fonts.dart';
+
 void main() {
   // Over here we would wrap the Application with the
   // ChangeNotifierProvider widget, or a MultiProvider widget
@@ -28,79 +30,21 @@ class AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      home: SafeArea(
-        child: new Scaffold(
-          appBar: new AppBar(
-            title: new Text("SSBU Info App Main Screen Template"),
-          ),
-          body: chooseDisplay(bottomNavBarIndex),
-          bottomNavigationBar: new BottomNavigationBar(
-            items: [
-              new BottomNavigationBarItem(
-                  icon: Icon(Icons.ac_unit), title: new Text("Characters")),
-              new BottomNavigationBarItem(
-                  icon: Icon(Icons.ac_unit), title: new Text("Stages")),
-              new BottomNavigationBarItem(
-                  icon: Icon(Icons.ac_unit), title: new Text("Music")),
-            ],
-            currentIndex: bottomNavBarIndex,
-            onTap: (int tappedIndex) {
-              setState(() {
-                bottomNavBarIndex = tappedIndex;
-              });
-            },
-          ),
-        ),
-      ),
-    );
+        home: new Scaffold(
+            backgroundColor: Colors.black,
+            appBar: new AppBar(
+              title: new Text("SSBU Info App"),
+            ),
+            body: CharactersDisplay()),
+        theme: new ThemeData(
+            accentColor: Colors.black,
+            backgroundColor: Colors.black,
+            appBarTheme: new AppBarTheme(
+                color: Colors.black,
+                textTheme: new TextTheme(
+                    headline6: GoogleFonts.lato(
+                  color: Colors.red,
+                  fontSize: 20,
+                )))));
   }
-}
-
-Widget chooseDisplay(int index) {
-  switch (index) {
-    case 0:
-      return CharactersDisplay();
-      break;
-    case 1:
-      return musicDisplay();
-      break;
-    case 2:
-    default:
-      return stagesDisplay();
-      break;
-  }
-}
-
-ListView musicDisplay() {
-  return ListView(
-    children: <Widget>[
-      new Text("Music 1"),
-      new Text("Music 2"),
-      new Text("Music 3"),
-      new Text("Music 4"),
-      new Text("Music 5"),
-      new Text("Music 6"),
-      new Text("Music 7"),
-      new Text("Music 8"),
-      new Text("Music 9"),
-      new Text("Music 10"),
-    ],
-  );
-}
-
-ListView stagesDisplay() {
-  return ListView(
-    children: <Widget>[
-      new Text("Stage 1"),
-      new Text("Stage 2"),
-      new Text("Stage 3"),
-      new Text("Stage 4"),
-      new Text("Stage 5"),
-      new Text("Stage 6"),
-      new Text("Stage 7"),
-      new Text("Stage 8"),
-      new Text("Stage 9"),
-      new Text("Stage 10"),
-    ],
-  );
 }
