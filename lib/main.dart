@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:ssbu_info/notifiers/characters_notifier.dart';
 import 'package:ssbu_info/screens/characters_display.dart';
-
+import 'package:ssbu_info/styles/textstyles.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
@@ -33,7 +33,7 @@ class AppState extends State<App> {
         home: new Scaffold(
             backgroundColor: Colors.black,
             appBar: new AppBar(
-              title: new Text("SSBU Info App"),
+              title: Center(child: new Text("SSBU Characters")),
             ),
             body: CharactersDisplay()),
         theme: new ThemeData(
@@ -42,9 +42,7 @@ class AppState extends State<App> {
             appBarTheme: new AppBarTheme(
                 color: Colors.black,
                 textTheme: new TextTheme(
-                    headline6: GoogleFonts.lato(
-                  color: Colors.red,
-                  fontSize: 20,
-                )))));
+                  headline6: headline6,
+                ))));
   }
 }
