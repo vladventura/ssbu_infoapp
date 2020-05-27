@@ -5,7 +5,12 @@ import 'package:ssbu_info/notifiers/characters_notifier.dart';
 
 import 'package:ssbu_info/components/character_card.dart';
 
-class CharactersDisplay extends StatelessWidget {
+class CharactersDisplay extends StatefulWidget {
+  @override
+  _CharactersDisplayState createState() => _CharactersDisplayState();
+}
+
+class _CharactersDisplayState extends State<CharactersDisplay> {
   Widget build(BuildContext context) {
     CharacterNotifier characterNotifier =
         Provider.of<CharacterNotifier>(context);
@@ -13,23 +18,18 @@ class CharactersDisplay extends StatelessWidget {
     return characterNotifier.characters == null
         ? new Container()
         : Container(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              colors: [
-                Colors.amber,
-                Colors.lightBlue
-              ],
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter
-            )
-          ),
-          child: new ListView.builder(
+            decoration: BoxDecoration(
+                gradient: LinearGradient(
+                    colors: [Colors.amber, Colors.lightBlue],
+                    begin: Alignment.topCenter,
+                    end: Alignment.bottomCenter)),
+            child: new ListView.builder(
               itemBuilder: (context, index) {
-                return characterCard(
-                    characterNotifier.characters[index], context, (index + 0.0));
+                return characterCard(characterNotifier.characters[index],
+                    context, (index + 0.0));
               },
               itemCount: characterNotifier.characters.length,
             ),
-        );
+          );
   }
 }
