@@ -3,6 +3,8 @@ import 'package:provider/provider.dart';
 import 'package:ssbu_info/notifiers/characters_notifier.dart';
 import 'package:ssbu_info/screens/character_display.dart';
 
+import 'package:ssbu_info/styles/textstyles.dart';
+
 Widget characterCard(dynamic data, BuildContext context) {
   CharacterNotifier characterNotifier = Provider.of<CharacterNotifier>(context);
 
@@ -46,11 +48,11 @@ Widget characterCard(dynamic data, BuildContext context) {
                         children: <Widget>[
                           Text(
                             data['info']['name'],
-                            style: new TextStyle(color: Colors.white),
+                            style: bodyText1,
                           ),
                           Text(
                             "Difficulty: ${data['difficulty'].toString()}",
-                            style: new TextStyle(color: Colors.white),
+                            style: Theme.of(context).textTheme.bodyText2,
                           ),
                         ],
                       )
