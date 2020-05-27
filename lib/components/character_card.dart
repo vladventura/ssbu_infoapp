@@ -5,12 +5,14 @@ import 'package:ssbu_info/screens/character_display.dart';
 
 import 'package:ssbu_info/styles/textstyles.dart';
 
-Widget characterCard(dynamic data, BuildContext context) {
+Widget characterCard(dynamic data, BuildContext context, double index) {
   CharacterNotifier characterNotifier = Provider.of<CharacterNotifier>(context);
-
+  // Orange starts at 45, ends at 65, blue starts at 165
+  double hue = 45 + index;
+  if (hue > 66 && hue < 166) hue += 100; 
   return Container(
     decoration: BoxDecoration(
-      color: Colors.black45,
+      color: HSVColor.fromAHSV(0.8, hue, 0.8, 0.6).toColor(),
       borderRadius: BorderRadius.circular(15),
       image: new DecorationImage(
           image: new AssetImage(
@@ -52,7 +54,7 @@ Widget characterCard(dynamic data, BuildContext context) {
                           ),
                           Text(
                             "Difficulty: ${data['difficulty'].toString()}",
-                            style: Theme.of(context).textTheme.bodyText2,
+                            style: bodyText2,
                           ),
                         ],
                       )
