@@ -1,6 +1,3 @@
-import 'dart:math';
-
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:provider/provider.dart';
@@ -9,9 +6,9 @@ import 'package:ssbu_info/notifiers/characters_notifier.dart';
 
 import 'package:ssbu_info/components/character_card.dart';
 
-double _firstHue = 150;
-double _secondHue = 190;
-double _topStop = 0.4;
+double _firstHue = 170;
+double _secondHue = 200;
+double _topStop = 0.5;
 double _bottomStop = 1.5;
 Color _topColor = HSVColor.fromAHSV(1, _firstHue, 1, 1).toColor();
 Color _bottomColor = HSVColor.fromAHSV(1, _secondHue, 1, 1).toColor();
@@ -36,34 +33,37 @@ class _CharactersDisplayState extends State<CharactersDisplay> {
             onNotification: (notif) {
               ScrollDirection direction =
                   _scrollController.position.userScrollDirection;
-              print("Pixels: "+notif.metrics.pixels.toString());
+              print("Pixels: " + notif.metrics.pixels.toString());
               print(_scrollController.position.velocity);
               print(_index);
 
               double velocity = _scrollController.position.velocity.abs();
-
-              if (velocity > 1000) velocity /= 1000;
-              if (velocity > 100) velocity /= 100;
-              if (velocity > 10) velocity /= 10;
-
-              double convertedVelocity = (0.5 * velocity);
+              double convertedVelocity = 0.01;
+              if (velocity > 1000) {
+                velocity /= 1000;
+                convertedVelocity = (0.8 * velocity);
+              }
+              if (velocity > 100) {
+                velocity /= 100;
+                convertedVelocity = (0.8 * velocity);
+              }
+              if (velocity > 10) {
+                velocity /= 10;
+                convertedVelocity = (0.8 * velocity);
+              }
 
               if (direction == ScrollDirection.forward) {
                 double firstHue = _firstHue - convertedVelocity;
                 double secondHue = _secondHue - convertedVelocity;
 
                 if (firstHue < 0) {
-                  firstHue = 150;
-                  secondHue = 190;
+                  firstHue = 170;
+                  secondHue = 200;
                 }
                 Future.delayed(Duration(milliseconds: 100), () {
                   setState(() {
-                    print(_firstHue);
                     _firstHue = firstHue;
-                    print(firstHue);
                     _secondHue = secondHue;
-                    _topStop -= 0.01;
-                    _bottomStop -= 0.01;
                     _topColor =
                         new HSVColor.fromAHSV(1, _firstHue, 1, 1).toColor();
                     _bottomColor =
@@ -78,15 +78,13 @@ class _CharactersDisplayState extends State<CharactersDisplay> {
                 double secondHue = _secondHue + convertedVelocity;
 
                 if (secondHue > 360) {
-                  firstHue = 150;
-                  secondHue = 190;
+                  firstHue = 319;
+                  secondHue = 359;
                 }
                 Future.delayed(Duration(milliseconds: 100), () {
                   setState(() {
                     _firstHue = firstHue;
                     _secondHue = secondHue;
-                    _topStop += 0.01;
-                    _bottomStop += 0.01;
                     _topColor = HSVColor.fromAHSV(1, _firstHue, 1, 1).toColor();
                     _bottomColor =
                         HSVColor.fromAHSV(1, _secondHue, 1, 1).toColor();
