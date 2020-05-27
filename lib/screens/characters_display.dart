@@ -17,6 +17,7 @@ Color _topColor = HSVColor.fromAHSV(1, _firstHue, 1, 1).toColor();
 Color _bottomColor = HSVColor.fromAHSV(1, _secondHue, 1, 1).toColor();
 List<Color> _colors = [_topColor, _bottomColor];
 List<double> _stops = [_topStop, _bottomStop];
+int _index = 0;
 
 class CharactersDisplay extends StatefulWidget {
   @override
@@ -35,8 +36,9 @@ class _CharactersDisplayState extends State<CharactersDisplay> {
             onNotification: (notif) {
               ScrollDirection direction =
                   _scrollController.position.userScrollDirection;
-              print(_scrollController.position.userScrollDirection);
+              print("Pixels: "+notif.metrics.pixels.toString());
               print(_scrollController.position.velocity);
+              print(_index);
 
               double velocity = _scrollController.position.velocity.abs();
 
@@ -44,7 +46,7 @@ class _CharactersDisplayState extends State<CharactersDisplay> {
               if (velocity > 100) velocity /= 100;
               if (velocity > 10) velocity /= 10;
 
-              double convertedVelocity = (1 * velocity);
+              double convertedVelocity = (0.5 * velocity);
 
               if (direction == ScrollDirection.forward) {
                 double firstHue = _firstHue - convertedVelocity;
@@ -72,10 +74,17 @@ class _CharactersDisplayState extends State<CharactersDisplay> {
                 });
               }
               if (direction == ScrollDirection.reverse) {
+                double firstHue = _firstHue + convertedVelocity;
+                double secondHue = _secondHue + convertedVelocity;
+
+                if (secondHue > 360) {
+                  firstHue = 150;
+                  secondHue = 190;
+                }
                 Future.delayed(Duration(milliseconds: 100), () {
                   setState(() {
-                    _firstHue++;
-                    _secondHue++;
+                    _firstHue = firstHue;
+                    _secondHue = secondHue;
                     _topStop += 0.01;
                     _bottomStop += 0.01;
                     _topColor = HSVColor.fromAHSV(1, _firstHue, 1, 1).toColor();
