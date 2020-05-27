@@ -30,16 +30,22 @@ class AppState extends State<App> {
   Widget build(BuildContext context) {
     return new MaterialApp(
         home: new Scaffold(
-            backgroundColor: Colors.black,
+          // #23D6F4
+          // #21C4E0
+          // #11A3BC
+            backgroundColor: Color(0xFF11A3BC),
             appBar: new AppBar(
               title: Center(child: new Text("SSBU Characters")),
             ),
             body: CharactersDisplay()),
         theme: new ThemeData(
-            accentColor: Colors.black,
+            accentColor: Colors.amber,
             backgroundColor: Colors.black,
             appBarTheme: new AppBarTheme(
-                color: Colors.black,
+                // #F7D710
+                // #EBCC0F
+                // #DDC00F
+                color: Color(0xFFDDC00F),
                 textTheme: new TextTheme(
                   headline6: headline6,
                 ))));
