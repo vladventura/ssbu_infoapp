@@ -38,8 +38,7 @@ class _CharactersDisplayState extends State<CharactersDisplay> {
               print(_scrollController.position.userScrollDirection);
               print(_scrollController.position.velocity);
 
-              double velocity =
-                  _scrollController.position.velocity.abs();
+              double velocity = _scrollController.position.velocity.abs();
 
               if (velocity > 1000) velocity /= 1000;
               if (velocity > 100) velocity /= 100;
@@ -55,23 +54,24 @@ class _CharactersDisplayState extends State<CharactersDisplay> {
                   firstHue = 150;
                   secondHue = 190;
                 }
-                setState(() {
-                  print(_firstHue);
-                  _firstHue = firstHue;
-                  print(firstHue);
-                  _secondHue = secondHue;
-                  _topStop -= 0.01;
-                  _bottomStop -= 0.01;
-                  _topColor =
-                      new HSVColor.fromAHSV(1, _firstHue, 1, 1).toColor();
-                  _bottomColor =
-                      HSVColor.fromAHSV(1, _secondHue, 1, 1).toColor();
-                  _colors = [_topColor, _bottomColor];
-                  _stops = [_topStop, _bottomStop];
+                Future.delayed(Duration(milliseconds: 100), () {
+                  setState(() {
+                    print(_firstHue);
+                    _firstHue = firstHue;
+                    print(firstHue);
+                    _secondHue = secondHue;
+                    _topStop -= 0.01;
+                    _bottomStop -= 0.01;
+                    _topColor =
+                        new HSVColor.fromAHSV(1, _firstHue, 1, 1).toColor();
+                    _bottomColor =
+                        HSVColor.fromAHSV(1, _secondHue, 1, 1).toColor();
+                    _colors = [_topColor, _bottomColor];
+                    _stops = [_topStop, _bottomStop];
+                  });
                 });
               }
               if (direction == ScrollDirection.reverse) {
-                print(_secondHue);
                 Future.delayed(Duration(milliseconds: 100), () {
                   setState(() {
                     _firstHue++;
