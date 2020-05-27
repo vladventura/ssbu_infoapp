@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 import 'package:ssbu_info/notifiers/characters_notifier.dart';
 import 'package:ssbu_info/screens/characters_display.dart';
 import 'package:ssbu_info/styles/textstyles.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   // Over here we would wrap the Application with the
