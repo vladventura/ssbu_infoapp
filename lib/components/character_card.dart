@@ -12,7 +12,7 @@ Widget characterCard(dynamic data, BuildContext context, double index) {
   if (hue > 66 && hue < 166) hue += 100; 
   return Container(
     decoration: BoxDecoration(
-      color: HSVColor.fromAHSV(0.8, hue, 0.8, 0.6).toColor(),
+      color: HSVColor.fromAHSV(0.9, hue, 1, 0.8).toColor(),
       borderRadius: BorderRadius.circular(15),
       image: new DecorationImage(
           image: new AssetImage(
@@ -23,7 +23,7 @@ Widget characterCard(dynamic data, BuildContext context, double index) {
     child: Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(15),
-        color: new Color.fromARGB(150, 0, 0, 0),
+        color: new Color.fromARGB(80, 0, 0, 0),
       ),
       child: FlatButton(
         onPressed: () {
