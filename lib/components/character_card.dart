@@ -3,12 +3,16 @@ import 'package:provider/provider.dart';
 import 'package:ssbu_info/notifiers/characters_notifier.dart';
 import 'package:ssbu_info/screens/character_display.dart';
 
-Widget characterCard(dynamic data, BuildContext context) {
-  CharacterNotifier characterNotifier = Provider.of<CharacterNotifier>(context);
+import 'package:ssbu_info/styles/textstyles.dart';
 
+Widget characterCard(dynamic data, BuildContext context, double index) {
+  CharacterNotifier characterNotifier = Provider.of<CharacterNotifier>(context);
+  // Orange starts at 45, ends at 65, blue starts at 165
+  double hue = 45 + index;
+  if (hue > 66 && hue < 166) hue += 100; 
   return Container(
     decoration: BoxDecoration(
-      color: Colors.black45,
+      color: HSVColor.fromAHSV(0.9, hue, 1, 0.8).toColor(),
       borderRadius: BorderRadius.circular(15),
       image: new DecorationImage(
           image: new AssetImage(
@@ -19,7 +23,7 @@ Widget characterCard(dynamic data, BuildContext context) {
     child: Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(15),
-        color: new Color.fromARGB(150, 0, 0, 0),
+        color: new Color.fromARGB(80, 0, 0, 0),
       ),
       child: FlatButton(
         onPressed: () {
@@ -46,11 +50,11 @@ Widget characterCard(dynamic data, BuildContext context) {
                         children: <Widget>[
                           Text(
                             data['info']['name'],
-                            style: new TextStyle(color: Colors.white),
+                            style: bodyText1,
                           ),
                           Text(
                             "Difficulty: ${data['difficulty'].toString()}",
-                            style: new TextStyle(color: Colors.white),
+                            style: bodyText2,
                           ),
                         ],
                       )
