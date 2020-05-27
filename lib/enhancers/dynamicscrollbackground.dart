@@ -11,23 +11,31 @@ class DynamicScrollBackground extends StatefulWidget {
   final bool moveStops;
   final double velocityScale;
   final colorGrowthBase;
-  final int backgroundRefreshDelay;
-  final int backgorundDelay;
+  final Duration backgroundRefreshDelay;
+  final Duration backgorundDelay;
+  final double bottomLeftPoint;
+  final double bottomRightPoint;
+  final Curve animationCurve;
+  final Alignment gradientBegin;
+  final Alignment gradientEnd;
 
   DynamicScrollBackground(
       {@required this.firstHue,
       @required this.secondHue,
       @required this.child,
       @required this.childScrollController,
+      this.gradientBegin = Alignment.topLeft,
+      this.gradientEnd = Alignment.bottomRight,
       this.topStop = 0.5,
       this.bottomStop = 1.5,
       this.moveStops = false,
       this.velocityScale = 0.3,
       this.colorGrowthBase = 0.01,
-      this.backgorundDelay = 100,
-      this.backgroundRefreshDelay = 5,
+      this.backgorundDelay = const Duration(milliseconds: 100),
+      this.backgroundRefreshDelay = const Duration(milliseconds: 5),
       this.bottomLeftPoint = 319,
-      this.bottomRightPoint = 359});
+      this.bottomRightPoint = 359,
+      this.animationCurve = Curves.linear});
 
   @override
   _DynamicScrollBackgroundState createState() =>
@@ -39,10 +47,10 @@ class _DynamicScrollBackgroundState extends State<DynamicScrollBackground> {
   double _iSH = 0;
   Color _topColor = Colors.white;
   Color _bottomColor = Colors.white;
-  List <Color> _colors = [];
+  List<Color> _colors = [];
 
   @override
-  void initState(){
+  void initState() {
     super.initState();
     _iFH = widget.firstHue;
     _iSH = widget.secondHue;
@@ -50,41 +58,56 @@ class _DynamicScrollBackgroundState extends State<DynamicScrollBackground> {
     _bottomColor = HSVColor.fromAHSV(1, widget.secondHue, 1, 1).toColor();
     _colors = [_topColor, _bottomColor];
   }
+
   @override
   Widget build(BuildContext context) {
     return NotificationListener<ScrollNotification>(
-      child: widget.child,
-      onNotification: (notification) {
-        ScrollDirection direction =
-            widget.childScrollController.position.userScrollDirection;
-        double velocity = widget.childScrollController.position.velocity.abs();
-        double convertedVelocity = cascadeVelocity(velocity);
-
-        switch (direction) {
-          case ScrollDirection.forward:
-            moveForward(convertedVelocity);
-            break;
-          case ScrollDirection.reverse:
-            moveBackwards(convertedVelocity);
-            break;
-          default: break;
-        }
-
-        return true;
-      },
-    );
+        child: AnimatedContainer(
+          child: widget.child,
+          duration: widget.backgorundDelay,
+          curve: widget.animationCurve,
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: _colors,
+              stops: [widget.topStop, widget.bottomStop],
+              begin: widget.gradientBegin,
+              end: widget.gradientEnd,
+            )
+          ),
+        ), 
+        onNotification: handleScroll
+        );
   }
 
-  void moveForward(double convertedVelocity){
-    double f = _iFH - convertedVelocity;
-    double s =_iSH - convertedVelocity;
+  bool handleScroll(ScrollNotification notification) {
+    ScrollDirection direction =
+        widget.childScrollController.position.userScrollDirection;
+    double velocity = widget.childScrollController.position.velocity.abs();
+    double convertedVelocity = cascadeVelocity(velocity);
 
-    if (f < 0){
+    switch (direction) {
+      case ScrollDirection.forward:
+        moveForward(convertedVelocity);
+        break;
+      case ScrollDirection.reverse:
+        moveBackwards(convertedVelocity);
+        break;
+      default:
+        break;
+    }
+    return true;
+  }
+
+  void moveForward(double convertedVelocity) {
+    double f = _iFH - convertedVelocity;
+    double s = _iSH - convertedVelocity;
+
+    if (f < 0) {
       f = widget.firstHue;
-      s = widget.secondHue; 
+      s = widget.secondHue;
     }
 
-    Future.delayed(Duration(milliseconds: widget.backgroundRefreshDelay), () {
+    Future.delayed(widget.backgroundRefreshDelay, () {
       setState(() {
         _iFH = f;
         _iSH = s;
@@ -94,16 +117,17 @@ class _DynamicScrollBackgroundState extends State<DynamicScrollBackground> {
       });
     });
   }
-  void moveBackwards(double convertedVelocity){
-    double f = _iFH + convertedVelocity;
-    double s =_iSH + convertedVelocity;
 
-    if (s > 360){
-      f = widget.firstHue;
-      s = widget.secondHue; 
+  void moveBackwards(double convertedVelocity) {
+    double f = _iFH + convertedVelocity;
+    double s = _iSH + convertedVelocity;
+
+    if (s > 360) {
+      f = widget.bottomLeftPoint;
+      s = widget.bottomRightPoint;
     }
 
-    Future.delayed(Duration(milliseconds: widget.backgroundRefreshDelay), () {
+    Future.delayed(widget.backgroundRefreshDelay, () {
       setState(() {
         _iFH = f;
         _iSH = s;
