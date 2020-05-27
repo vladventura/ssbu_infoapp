@@ -41,15 +41,15 @@ class _CharactersDisplayState extends State<CharactersDisplay> {
               double convertedVelocity = 0.01;
               if (velocity > 1000) {
                 velocity /= 1000;
-                convertedVelocity = (0.8 * velocity);
+                convertedVelocity = (0.3 * velocity);
               }
               if (velocity > 100) {
                 velocity /= 100;
-                convertedVelocity = (0.8 * velocity);
+                convertedVelocity = (0.3 * velocity);
               }
               if (velocity > 10) {
                 velocity /= 10;
-                convertedVelocity = (0.8 * velocity);
+                convertedVelocity = (0.3 * velocity);
               }
 
               if (direction == ScrollDirection.forward) {
@@ -60,7 +60,7 @@ class _CharactersDisplayState extends State<CharactersDisplay> {
                   firstHue = 170;
                   secondHue = 200;
                 }
-                Future.delayed(Duration(milliseconds: 100), () {
+                Future.delayed(Duration(milliseconds: 5), () {
                   setState(() {
                     _firstHue = firstHue;
                     _secondHue = secondHue;
@@ -81,7 +81,7 @@ class _CharactersDisplayState extends State<CharactersDisplay> {
                   firstHue = 319;
                   secondHue = 359;
                 }
-                Future.delayed(Duration(milliseconds: 100), () {
+                Future.delayed(Duration(milliseconds: 1), () {
                   setState(() {
                     _firstHue = firstHue;
                     _secondHue = secondHue;
