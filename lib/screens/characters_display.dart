@@ -15,7 +15,7 @@ class CharactersDisplay extends StatelessWidget {
         : new ListView.builder(
             itemBuilder: (context, index) {
               return characterCard(
-                  characterNotifier.characters[index], context);
+                  characterNotifier.characters[index], context, (index + 0.0));
             },
             itemCount: characterNotifier.characters.length,
           );
