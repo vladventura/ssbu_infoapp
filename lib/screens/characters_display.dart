@@ -33,9 +33,6 @@ class _CharactersDisplayState extends State<CharactersDisplay> {
             onNotification: (notif) {
               ScrollDirection direction =
                   _scrollController.position.userScrollDirection;
-              print("Pixels: " + notif.metrics.pixels.toString());
-              print(_scrollController.position.velocity);
-              print(_index);
 
               double velocity = _scrollController.position.velocity.abs();
               double convertedVelocity = 0.01;
