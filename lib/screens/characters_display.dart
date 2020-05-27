@@ -12,12 +12,24 @@ class CharactersDisplay extends StatelessWidget {
 
     return characterNotifier.characters == null
         ? new Container()
-        : new ListView.builder(
-            itemBuilder: (context, index) {
-              return characterCard(
-                  characterNotifier.characters[index], context, (index + 0.0));
-            },
-            itemCount: characterNotifier.characters.length,
-          );
+        : Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                Colors.amber,
+                Colors.lightBlue
+              ],
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter
+            )
+          ),
+          child: new ListView.builder(
+              itemBuilder: (context, index) {
+                return characterCard(
+                    characterNotifier.characters[index], context, (index + 0.0));
+              },
+              itemCount: characterNotifier.characters.length,
+            ),
+        );
   }
 }
