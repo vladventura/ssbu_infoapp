@@ -9,7 +9,6 @@ class CharacterCard extends StatelessWidget {
   final CharacterNotifier characterNotifier;
   CharacterCard({@required this.index, @required this.characterNotifier});
 
-
   Column infoOverlayNameDifficulty() {
     return Column(
       children: <Widget>[
@@ -25,10 +24,31 @@ class CharacterCard extends StatelessWidget {
     );
   }
 
-  Image infoOverlaySeries() {
+  Image infoOverlayIcon() {
     return new Image(
       image: new AssetImage(
           "assets/Stock/${characterNotifier.characters[index]['info']['name']}_stock_0.png"),
+    );
+  }
+
+  Center infoOverlaySeries() {
+    return new Center(
+        child: new Image(
+      image: new AssetImage(
+          "assets/Series/${characterNotifier.characters[index]['series']}.png"),
+      fit: BoxFit.contain,
+      width: 60,
+    ));
+  }
+
+  Row infoOverlay() {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: <Widget>[
+        infoOverlayNameDifficulty(),
+        infoOverlaySeries(),
+        infoOverlayIcon(),
+      ],
     );
   }
 
@@ -62,20 +82,7 @@ class CharacterCard extends StatelessWidget {
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(15)),
               padding: EdgeInsets.all(20),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: <Widget>[
-                  infoOverlayNameDifficulty(),
-                  new Center(
-                      child: new Image(
-                    image: new AssetImage(
-                        "assets/Series/${characterNotifier.characters[index]['series']}.png"),
-                    fit: BoxFit.contain,
-                    width: 60,
-                  )),
-                  infoOverlaySeries(),
-                ],
-              ))),
+              child: infoOverlay())),
     );
   }
 }
