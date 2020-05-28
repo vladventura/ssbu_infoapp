@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:ssbu_info/notifiers/characters_notifier.dart';
 import 'package:ssbu_info/screens/character_display.dart';
 
@@ -7,29 +6,34 @@ import 'package:ssbu_info/styles/textstyles.dart';
 
 class CharacterCard extends StatelessWidget {
   final int index;
-  CharacterCard({@required this.index});
+  final CharacterNotifier characterNotifier;
+  CharacterCard({@required this.index, @required this.characterNotifier});
 
-  CharacterNotifier characterNotifier;
 
-  Column infoOverlayNameDifficulty(){
-    return                       Column(
-                        children: <Widget>[
-                          Text(
-                            characterNotifier.characters[index]['info']['name'],
-                            style: bodyText1,
-                          ),
-                          Text(
-                            "Difficulty: ${characterNotifier.characters[index]['difficulty'].toString()}",
-                            style: bodyText2,
-                          ),
-                        ],
-                      );
+  Column infoOverlayNameDifficulty() {
+    return Column(
+      children: <Widget>[
+        Text(
+          characterNotifier.characters[index]['info']['name'],
+          style: bodyText1,
+        ),
+        Text(
+          "Difficulty: ${characterNotifier.characters[index]['difficulty'].toString()}",
+          style: bodyText2,
+        ),
+      ],
+    );
+  }
+
+  Image infoOverlaySeries() {
+    return new Image(
+      image: new AssetImage(
+          "assets/Stock/${characterNotifier.characters[index]['info']['name']}_stock_0.png"),
+    );
   }
 
   @override
   Widget build(BuildContext context) {
-    characterNotifier =
-        Provider.of<CharacterNotifier>(context);
     double hue = 45.0 + index;
     if (hue > 66 && hue < 166) hue += 100;
 
@@ -58,8 +62,10 @@ class CharacterCard extends StatelessWidget {
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(15)),
               padding: EdgeInsets.all(20),
-              child: Stack(
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
+                  infoOverlayNameDifficulty(),
                   new Center(
                       child: new Image(
                     image: new AssetImage(
@@ -67,16 +73,7 @@ class CharacterCard extends StatelessWidget {
                     fit: BoxFit.contain,
                     width: 60,
                   )),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: <Widget>[
-                      infoOverlayNameDifficulty(),
-                      new Image(
-                        image: new AssetImage(
-                            "assets/Stock/${characterNotifier.characters[index]['info']['name']}_stock_0.png"),
-                      ),
-                    ],
-                  )
+                  infoOverlaySeries(),
                 ],
               ))),
     );

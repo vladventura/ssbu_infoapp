@@ -25,7 +25,7 @@ class _CharactersDisplayState extends State<CharactersDisplay> {
             child: new ListView.builder(
               controller: _scrollController,
               itemBuilder: (context, index) {
-                return CharacterCard(index: index);
+                return CharacterCard(index: index, characterNotifier: characterNotifier,);
               },
               itemCount: characterNotifier.characters.length,
             ),
