@@ -6,10 +6,10 @@ import 'package:ssbu_info/cdn.dart';
 
 class MoveCard extends StatefulWidget {
   MoveCard(
-      {this.button = "",
-      this.move = const [],
-      this.characterName,
-      this.moveType});
+      {@required this.button,
+      @required this.move,
+      @required this.characterName,
+      @required this.moveType});
   final String button;
   final List<dynamic> move;
   final String characterName;
