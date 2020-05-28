@@ -9,9 +9,26 @@ class CharacterCard extends StatelessWidget {
   final int index;
   CharacterCard({@required this.index});
 
+  CharacterNotifier characterNotifier;
+
+  Column infoOverlayNameDifficulty(){
+    return                       Column(
+                        children: <Widget>[
+                          Text(
+                            characterNotifier.characters[index]['info']['name'],
+                            style: bodyText1,
+                          ),
+                          Text(
+                            "Difficulty: ${characterNotifier.characters[index]['difficulty'].toString()}",
+                            style: bodyText2,
+                          ),
+                        ],
+                      );
+  }
+
   @override
   Widget build(BuildContext context) {
-    CharacterNotifier characterNotifier =
+    characterNotifier =
         Provider.of<CharacterNotifier>(context);
     double hue = 45.0 + index;
     if (hue > 66 && hue < 166) hue += 100;
@@ -53,18 +70,7 @@ class CharacterCard extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: <Widget>[
-                      Column(
-                        children: <Widget>[
-                          Text(
-                            characterNotifier.characters[index]['info']['name'],
-                            style: bodyText1,
-                          ),
-                          Text(
-                            "Difficulty: ${characterNotifier.characters[index]['difficulty'].toString()}",
-                            style: bodyText2,
-                          ),
-                        ],
-                      ),
+                      infoOverlayNameDifficulty(),
                       new Image(
                         image: new AssetImage(
                             "assets/Stock/${characterNotifier.characters[index]['info']['name']}_stock_0.png"),
