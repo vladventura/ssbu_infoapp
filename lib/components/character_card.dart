@@ -76,23 +76,3 @@ class CharacterCard extends StatelessWidget {
     );
   }
 }
-
-Widget characterCard(dynamic data, BuildContext context, double index) {
-  // Orange starts at 45, ends at 65, blue starts at 165
-  return Container(
-    child: Container(
-      child: FlatButton(
-        onPressed: () {},
-        child: Stack(
-          children: [
-            Row(children: <Widget>[
-              Stack(
-                children: <Widget>[],
-              ),
-            ])
-          ],
-        ),
-      ),
-    ),
-  );
-}
