@@ -52,37 +52,43 @@ class CharacterCard extends StatelessWidget {
     );
   }
 
-  @override
-  Widget build(BuildContext context) {
+  FlatButton characterTappable(BuildContext context) {
+    return FlatButton(
+        onPressed: () {
+          characterNotifier.selectedCharacter =
+              characterNotifier.characters[index];
+          Navigator.of(context).push(
+              MaterialPageRoute(builder: (context) => CharacterDisplay()));
+        },
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+        padding: EdgeInsets.all(20),
+        child: infoOverlay());
+  }
+
+  BoxDecoration characterSliverBackground() {
     double hue = 45.0 + index;
     if (hue > 66 && hue < 166) hue += 100;
+    return BoxDecoration(
+      color: HSVColor.fromAHSV(0.9, hue, 1, 0.8).toColor(),
+      borderRadius: BorderRadius.circular(15),
+      image: new DecorationImage(
+          image: new AssetImage(
+              "assets/Slivers/${characterNotifier.characters[index]['info']['name']}_sliver_0.png"),
+          fit: BoxFit.fitWidth),
+    );
+  }
 
+  @override
+  Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
-        color: HSVColor.fromAHSV(0.9, hue, 1, 0.8).toColor(),
-        borderRadius: BorderRadius.circular(15),
-        image: new DecorationImage(
-            image: new AssetImage(
-                "assets/Slivers/${characterNotifier.characters[index]['info']['name']}_sliver_0.png"),
-            fit: BoxFit.fitWidth),
-      ),
+      decoration: characterSliverBackground(),
       margin: EdgeInsets.all(10),
       child: Container(
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(15),
             color: new Color.fromARGB(80, 0, 0, 0),
           ),
-          child: FlatButton(
-              onPressed: () {
-                characterNotifier.selectedCharacter =
-                    characterNotifier.characters[index];
-                Navigator.of(context).push(MaterialPageRoute(
-                    builder: (context) => CharacterDisplay()));
-              },
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(15)),
-              padding: EdgeInsets.all(20),
-              child: infoOverlay())),
+          child: characterTappable(context)),
     );
   }
 }
