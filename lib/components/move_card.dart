@@ -40,7 +40,9 @@ class _MoveCardState extends State<MoveCard> {
           "https://$id.$domain/${widget.characterName}/${widget.moveType}/${element['name']}.jpg";
       CachedNetworkImage img = new CachedNetworkImage(
         imageUrl: url,
-        placeholder: (context, url) => CircularProgressIndicator(),
+        placeholder: (context, url){
+          return CircularProgressIndicator();
+        } ,
         errorWidget: (context, url, error) => Image(
           image: new AssetImage("assets/General/nonet.jpg"),
         ),
