@@ -67,16 +67,14 @@ class _DynamicScrollBackgroundState extends State<DynamicScrollBackground> {
           duration: widget.backgorundDelay,
           curve: widget.animationCurve,
           decoration: BoxDecoration(
-            gradient: LinearGradient(
-              colors: _colors,
-              stops: [widget.topStop, widget.bottomStop],
-              begin: widget.gradientBegin,
-              end: widget.gradientEnd,
-            )
-          ),
-        ), 
-        onNotification: handleScroll
-        );
+              gradient: LinearGradient(
+            colors: _colors,
+            stops: [widget.topStop, widget.bottomStop],
+            begin: widget.gradientBegin,
+            end: widget.gradientEnd,
+          )),
+        ),
+        onNotification: handleScroll);
   }
 
   bool handleScroll(ScrollNotification notification) {
