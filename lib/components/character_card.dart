@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ssbu_info/notifiers/characters_notifier.dart';
 import 'package:ssbu_info/screens/character_display.dart';
+import 'package:ssbu_info/constants.dart';
 
 import 'package:ssbu_info/styles/textstyles.dart';
 
@@ -25,17 +26,18 @@ class CharacterCard extends StatelessWidget {
   }
 
   Image infoOverlayIcon() {
+    String characterName = characterNotifier.characters[index]['info']['name'];
     return new Image(
-      image: new AssetImage(
-          "assets/Stock/${characterNotifier.characters[index]['info']['name']}_stock_0.png"),
-    );
+        image: new AssetImage(
+      stockPath(character: characterName),
+    ));
   }
 
   Center infoOverlaySeries() {
+    String characterSeries = characterNotifier.characters[index]['series'];
     return new Center(
         child: new Image(
-      image: new AssetImage(
-          "assets/Series/${characterNotifier.characters[index]['series']}.png"),
+      image: new AssetImage(seriesPath(characterSeries)),
       fit: BoxFit.contain,
       width: 60,
     ));
@@ -67,13 +69,13 @@ class CharacterCard extends StatelessWidget {
 
   BoxDecoration characterSliverBackground() {
     double hue = 45.0 + index;
+    String characterName = characterNotifier.characters[index]['info']['name'];
     if (hue > 66 && hue < 166) hue += 100;
     return BoxDecoration(
       color: HSVColor.fromAHSV(0.9, hue, 1, 0.8).toColor(),
       borderRadius: BorderRadius.circular(15),
       image: new DecorationImage(
-          image: new AssetImage(
-              "assets/Slivers/${characterNotifier.characters[index]['info']['name']}_sliver_0.png"),
+          image: new AssetImage(sliverPath(character: characterName)),
           fit: BoxFit.fitWidth),
     );
   }

@@ -2,6 +2,7 @@ import "package:flutter/material.dart";
 import 'package:provider/provider.dart';
 import 'package:ssbu_info/notifiers/characters_notifier.dart';
 import 'package:ssbu_info/components/move_card.dart';
+import 'package:ssbu_info/constants.dart';
 
 class CharacterDisplay extends StatelessWidget {
   static CharacterNotifier characterNotifier;
@@ -31,12 +32,12 @@ class CharacterDisplay extends StatelessWidget {
   }
 
   Container topBanner(BuildContext context) {
+    String characterName = characterNotifier.selectedCharacter['info']['name'];
     return Container(
       decoration: BoxDecoration(
         color: Colors.white,
         image: new DecorationImage(
-            image: new AssetImage(
-                "assets/Slivers/${characterNotifier.selectedCharacter['info']['name']}_sliver_0.png"),
+            image: new AssetImage(sliverPath(character: characterName)),
             fit: BoxFit.fill,
             repeat: ImageRepeat.noRepeat),
       ),
