@@ -4358,6 +4358,7 @@
     {
       "info": {
         "name": "Link",
+        "id": 3,
         "description": "Vanilla description"
       },
       "difficulty": 3.5,
@@ -4366,29 +4367,25 @@
         "Up Tilt": [
           {
             "name": "Up Tilt",
-            "description": "Up Tilt description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1ODNiyj2Wyw1jamouAJvphjJUbhhXX0UP"
+            "description": "It starts from behind, so it can be useful after a neutral air to catch roll-ins or short hops. It is superb at juggling opponents, and covering landings, and this becomes evident when Link dash cancels up tilt. However, it is unsafe on shield, so use it with caution (or rather minimize its use on neutral state as much as possible, only try to use it whenever there’s a high chance the move will connect)."
           }
         ],
         "Down Tilt": [
           {
             "name": "Down Tilt",
-            "description": "Down Tilt description goes here",
-            "imageLink": "https://drive.google.com/uc?id=102gaER8bMDhiV2pqOxjySJzJRJ9NrzDl"
+            "description": "When used at max range, it is a good pressure tool because of how safe on shield it is. Also, you can attempt shield pokes with it by approaching the opponent with a short hop when they’re expecting a neutral air and tilt their shield upwards (this it why neutral conditioning with Link is so important)."
           }
         ],
         "Side Tilt": [
           {
             "name": "Side Tilt",
-            "description": "Side Tilt description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1mHCl3ua3q_9Z5uaGKO8ES71RRLAssZFe"
+            "description": "It can be used as a mix-up after a spaced forward air or a neutral air. Also, it can be used to safely pressure shields whenever used at max range because of the damage that it does to shields. It is also a good option when edge guarding against jumps and can catch some characters’ ledge stall. Lastly, the hitbox hits slightly behind Link so it can catch ledge rolls from tall characters."
           }
         ],
         "Jab": [
           {
             "name": "Jab",
-            "description": "Jab description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1vKeMSm3RqGd6wurclH-QcbRbX2zn5l8Q"
+            "description": "Used mostly to catch shield drops, but keep in mind that it cannot cover OOS jumps or diver kicks, like Sheik’s down air. Very punishable when hits a shield."
           }
         ]
       },
@@ -4396,36 +4393,31 @@
         "Up Tilt": [
           {
             "name": "Up Air",
-            "description": "Up Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=17Pwp5VpJVkchSUISlB_bCvPYDEOEszRA"
+            "description": "Has long range, and it is a disjoint, so it makes it perfect to counter an airborne opponent’s options. It can be used fast falling after a short hop or a full hop, which can force the opponent’s air dodge or double jump."
           }
         ],
         "Down Tilt": [
           {
             "name": "Down Air",
-            "description": "Down Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1nxbxHcIbmCwy9VBFwnJSxGSxc1Bs2wM0"
+            "description": "When the move is not fast fallen, it bounces twice on hit. This makes the move unsafe on shield because it can be punished before the second bounce. However, it is a good tool when there’s already neutral air conditioning, allowing for some good combos. It is a good option when falling back to stage because it can cover Link from directly below (it can also be spaced as well). Superb against low recoveries while edge guarding because the lingering hit combos into other aerials, and the early hit has a downwards spike."
           }
         ],
         "Side Tilt": [
           {
             "name": "Forward Air",
-            "description": "Forward Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1RZFhP7y2J1ABdLShlxPucX6mUKD7bGEP"
+            "description": "It can be used to wall out the opponent on neutral, catching short/full hops and works against ledge jumps because of its power and it being slower than neutral air. If timed correctly after a short hop, the first swing can miss and the second swing can hit the opponent’s shield and, when spaced correctly, can make the move safe on shield. Also, it can be used as a tool to cross up shields, which can then be followed by an up tilt to catch shield drops, short hops. Also, when recovering from ledge, it can push opponents away to punish their OOS option or to cross them up, full hop forward air catches an opponent’s full hop options. Fast falling the second hit can space opponents. Can combo into grab, neutral air, or back air early."
           }
         ],
         "Back Tilt": [
           {
             "name": "Back Air",
-            "description": "Back Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1wfQ7LboHddh_Za7DW2Bw_HR_Lsw2eHgE"
+            "description": "Link’s fastest aerial; it can be used as a back anti-air, short hop anti-air, and even whiff punish. It has a high chance of shield poking when hitting tall opponents’ shield. Link can also land with the first hit of back air, which can be a good mix-up whenever the opponent wants to parry Link’s neutral air, and leads into up tilt, up smash, reverse Spin Attack, and itself."
           }
         ],
         "Jab": [
           {
             "name": "Neutral Air",
-            "description": "Neutral Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1FsNhwQwHDEntNx6XhbCoOEe_r_YWRLuR"
+            "description": "Has an initial sweet spot, and a long-lasting sour spot; both can be spaced and they both cross-up shields. The sour spot, when spaced, allows Link to do anything from stuff like up tilts to catch roll-ins, boomerang combos as whiff punish (also to catch missed grabs) and much more. When crossing up Link can shield and punish, up tilts to catch short hops or shield drops, jump-away boomerang, and some other options as well. The sweet spot has these options and many more, like Spin Attack to trade with grabs and OOS aerials when hitting a shield unspaced. It does lose to parries, so mix-ups when using the move is suggested."
           }
         ]
       },
@@ -4433,29 +4425,25 @@
         "Up B": [
           {
             "name": "Spin Attack",
-            "description": "Spin Attack (Up B) description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1-xmUYwpc9AqT_NkcAULjsfFZ57JobByn"
+            "description": "Strong and long range OOS option, however it is dangerously unsafe against shields. It can be used as an edge guard tool, although this is very risky due to ledge-roll shield options. After a parry this is Link’s best option, and it can be used right after a dash as well. While offstage it can be used as recovery and edge guarding tool at the same time. If Link holds down during Spin Attack while near the ledge, the last swing will go through the ledge and hit the opponent."
           }
         ],
         "Down B": [
           {
             "name": "Remote Bomb",
-            "description": "Remote Bomb (Down B) description goes here",
-            "imageLink": "https://drive.google.com/uc?id=15q390JcEMGJacuVxoMb0zTkqMp2HHhY0"
+            "description": "It is what makes Link. From edge guard setups by leaving the bomb at the ledge and knocking it outside of the stage with an arrow or a boomerang, to z-drop bomb neutral air combos, all the way to leaving the bomb on the stage as a fake Snake C4 and walling the opponent towards it with spaced forward airs, neutral airs and fade-away boomerangs. There is so much Link can do with this tool that the only limit to it is Link’s imagination and creativity."
           }
         ],
         "Side B": [
           {
             "name": "Boomerang",
-            "description": "Boomerang (Side B) description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1LYlXS9c6OrznKYN3-gUbiHAX6bye-Rwj"
+            "description": "Try to move while throwing the Boomerang, whenever this is possible (because you can throw the boomerang while carrying the forwards/backwards momentum from a jump. Link can do a soft/hard throw if you tilt/smash the input; aim it upwards to cover full hops, or downwards to cover short hops. It is safe against shield at close range (you can shield right after), but Link will have to spotdodge/roll against long range grabs and jump against tether grabs (which can still be risky at times). Also, try to use the boomerang as a conditioning tool: make the opponent go for risky jumps or shields that Link can pressure with the neutral air. Link can only combo with close range boomerang."
           }
         ],
         "Neutral B": [
           {
             "name": "Hero's Bow",
-            "description": "Hero's Bow (Neutral B) description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1vXC_LQIWq0ObmTTWDT6QAqRZQLUg5Sqy"
+            "description": "Link can charge the shot to make it gain speed, damage, and knockback. Use uncharged arrows to harass the opponent from a distance (these fall on an arc, so to make them gain distance try to short hop before shooting). Link can pick up uncharged arrows from the ground or the stage’s walls, letting you shoot two arrows when you use the bow. You can catch high recoveries with it. Fully charged arrows cover the whole stage, can catch landings after a double jump and are good at edge guarding opponents offstage."
           }
         ]
       },
@@ -4463,22 +4451,19 @@
         "Up Smash": [
           {
             "name": "Up Smash",
-            "description": "Up Smash description goes here",
-            "imageLink": "https://drive.google.com/uc?id=19dgBLXqhGdVF84_yxwaSTVELj_0gw_Ll"
+            "description": "A strong move, which is mainly used to punish opponents, catch landings after a double jump, roll-ins (when they land close), roll-behinds and ledge-rolls."
           }
         ],
         "Down Smash": [
           {
             "name": "Down Smash",
-            "description": "Down Smash description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1xbM88aT6iZzQ3B55Fh8_In5anXNMNxV0"
+            "description": "The only reliable option against ledge stalls. Can also be used as a mix-up on tech chase situations. It can also catch roll-behinds as well."
           }
         ],
         "Side Smash": [
           {
             "name": "Side Smash",
-            "description": "Side Smash description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1DKb7pQZ1LFPGx4nXWXhBAKV1ay3hOcbk"
+            "description": "Mostly used to punish unsafe moves and going for hard reads. The first hit can be safe on shield when spaced correctly and has a tipper hitbox as well, so it can launch opponents on hit. If the middle of the blade connects on the first hit however, it will combo into the second hit, which can kill earlier than the first hit’s tipper. It launches a spinning beam when Link is at 0% (this can also be charged). While this beam is highly situational, it can still be useful in conjunction with the boomerang and the bomb’s pressure."
           }
         ]
       }
