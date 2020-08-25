@@ -5141,37 +5141,33 @@
     {
       "info": {
         "name": "Mario",
-        "description": "Vanilla description"
+        "description": "Mario's description goes here"
       },
-      "difficulty": 3.5,
+      "difficulty": 2.46,
       "series": "Super Mario",
       "tilts": {
         "Up Tilt": [
           {
             "name": "Up Tilt",
-            "description": "Up Tilt description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1UIMCNjIaHNnDwa82XAic1U19ctFimcYR"
+            "description": "Mainly a combo starter, it can also be used to anti air jumping opponents. Careful, it is an unsafe move when it is blocked. Also, it can be inconsistent to land."
           }
         ],
         "Down Tilt": [
           {
             "name": "Down Tilt",
-            "description": "Down Tilt description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1D-9UBEix9tP8Ixt9WIQFCMVCuo3LJwR1"
+            "description": "Also a combo starter. Unsafe when blocked as well."
           }
         ],
         "Side Tilt": [
           {
             "name": "Side Tilt",
-            "description": "Side Tilt description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1bGFJUerdHAN2YECulWiHnH9z88XGzf8J"
+            "description": "A tool for poking, it can be used as a mix up or a set up for jab locks."
           }
         ],
         "Jab": [
           {
             "name": "Jab",
-            "description": "Jab description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1yvvfEQTpDsUpFiL9P74iwoEGx7LZalgF"
+            "description": "Neutral jab is used as a way to get quick damage. It is unsafe when blocked, but it is a fast move."
           }
         ]
       },
@@ -5179,36 +5175,31 @@
         "Up Tilt": [
           {
             "name": "Up Air",
-            "description": "Up Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1X_kqZkwp4C7-An-aoKGi7Tbs9fbT0BU9"
+            "description": "Shares the same properties as Neutral Jab, but this time it can also lead to greater rewards (like juggles at lower percents, or combos as well). It can be spaced if reversed."
           }
         ],
         "Down Tilt": [
           {
             "name": "Down Air",
-            "description": "Down Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1ZO0QxIqEEzaZKg6TNd_MRbWtfpJVLbLH"
+            "description": "If you don’t want to throw a Neutral Air, then Down Air is a fairly decent replacement for approaching/cross ups (use it as a mix up). It can be punished if the last hit is parried however. If it lands at lower percents, you can combo off of it."
           }
         ],
         "Side Tilt": [
           {
             "name": "Forward Air",
-            "description": "Forward Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=12OVlQpCALFtgrKIGk-LEECXeIvreV4vb"
+            "description": "It is a risky attack. Can be used as an approach/cross up tool. Really good combo ender, specially when out of stage. It can get a guaranteed spike if spaced correctly."
           }
         ],
         "Back Tilt": [
           {
             "name": "Back Air",
-            "description": "Back Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1-AJKe1tt_B2ZD8jXde3zJbXxtrWv40QL"
+            "description": "Can be used for spacing, edgeguarding and pressuring. Has the same rewards as Up Air."
           }
         ],
         "Jab": [
           {
             "name": "Neutral Air",
-            "description": "Neutral Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1UiX2ZfZkH30-CX8A7wJIZXweLdhMAsjo"
+            "description": "It has a sweet spot at the start of the attack, and a long lasting sour spot afterwards. Can stuff out short hops and it can be very effective if you cross up your opponent's shield. It is safe against grabs when you fast fall it. You can also combo it to possible follow ups at lower percents (this applies to both sweet and sour spot as well). At certain percents, it can also lead to a tech chase (including jab locks). Once the percent gets higher, sour spot would be needed for these."
           }
         ]
       },
@@ -5216,29 +5207,25 @@
         "Up B": [
           {
             "name": "Super Jump Punch",
-            "description": "Super Jump Punch (Up B) description goes here",
-            "imageLink": "https://drive.google.com/uc?id=18wjNfm0LyQW_VyNr1NXsEhT21SW8YdvJ"
+            "description": "Like many other characters, this is Mario's fastest Out of shield option. It can be used as a combo ender in ladder combos. It it kind of slow and lacks horizontal movement, which translates to being relatively easy to edgeguard."
           }
         ],
         "Down B": [
           {
             "name": "F.L.U.D.D",
-            "description": "F.L.U.D.D (Down B) description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1ltqtHv2xTIztC1trW3JkX6qpBSfa-dZc"
+            "description": "Mostly a Gimping tool for characters with bad recovery, pushing an enemy without jumps or recovery further away from the stage when they're out of it or as a mean to annoy the enemy."
           }
         ],
         "Side B": [
           {
             "name": "Cape",
-            "description": "Cape (Side B) description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1p3GnCym644Wdr8dww3rInUFpRqrHu-o6"
+            "description": "Can reflect projectiles and turn opponents around, probably messing up their commands for a brief moment. It can also stall airborne momentum (just like Lucina/Marth's Side B)."
           }
         ],
         "Neutral B": [
           {
             "name": "Fireball",
-            "description": "Fireball (Neutral B) description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1a_2XLP99cIO5ZS-AxKrOypR_wlKGKLBm"
+            "description": "Mario can control the pace of a match depending on its usage. It can also leave your opponent on shield stun, making a window for a grab or a jump in. If it lands however, it can lead to anything your heart desires. If you're cornered, fireball might not be an optimal choice because of how slow it comes out (preferrably have some distance between your opponent and yourself when throwing fireball). It is also a gimp when off the stage. It is really helpful in most situations."
           }
         ]
       },
@@ -5246,22 +5233,19 @@
         "Up Smash": [
           {
             "name": "Up Smash",
-            "description": "Up Smash description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1z0lK5hk7q_NIhq0mKay39U5zD-B8yx9N"
+            "description": "Can be used to punish opponents jumping at you (similar to up tilt), cross ups and short hop aerials that don't have a disjoint."
           }
         ],
         "Down Smash": [
           {
             "name": "Down Smash",
-            "description": "Down Smash description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1qL6w1rGuYCmGj0z-6jR_BNlQ7Hke5yxK"
+            "description": "This is Mario's fastest smash. Can be used for a tech chase, and also as a punish for normal get ups from the ledge and slow/laggy moves."
           }
         ],
         "Side Smash": [
           {
             "name": "Side Smash",
-            "description": "Side Smash description goes here",
-            "imageLink": "https://drive.google.com/uc?id=14XcaLL9aIMjLigYLjSTUVUBVkVm7qH9c"
+            "description": "Side smash may be Mario's best smash attack. It has the most range and can be safe when blocked if spaced correctly. If angled upward, it becomes slightly stronger; downards, there's a potential 2-frame hit."
           }
         ]
       }
