@@ -1793,37 +1793,34 @@
     {
       "info": {
         "name": "Donkey Kong",
+        "id": 2,
         "description": "Vanilla description"
       },
-      "difficulty": 3.5,
+      "difficulty": 2.18,
       "series": "Donkey Kong",
       "tilts": {
         "Up Tilt": [
           {
             "name": "Up Tilt",
-            "description": "Up Tilt description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1Tv6cYh1C0tSpZiA6dvIyS_Don40PP5f8"
+            "description": "It works like a disjoint, and it’s intangible on his arms. It’s a good anti-air, can combo into itself (on lower percents) and kill on higher percents. It’s really useful to set up juggle situations, using Up Air as follow up. If the hands hit the opponent, then it’ll deal the most knockback."
           }
         ],
         "Down Tilt": [
           {
             "name": "Down Tilt",
-            "description": "Down Tilt description goes here",
-            "imageLink": "https://drive.google.com/uc?id=15KNAf_-DNQB0cu6pC9D775-tv9UrJLOX"
+            "description": "Has a chance to trip opponents, allowing for follow ups such as Headbutt to ground opponents, cargo throw, Forward Tilt to push off-stage. The trip is not a guarantee, and it’s important to react fast if the opponent is tripped because it can be pretty unsafe when not spaced correctly and there’s no trip."
           }
         ],
         "Side Tilt": [
           {
             "name": "Side Tilt",
-            "description": "Side Tilt description goes here",
-            "imageLink": "https://drive.google.com/uc?id=10YH52NN3w9A9aaUBlkQ3-5450-HKz_Nr"
+            "description": "Can be used as a spacing tool. It can be a set up for tech chases and a combo tool coming from Back Air at lower percents. It’s a great tool out of walk or run because it has a fast startup. It can be used to condition shields given that it’s pretty safe when blocked if spaced right."
           }
         ],
         "Jab": [
           {
             "name": "Jab",
-            "description": "Jab description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1NMDDQtT75JtQMKOfM7fl2mPhPxnJ0QOi"
+            "description": "Doesn’t have the best range, but it has fast startup. It can link into Down Tilt, Up Tilt and the late hit of Dash Attack at lower percents. The second hit is very easy to whiff punish because of its ending lag. Sometimes it can be used as a setup tool by launching opponents to a platform, giving chance for a follow-up."
           }
         ]
       },
@@ -1831,36 +1828,31 @@
         "Up Tilt": [
           {
             "name": "Up Air",
-            "description": "Up Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1zA2EEBomW3-oegh6ZL8ZrOGv-fe1d6Xl"
+            "description": "Great for juggling your opponent and true combos into itself. It can combo from Down Air and kills at high percents, and it’s a solid tool when paired with a cargo up throw. An option can be fast fallen Up Air to set up an Up Tilt for a short hop Up Air and start juggling at lower percents, but this can be matchup dependent (against taller and airborne characters, mostly)."
           }
         ],
         "Down Tilt": [
           {
             "name": "Down Air",
-            "description": "Down Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1Fny-wy3mNpkdS7JHJ04p1tI-fe8rquzJ"
+            "description": "It’s a meteor smash that can be used to spike opponents down, deadly when off-stage, with a diagonal launching sour spot. It’s a good combo starting tool when on-stage, having combos being dependent on where on the stage the opponent currently is and also on the percentages. Some good combo choices are Up Tilt at lower percents (which can also lead to an Up Air, or into another Up Tilt), Forward Air when close to the opponent (if near the edge of the stage, you can open with Forward Air first and then Down Air) and Up Air as a kill confirm at the top of the stage, at high percents."
           }
         ],
         "Side Tilt": [
           {
             "name": "Forward Air",
-            "description": "Forward Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1lyIvwUVFqkSNEK6hmwW3CDGGQ587lTLM"
+            "description": "It’s a meteor smash that can also be used to spike downward. Deadly when off-stage. The early hitbox launches at a diagonal. Really risky to land on stage with this move but it can lead to some good combos, like Fair > Up Tilt > Up Air (at low-mid percents it can lead to an Up Air juggling)."
           }
         ],
         "Back Tilt": [
           {
             "name": "Back Air",
-            "description": "Back Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1v2b6TKKVBYeJcut6Bhblupb9VUADpc_s"
+            "description": "One of his best moves. It can be used as a kill option, a link into itself and to wall opponents because of its range. Out of short hop, you can throw it twice, making it a good option as anti-air. It can also be used to edgeguard. It’s also a nice approaching tool too."
           }
         ],
         "Jab": [
           {
             "name": "Neutral Air",
-            "description": "Neutral Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1lWPL_cFEaXRLZBXuWoxBdxGxux1Zxnjm"
+            "description": "When the hitbox is inactive, it can be auto canceled. This allows for comboing with a lot of options, such as Up Air, Back Air at lower percents (even mid percents as well), Down Tilt to lead into a trip situation, Jab in some cases just to name a few."
           }
         ]
       },
@@ -1868,29 +1860,25 @@
         "Up B": [
           {
             "name": "Spinning Kong",
-            "description": "Spinning Kong (Up B) description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1oUX41X6WvXmnBMhJMsof7ukzQJ0L5A5N"
+            "description": "It’s a bad vertical recovery, but horizontally it covers a decent amount of range. The grounded version has super armor, and its last hit kills at high percents. Donkey Kong can try to recover high and take some damage for it rather than getting spiked when off-stage. On the aerial version, the arms are intangible. It can also be used to carry someone into the blast zone when off-stage."
           }
         ],
         "Down B": [
           {
             "name": "Hand Slap",
-            "description": "Hand Slap (Down B) description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1jJL8q63D2MeIvZq0LOK70VyeEgp1iL1p"
+            "description": "The grounded version does some good damage while having a solid range, while the aerial version can spike opponents on the second hit. Pressing B once throws 2 slaps, while mashing B throws 3 slaps. It can also be B-Reversed. When landing it is an ok option that can lead to several options, like Up Smash or Up Air."
           }
         ],
         "Side B": [
           {
             "name": "Headbutt",
-            "description": "Headbutt (Side B) description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1gtaPCm3RJUiggrGxkdMtjdUW0tk1BDJk"
+            "description": "Has super armor and buries the opponent (the higher the percent, the longer they stay buried). It does some good shield damage as well. At higher percents, Up Smash, Giant Punch and Forward Smash are kill confirms on buried opponents. When trying to go on-stage this is a good option against opponents trying to edge guard, or if the opponent is going for a ledge trump."
           }
         ],
         "Neutral B": [
           {
             "name": "Giant Punch",
-            "description": "Giant Punch (Neutral B) description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1NKFtje4YvTNmzBAshg3p7uVbdk_hG82D"
+            "description": "Has super armor when fully charged (unstoppable by projectiles either) and it’s stronger than a smash attack. Whenever given space, Donkey Kong should charge Giant Punch because it presents a constant threat to the opponent. Also, it’s a good option, against some characters, coming out of parry. For some mindgames, Donkey Kong can also B-Reverse it while fully charged or while charging."
           }
         ]
       },
@@ -1898,22 +1886,19 @@
         "Up Smash": [
           {
             "name": "Up Smash",
-            "description": "Up Smash description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1qpHX-8F-ZnApNrEJ7-ZPdcKkJXYGNDf4"
+            "description": "An overhead disjoint that can be combo’ed with Headbutt’s grounded state on tall opponents, catch recoveries on platforms and, with some good timing, opponents that are breaking from the grounded state and are still going upwards."
           }
         ],
         "Down Smash": [
           {
             "name": "Down Smash",
-            "description": "Down Smash description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1XOFrBllYp47cQ43Jca0MWSvx8k0o3xaJ"
+            "description": "Covers really good range at its sides and it’s a nice tool to catch rolls, grounded opponents (kills at high percents) and going for some hard reads. However, it is highly punishable when whiffed, and also when blocked as well."
           }
         ],
         "Side Smash": [
           {
             "name": "Side Smash",
-            "description": "Side Smash description goes here",
-            "imageLink": "https://drive.google.com/uc?id=13bs9pSkOZCtkN3RERunP_yjj51NlJz4i"
+            "description": "Works like a disjoint, with his hands being the sweet spot of the move. It can be used as a punish tool given its range, a run turnaround Forward Smash can also be an option, if Giant Punch isn’t charged then this is a good replacement."
           }
         ]
       }
@@ -5141,6 +5126,7 @@
     {
       "info": {
         "name": "Mario",
+        "id": 1,
         "description": "Mario's description goes here"
       },
       "difficulty": 2.46,
