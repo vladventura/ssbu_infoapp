@@ -8436,6 +8436,7 @@
     {
       "info": {
         "name": "Samus",
+        "id": 4,
         "description": "Vanilla description"
       },
       "difficulty": 2.3,
