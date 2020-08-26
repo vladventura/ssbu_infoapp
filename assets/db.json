@@ -8438,35 +8438,31 @@
         "name": "Samus",
         "description": "Vanilla description"
       },
-      "difficulty": 3.5,
+      "difficulty": 2.3,
       "series": "Metroid",
       "tilts": {
         "Up Tilt": [
           {
             "name": "Up Tilt",
-            "description": "Up Tilt description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1bTV6HIkPkeEj48_hIwAtXez165xhoEXT"
+            "description": "Can spike the opponent when on-stage; but it has a slow startup. It can be used as an anti-air (like catching ledge jumps). It can be punished on shield."
           }
         ],
         "Down Tilt": [
           {
             "name": "Down Tilt",
-            "description": "Down Tilt description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1paMjAn7VeFh7fCovz-jNbAJIv9_dihSY"
+            "description": "Has one of the fastest startups out of all her tilts. It is good for edge guarding, because of how fast it comes out and its hitbox. It can be linked from a close range uncharged Neutral B."
           }
         ],
         "Side Tilt": [
           {
             "name": "Side Tilt",
-            "description": "Side Tilt description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1AKSSbrrGS-RlSltVJbp4WS1AUylqRCb7"
+            "description": "Has a slow startup. It has a sweet and a sour spot and can be angled as well, which makes it useful as a kill option. Also, when aimed at the head it does more damage. In some instances, it can be linked from Z-Air. At medium or higher percents it can lead to tech chases."
           }
         ],
         "Jab": [
           {
             "name": "Jab",
-            "description": "Jab description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1nFIerOH6DSB_HdzhW1NbOD6Q2Xcmy_g6"
+            "description": "Has a fast startup. It can be used as a combo extender as well, but it cannot link into its second hit unless the opponent is airborne (not a true combo however). Jab 2 is unsafe because between the two hits an opponent can punish (like a Marth Up B OOS). Jab into Back Dash is an option, for example."
           }
         ]
       },
@@ -8474,36 +8470,31 @@
         "Up Tilt": [
           {
             "name": "Up Air",
-            "description": "Up Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1RbvbxO_NHH18G7XsJYYuMcA4_PTksYmZ"
+            "description": "One of her fastest aerials, that can be used as a combo starter, extender or ender. Short hop Up Air can be used to approach, a shield poke for smaller shields, a shield cross-up, and at times as a kill option. There’s situations where it can be used as a combo breaker. It can link into itself."
           }
         ],
         "Down Tilt": [
           {
             "name": "Down Air",
-            "description": "Down Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=14mw5Jh6jngOCYfz39g9Pm7G855eWVFnj"
+            "description": "Has a spike hitbox; the startup for it is fairly slow. It can be used as a combo starter and can be cancelled when fast fallen."
           }
         ],
         "Side Tilt": [
           {
             "name": "Forward Air",
-            "description": "Forward Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=18_UG05WTwbVCzi4-tdO8kph4B2yo06m0"
+            "description": "It has a fast startup. Can be used to wall the opponent, carry off-stage and as a combo starter/ender. Early, it can link from down throw. Also, it can be used to catch jumps because of the arc of the explosion. On whiff, it has landing lag."
           }
         ],
         "Back Tilt": [
           {
             "name": "Back Air",
-            "description": "Back Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1MbtS8QJ89FwS-cJKc0meIltvBwon3Avz"
+            "description": "When spaced correctly for the sweet spot, can be used as a kill option for early kills. Also, it is good to catch jumps, and can be used as an OOS option to whiff punish. It can be linked from the Down Air’s spike."
           }
         ],
         "Jab": [
           {
             "name": "Neutral Air",
-            "description": "Neutral Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1qNdicY1AklxVUYa1x0j7LiqMccY6lqKL"
+            "description": "Has two hitboxes (the first one has greater knockback and damage). It can be used as an edge guarding tool. It can be linked to Down Tilt. When fast fallen, it can be a good option to shield pressure (also, spacing the move makes it much safer). Although a tight input, it can link into a Jab on shield for more pressure."
           }
         ]
       },
@@ -8511,29 +8502,25 @@
         "Up B": [
           {
             "name": "Screw Attack",
-            "description": "Screw Attack (Up B) description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1t4kc7ayS1VicLexqj4BuU5jMYh1Tj6W6"
+            "description": "It is one of her best OOS options, but it can easily be punished. Also, it can be used as a combo ender, and a kill option."
           }
         ],
         "Down B": [
           {
             "name": "Bomb",
-            "description": "Bomb (Down B) description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1eO1QDYAFnEXFq4E4uXaHsT486QSAZTgC"
+            "description": "Can be like an edge guarding tool, a recovery tool when off-stage, and even as a combo starter in some cases. Something important is that this move reduces Samus’s hurtbox by a ton, so there are some cases where Samus can Down B to dodge and then punish afterwards. It can link into Grab."
           }
         ],
         "Side B": [
           {
             "name": "Homing Missile",
-            "description": "Homing Missile (Side B) description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1Lxqr1ze4b9ANvL6wsbUQkpOmPsA7LqT5"
+            "description": "Has two versions: if Samus inputs a tilt when pressing b, it will shoot a small heatseeking missile. If the input is a Smash, then is shoots a larger missile that accelerates forwards. It can be used to zone opponents, shield pressure and even on tech chases. Tilt Side B can easily link into Neutral B."
           }
         ],
         "Neutral B": [
           {
             "name": "Charge Shot",
-            "description": "Charge Shot (Neutral B) description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1NVRaHgTwBeN4FLyRcQH8U1rrX4cv_8_D"
+            "description": "One of her best kill options when fully charged, and one of her best zoning tools. It can be B-Reversed. It can be canceled into Grab on the ground. Also, it makes Samus’s movement options much smoother by Wave-bouncing with Neutral B. There is a myriad of options by using Neutral B, like cancelling the Neutral B into an Up Air, or linking an almost fully charged Neutral B into Grab then F-Air."
           }
         ]
       },
@@ -8541,22 +8528,19 @@
         "Up Smash": [
           {
             "name": "Up Smash",
-            "description": "Up Smash description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1ph5_fDtxEfk105NsuVUiwA012a3-9iQV"
+            "description": "For Samus it will be difficult to hit against smaller opponents, like Pikachu, when used against grounded opponents. It can cover platforms as well. Just like Marth/Lucina Up Smash, it has a chest hitbox that pulls opponents towards the explosion."
           }
         ],
         "Down Smash": [
           {
             "name": "Down Smash",
-            "description": "Down Smash description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1JEOWWTAa3ge4S36x6WRDeg2_G5xPGnxv"
+            "description": "One of her fastest moves. It can be used on tech chases, and as an edge guarding tool because of the direction it launches the opponent."
           }
         ],
         "Side Smash": [
           {
             "name": "Side Smash",
-            "description": "Side Smash description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1xwz_fTP-H5fyT8nQXBC3jgdu5aNB5Rku"
+            "description": "Has a fast startup. Can be used as a reliable kill option; it can take stocks early on. Also, just like the forward tilt, her forward smash can be angled and once more, when it hits the opponent’s head it does more damage. In some situations, it can be used as an OOS option."
           }
         ]
       }
