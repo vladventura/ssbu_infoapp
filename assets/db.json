@@ -1537,37 +1537,34 @@
     {
       "info": {
         "name": "Dark Samus",
+        "id": "4e",
         "description": "Vanilla description"
       },
-      "difficulty": 3.5,
+      "difficulty": 2.34,
       "series": "Metroid",
       "tilts": {
         "Up Tilt": [
           {
             "name": "Up Tilt",
-            "description": "Up Tilt description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1NORIVnD0SdX1Q0_xs7ZrdjUaY0N4lf-H"
+            "description": "Can spike the opponent when on-stage; but it has a slow startup. It can be used as an anti-air (like catching ledge jumps). It can be punished on shield. "
           }
         ],
         "Down Tilt": [
           {
             "name": "Down Tilt",
-            "description": "Down Tilt description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1z2KH9__G9w6D8Scy0NVqJa5vCFSjz6jS"
+            "description": "Has one of the fastest startups out of all her tilts. It is good for edge guarding, because of how fast it comes out and its hitbox. It can be linked from a close range uncharged Neutral B. On shield, it has more hitstun when compared to Samus’s version."
           }
         ],
         "Side Tilt": [
           {
             "name": "Side Tilt",
-            "description": "Side Tilt description goes here",
-            "imageLink": "https://drive.google.com/uc?id=18OsP1KoVo9pgSJYMkbNgznZOGF7GW347"
+            "description": "Has a slow startup. It has a sweet and a sour spot and can be angled as well, which makes it useful as a kill option. Also, when aimed at the head it does more damage. In some instances, it can be linked from Z-Air. At medium or higher percents it can lead to tech chases. "
           }
         ],
         "Jab": [
           {
             "name": "Jab",
-            "description": "Jab description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1F5lzv68VhIaXBliluARYY96_pFB8H2dy"
+            "description": "Has a fast startup. It can be used as a combo extender as well, but it cannot link into its second hit unless the opponent is airborne (not a true combo however) or until higher percents."
           }
         ]
       },
@@ -1575,36 +1572,31 @@
         "Up Tilt": [
           {
             "name": "Up Air",
-            "description": "Up Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1T_HiM7O4R0HLvy84QuQPCxYIirPIqBli"
+            "description": "One of her fastest aerials, while also being a flexible move, that allows it to be used as a combo starter, extender and even ender. Short hop Up Air can be used to approach, a shield poke for smaller shields, a shield cross-up, and at times as a kill option. Also, there’s situations where it can be used as a combo breaker, just like Up B. It can link into itself."
           }
         ],
         "Down Tilt": [
           {
             "name": "Down Air",
-            "description": "Down Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1qWyJozvVzAji0K74d0SL_UOu7RQf2Qkz"
+            "description": "Has a spike hitbox; the startup for it is fairly slow. It can be used as a combo starter and can be cancelled when fast fallen."
           }
         ],
         "Side Tilt": [
           {
             "name": "Forward Air",
-            "description": "Forward Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1S7E9snNP5ehz-pbPX0Dynpe8-U1rDM7F"
+            "description": "It has a fast startup. Can be used to wall the opponent, carry off-stage and as a combo starter/ender. Early, it can link from down throw. Also, it can be used to catch jumps because of the arc of the explosion. On whiff, it has landing lag."
           }
         ],
         "Back Tilt": [
           {
             "name": "Back Air",
-            "description": "Back Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1nsU7e8r4sLu0x8WS7Hwrkt0XsXxy5hZ7"
+            "description": "When spaced correctly for the sweet spot, can be used as a kill option for early kills. Also, it is good to catch jumps, and can be used as an OOS option to whiff punish. It can be linked from the Down Air’s spike."
           }
         ],
         "Jab": [
           {
             "name": "Neutral Air",
-            "description": "Neutral Air description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1BGzx31vdzxeRfsxudM9m_QXN2QsJZDOb"
+            "description": "Has two hitboxes (the first one has greater knockback and damage). It can be used as an edge guarding tool. It can be linked to Down Tilt. When fast fallen, it can be a good option to shield pressure (also, spacing the move makes it much safer). Although a tight input, it can link into a Jab on shield for more pressure."
           }
         ]
       },
@@ -1612,29 +1604,25 @@
         "Up B": [
           {
             "name": "Screw Attack",
-            "description": "Screw Attack (Up B) description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1g8fheCf2SJJpcJBjz3196lIsBlSROFEk"
+            "description": "It is one of her best OOS options, but it can easily be punished. Also, it can be used as a combo ender, and a kill option."
           }
         ],
         "Down B": [
           {
             "name": "Bomb",
-            "description": "Bomb (Down B) description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1Kr5se4Vh9M4VQgNpBv7YprJCSbFpHEx0"
+            "description": "Can be like an edge guarding tool, a recovery tool when off-stage, and even as a combo starter in some cases. Something important is that this move reduces Dark Samus’s hurtbox by a ton, so there are some cases where it can Down B to dodge and then punish afterwards. It can link into Grab."
           }
         ],
         "Side B": [
           {
             "name": "Homing Missile",
-            "description": "Homing Missile (Side B) description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1aLz9QulNGeYOiFsiLVPEk0tUTRMrpDU8"
+            "description": "Has two versions: if Dark Samus inputs a tilt when pressing b, it will shoot a small heatseeking missile. If the input is a Smash, then is shoots a larger missile that accelerates forwards. It can be used to zone opponents, shield pressure and even on tech chases. Tilt Side B can easily link into Neutral B."
           }
         ],
         "Neutral B": [
           {
             "name": "Charge Shot",
-            "description": "Charge Shot (Neutral B) description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1LhkZpTMTSESvIO_2321xHUlttx5JqCwt"
+            "description": "One of her best kill options when fully charged, and one of her best zoning tools. It can be B-Reversed, canceled into Grab on the ground, wave-bounced and much more. It brings a lot to the table as movement options go. There is a myriad of options by using Neutral B, like cancelling it into Up Air, or linking an almost fully charged Neutral B into Grab then F-Air. Something to note is that it comes out slightly lower to the ground when compared to Samus’s version."
           }
         ]
       },
@@ -1642,22 +1630,19 @@
         "Up Smash": [
           {
             "name": "Up Smash",
-            "description": "Up Smash description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1ospEnbsP2tzfUyd--xFPJfOJ856Oa63c"
+            "description": "For Dark Samus, while not guaranteed, it is easier to hit smaller opponents with it when comparing it to Samus's version because of the larger initial hitbox. It can cover platforms as well (on a single sweep it can cover small platforms)."
           }
         ],
         "Down Smash": [
           {
             "name": "Down Smash",
-            "description": "Down Smash description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1bs34ZQSJAYk6V1WTxrMZpT_n3LcsARnj"
+            "description": "One of her fastest moves. It can be used on tech chases, and as an edge guarding tool because of the direction it launches the opponent. The back hit of the two kicks is the strongest one."
           }
         ],
         "Side Smash": [
           {
             "name": "Side Smash",
-            "description": "Side Smash description goes here",
-            "imageLink": "https://drive.google.com/uc?id=1UWocYfYDoikY8-ixE6eU5rxrSSkIoJHP"
+            "description": "Has a fast startup. Can be used as a reliable kill option; it can take stocks early on. Also, just like the forward tilt, her forward smash can be angled and once more, when it hits the opponent’s head it does more damage. In some situations, it can be used as an OOS option. It has a smaller hitbox when compared to Samus’s version."
           }
         ]
       }
@@ -1793,7 +1778,7 @@
     {
       "info": {
         "name": "Donkey Kong",
-        "id": 2,
+        "id": "2",
         "description": "Vanilla description"
       },
       "difficulty": 2.18,
@@ -4358,7 +4343,7 @@
     {
       "info": {
         "name": "Link",
-        "id": 3,
+        "id": "3",
         "description": "Vanilla description"
       },
       "difficulty": 3.5,
@@ -5111,7 +5096,7 @@
     {
       "info": {
         "name": "Mario",
-        "id": 1,
+        "id": "1",
         "description": "Mario's description goes here"
       },
       "difficulty": 2.46,
@@ -8436,7 +8421,7 @@
     {
       "info": {
         "name": "Samus",
-        "id": 4,
+        "id": "4",
         "description": "Vanilla description"
       },
       "difficulty": 2.3,
@@ -8529,7 +8514,7 @@
         "Up Smash": [
           {
             "name": "Up Smash",
-            "description": "For Samus it will be difficult to hit against smaller opponents, like Pikachu, when used against grounded opponents. It can cover platforms as well. Just like Marth/Lucina Up Smash, it has a chest hitbox that pulls opponents towards the explosion."
+            "description": "For Samus it will be difficult to hit against smaller opponents, like Pikachu, when used against grounded opponents. It can cover platforms as well (for smaller ones, it can cover the entire platform on a sweep)."
           }
         ],
         "Down Smash": [
