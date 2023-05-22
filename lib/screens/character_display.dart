@@ -16,7 +16,7 @@ class CharacterDisplay extends StatelessWidget {
           decoration: BoxDecoration(color: Colors.black38),
           child: NotificationListener<OverscrollIndicatorNotification>(
             onNotification: (overscroll) {
-              overscroll.disallowGlow();
+              overscroll.disallowIndicator();
               return true;
             },
             child: new ListView(

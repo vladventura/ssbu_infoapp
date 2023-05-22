@@ -80,7 +80,8 @@ class _DynamicScrollBackgroundState extends State<DynamicScrollBackground> {
   bool handleScroll(ScrollNotification notification) {
     ScrollDirection direction =
         widget.childScrollController.position.userScrollDirection;
-    double velocity = widget.childScrollController.position.velocity.abs();
+    // ignore: invalid_use_of_protected_member
+    double velocity = widget.childScrollController.position.activity.velocity;
     double convertedVelocity = cascadeVelocity(velocity);
 
     switch (direction) {

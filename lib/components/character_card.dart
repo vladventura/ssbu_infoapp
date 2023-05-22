@@ -54,16 +54,20 @@ class CharacterCard extends StatelessWidget {
     );
   }
 
-  FlatButton characterTappable(BuildContext context) {
-    return FlatButton(
+  TextButton characterTappable(BuildContext context) {
+    return TextButton(
         onPressed: () {
           characterNotifier.selectedCharacter =
               characterNotifier.characters[index];
           Navigator.of(context).push(
               MaterialPageRoute(builder: (context) => CharacterDisplay()));
         },
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
-        padding: EdgeInsets.all(20),
+        style: TextButton.styleFrom(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(15),
+          ),
+          padding: EdgeInsets.all(20),
+        ),
         child: infoOverlay());
   }
 

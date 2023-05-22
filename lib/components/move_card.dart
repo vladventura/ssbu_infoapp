@@ -20,7 +20,7 @@ class MoveCard extends StatefulWidget {
 
 class _MoveCardState extends State<MoveCard> {
   bool _visibility = false;
-  List<Widget> _images = new List<Widget>();
+  List<Widget> _images = <Widget>[];
   int _imageIndex = 0;
   String _currentMove = "";
   String _currentName = "";
